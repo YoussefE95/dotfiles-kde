@@ -1,0 +1,19 @@
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[Main]
+ActiveView=systemsettings_icon_mode
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB1gAAAOCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP1=eDP1
+eDP1 Height 1920x1080 eDP1=952
+eDP1 Width 1920x1080 eDP1=1880
+eDP1 XPosition 1920x1080 eDP1=20
+eDP1 YPosition 1920x1080 eDP1=52
+
+[Open-with settings]
+CompletionMode=1
+History=not,firefox,ala
