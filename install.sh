@@ -8,6 +8,7 @@ yay -S latte-dock
 yay -S sddm
 yay -S powerdevil
 yay -S plasma-pa
+yay -S plasma-nm
 yay -S alacritty
 yay -S zsh
 yay -S starship
