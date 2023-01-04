@@ -35,8 +35,7 @@ yay -S extra-cmake-modules
 yay -S jq
 yay -S python-pip
 yay -S bluez
-yay -S bluez-utils
-yay -S blueman-git
+yay -S bluedevil
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
