@@ -10,7 +10,7 @@ thickness=44
 [PlasmaViews][Panel 24]
 alignment=132
 floating=0
-panelOpacity=2
+panelOpacity=1
 
 [PlasmaViews][Panel 24][Defaults]
 thickness=30

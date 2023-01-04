@@ -9,6 +9,7 @@ opacityactive=80
 opacityactiverule=2
 opacityinactive=80
 opacityinactiverule=2
+types=66491
 wmclass=.*
 wmclassmatch=3
 
