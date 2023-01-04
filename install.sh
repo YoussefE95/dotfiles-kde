@@ -1,6 +1,9 @@
 yay -Syyu
 
-yay -S plasma-server xorg-server
+yay -S plasma-desktop
+yay -S xorg-server
+yay -S xsettingsd
+yay -S dolphin
 yay -S latte-dock
 yay -S sddm
 yay -S powerdevil
