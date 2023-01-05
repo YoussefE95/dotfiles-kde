@@ -6,24 +6,24 @@ dest_file="colors.yml"
 output="$(cat << THEME
 colors:
   primary:
-    background: '#$(jq -r ".colors.\"$1\".background" "$2")'
-    foreground: '#$(jq -r ".colors.\"$1\".foreground" "$2")'
+    background: '#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")'
+    foreground: '#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")'
   normal:
-    black: '#$(jq -r ".colors.\"$1\".background" "$2")'
-    red: '#$(jq -r ".colors.\"$1\".red" "$2")'
-    green: '#$(jq -r ".colors.\"$1\".green" "$2")'
-    yellow: '#$(jq -r ".colors.\"$1\".yellow" "$2")'
-    magenta: '#$(jq -r ".colors.\"$1\".magenta" "$2")'
-    cyan: '#$(jq -r ".colors.\"$1\".cyan" "$2")'
-    white: '#$(jq -r ".colors.\"$1\".white" "$2")'
+    black: '#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")'
+    red: '#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")'
+    green: '#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")'
+    yellow: '#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")'
+    magenta: '#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")'
+    cyan: '#$(jq -r ".\"$1\".palette.\"$2\".cyan" "$3")'
+    white: '#$(jq -r ".\"$1\".palette.\"$2\".white" "$3")'
   bright:
-    black: '#$(jq -r ".colors.\"$1\".gray" "$2")'
-    red: '#$(jq -r ".colors.\"$1\".red" "$2")'
-    green: '#$(jq -r ".colors.\"$1\".green" "$2")'
-    yellow: '#$(jq -r ".colors.\"$1\".yellow" "$2")'
-    magenta: '#$(jq -r ".colors.\"$1\".magenta" "$2")'
-    cyan: '#$(jq -r ".colors.\"$1\".cyan" "$2")'
-    white: '#$(jq -r ".colors.\"$1\".white" "$2")'
+    black: '#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")'
+    red: '#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")'
+    green: '#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")'
+    yellow: '#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")'
+    magenta: '#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")'
+    cyan: '#$(jq -r ".\"$1\".palette.\"$2\".cyan" "$3")'
+    white: '#$(jq -r ".\"$1\".palette.\"$2\".white" "$3")'
 THEME
 )"
 

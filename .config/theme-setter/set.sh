@@ -1,29 +1,33 @@
-info="$HOME/.config/theme-setter/info.json"
-tmp="$HOME/.config/theme-setter/temp-info.json"
 templates="$HOME/.config/theme-setter/templates"
-vs_settings="$HOME/.config/Code/User/settings.json"
+info="$HOME/.config/theme-setter/info.json"
+tmp_info="$HOME/.config/theme-setter/temp-info.json"
 
-if [[ "$2" == "light" ]]; then
-    rand_wall="$HOME/Dropbox/Pictures/Wallpapers/$1/light/$(ls ~/Dropbox/Pictures/Wallpapers/$1/light | sort -R | tail -1)"
-    theme="$1-light"
-elif [[ "$2" == "dark" ]]; then
-    rand_wall="$HOME/Dropbox/Pictures/Wallpapers/$1/dark/$(ls ~/Dropbox/Pictures/Wallpapers/$1/dark | sort -R | tail -1)"
-    theme="$1-dark"
-else
-    rand_wall="$HOME/Dropbox/Pictures/Wallpapers/$1/normal/$(ls ~/Dropbox/Pictures/Wallpapers/$1/normal | sort -R | tail -1)"
+if [[ "$1" == "catppuccin" || "$1" == "gruvbox" || "$1" == "rose-pine" ]]; then
     theme="$1"
+else
+    echo "$1 is not a supported theme"
+    exit 1
 fi
 
-jq --arg t "$1" '.current.theme = $t' $info > "$tmp" && mv "$tmp" $info
-jq --arg m "$2" '.current.mode = $m' $info > "$tmp" && mv "$tmp" $info
-jq --arg w "$rand_wall" '.current.wallpaper = $w' $info > "$tmp" && mv "$tmp" $info
+if [[ "$2" != "light" && "$2" != "dark" ]]; then
+    mode="normal"
+else
+    mode="$2"
+fi
 
-$templates/plasma.sh "$theme" "$info" "$rand_wall"
-$templates/gtk.sh "$theme" "$info"
-$templates/alacritty.sh "$theme" "$info"
-$templates/vs_code.sh "$theme" "$info" "$vs_settings"
-$templates/notion.sh "$theme" "$info"
-$templates/discord.sh "$theme" "$info"
-$templates/spotify.sh "$theme" "$info"
+theme_wallpapers="$HOME/Dropbox/Pictures/Wallpapers/$theme/$mode"
+random_wallpaper="$theme_wallpapers/$(ls $theme_wallpapers | sort -R | tail -1)"
+
+jq --arg t "$theme" '.current.theme = $t' $info > "$tmp_info" && mv "$tmp_info" $info
+jq --arg m "$mode" '.current.mode = $m' $info > "$tmp_info" && mv "$tmp_info" $info
+jq --arg w "$random_wallpaper" '.current.wallpaper = $w' $info > "$tmp_info" && mv "$tmp_info" $info
+
+$templates/plasma.sh "$theme" "$mode" "$info"
+$templates/gtk.sh "$theme" "$mode" "$info"
+$templates/alacritty.sh "$theme" "$mode" "$info"
+$templates/vs_code.sh "$theme" "$mode" "$info"
+$templates/notion.sh "$theme" "$mode" "$info"
+$templates/discord.sh "$theme" "$mode" "$info"
+$templates/spotify.sh "$theme" "$mode" "$info"
 
 clear

@@ -21,21 +21,21 @@ pre > code {
 /** End Iosevka */
 
 .theme-dark {
-    --background-primary: #$(jq -r ".colors.\"$1\".background" "$2");
-    --background-secondary: #$(jq -r ".colors.\"$1\".background" "$2");
-    --background-tertiary: #$(jq -r ".colors.\"$1\".background" "$2");
-    --background-accent: #$(jq -r ".colors.\"$1\".background" "$2");
-    --text-normal: #$(jq -r ".colors.\"$1\".foreground" "$2");
-    --text-spotify: #$(jq -r ".colors.\"$1\".green" "$2")
-    --text-muted: #$(jq -r ".colors.\"$1\".foreground" "$2");
-    --text-link: #$(jq -r ".colors.\"$1\".blue" "$2");
-    --background-floating: #$(jq -r ".colors.\"$1\".background" "$2");
-    --header-primary: #$(jq -r ".colors.\"$1\".foreground" "$2");
-    --header-secondary: #$(jq -r ".colors.\"$1\".foreground" "$2");
-    --header-spotify: #$(jq -r ".colors.\"$1\".green" "$2")
-    --interactive-normal: #$(jq -r ".colors.\"$1\".foreground" "$2");
-    --interactive-hover: #$(jq -r ".colors.\"$1\".foreground" "$2");
-    --interactive-active: #$(jq -r ".colors.\"$1\".green" "$2")
+    --background-primary: #$(jq -r ".\"$1\".palette.\"$2\".background" "$3");
+    --background-secondary: #$(jq -r ".\"$1\".palette.\"$2\".background" "$3");
+    --background-tertiary: #$(jq -r ".\"$1\".palette.\"$2\".background" "$3");
+    --background-accent: #$(jq -r ".\"$1\".palette.\"$2\".background" "$3");
+    --text-normal: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
+    --text-spotify: #$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
+    --text-muted: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
+    --text-link: #$(jq -r ".\"$1\".palette.\"$2\".blue" "$3");
+    --background-floating: #$(jq -r ".\"$1\".palette.\"$2\".background" "$3");
+    --header-primary: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
+    --header-secondary: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
+    --header-spotify: #$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
+    --interactive-normal: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
+    --interactive-hover: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
+    --interactive-active: #$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
 }
 
 .theme-light {

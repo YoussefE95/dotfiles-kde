@@ -5,21 +5,21 @@ dest_file="color.ini"
 
 output="$(cat << THEME
 [Ocean]
-text               = $(jq -r ".colors.\"$1\".foreground" "$2")
-subtext            = $(jq -r ".colors.\"$1\".foreground" "$2")
-main               = $(jq -r ".colors.\"$1\".background" "$2")
-sidebar            = $(jq -r ".colors.\"$1\".background" "$2")
-player             = $(jq -r ".colors.\"$1\".background" "$2")
-card               = $(jq -r ".colors.\"$1\".background" "$2")
-shadow             = $(jq -r ".colors.\"$1\".background" "$2")
-selected-row       = $(jq -r ".colors.\"$1\".foreground" "$2")
-button             = $(jq -r ".colors.\"$1\".red" "$2")
-button-active      = $(jq -r ".colors.\"$1\".red" "$2")
-button-disabled    = $(jq -r ".colors.\"$1\".black" "$2")
-tab-active         = $(jq -r ".colors.\"$1\".black" "$2")
-notification       = $(jq -r ".colors.\"$1\".cyan" "$2")
-notification-error = $(jq -r ".colors.\"$1\".yellow" "$2")
-misc               = $(jq -r ".colors.\"$1\".background" "$2")
+text               = $(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
+subtext            = $(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
+main               = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
+sidebar            = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
+player             = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
+card               = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
+shadow             = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
+selected-row       = $(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
+button             = $(jq -r ".\"$1\".palette.\"$2\".red" "$3")
+button-active      = $(jq -r ".\"$1\".palette.\"$2\".red" "$3")
+button-disabled    = $(jq -r ".\"$1\".palette.\"$2\".black" "$3")
+tab-active         = $(jq -r ".\"$1\".palette.\"$2\".black" "$3")
+notification       = $(jq -r ".\"$1\".palette.\"$2\".cyan" "$3")
+notification-error = $(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
+misc               = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
 THEME
 )"
 
