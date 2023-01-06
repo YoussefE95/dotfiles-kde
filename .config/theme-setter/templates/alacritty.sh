@@ -1,3 +1,5 @@
+palette=("${@}")
+
 dest_dir="$HOME/.config/alacritty/"
 dest_file="colors.yml"
 
@@ -6,24 +8,24 @@ dest_file="colors.yml"
 output="$(cat << THEME
 colors:
   primary:
-    background: '#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")'
-    foreground: '#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")'
+    background: '#${palette[0]}'
+    foreground: '#${palette[1]}'
   normal:
-    black: '#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")'
-    red: '#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")'
-    green: '#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")'
-    yellow: '#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")'
-    magenta: '#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")'
-    cyan: '#$(jq -r ".\"$1\".palette.\"$2\".cyan" "$3")'
-    white: '#$(jq -r ".\"$1\".palette.\"$2\".white" "$3")'
+    black: '#${palette[0]}'
+    red: '#${palette[4]}'
+    green: '#${palette[5]}'
+    yellow: '#${palette[6]}'
+    magenta: '#${palette[8]}'
+    cyan: '#${palette[9]}'
+    white: '#${palette[3]}'
   bright:
-    black: '#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")'
-    red: '#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")'
-    green: '#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")'
-    yellow: '#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")'
-    magenta: '#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")'
-    cyan: '#$(jq -r ".\"$1\".palette.\"$2\".cyan" "$3")'
-    white: '#$(jq -r ".\"$1\".palette.\"$2\".white" "$3")'
+    black: '#${palette[11]}'
+    red: '#${palette[4]}'
+    green: '#${palette[5]}'
+    yellow: '#${palette[6]}'
+    magenta: '#${palette[8]}'
+    cyan: '#${palette[9]}'
+    white: '#${palette[3]}'
 THEME
 )"
 

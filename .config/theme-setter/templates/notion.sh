@@ -1,3 +1,5 @@
+palette=("${@}")
+
 dest_dir="$HOME/.config/notion-theme/"
 dest_file="theme.css"
 
@@ -5,37 +7,37 @@ dest_file="theme.css"
 
 output="$(cat << THEME
 :root.dark {
-    --dynamic_theme--bg: #$(jq -r ".\"$1\".palette.\"$2\".background" "$3");
-    --dynamic_theme--light_gray_dark: #$(jq -r ".\"$1\".palette.\"$2\".gray" "$3");
-    --dynamic_theme--gray_dark: #$(jq -r ".\"$1\".palette.\"$2\".gray" "$3");
-    --dynamic_theme--red_dark: #$(jq -r ".\"$1\".palette.\"$2\".red" "$3")80;
-    --dynamic_theme--red_light: #$(jq -r ".\"$1\".palette.\"$2\".red" "$3");
-    --dynamic_theme--green_dark: #$(jq -r ".\"$1\".palette.\"$2\".green" "$3")80;
-    --dynamic_theme--green_light: #$(jq -r ".\"$1\".palette.\"$2\".green" "$3");
-    --dynamic_theme--yellow_dark: #$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")80;
-    --dynamic_theme--yellow_light: #$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3");
-    --dynamic_theme--blue_dark: #$(jq -r ".\"$1\".palette.\"$2\".blue" "$3")80;
-    --dynamic_theme--blue_light: #$(jq -r ".\"$1\".palette.\"$2\".blue" "$3");
-    --dynamic_theme--purple_dark: #$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")80;
-    --dynamic_theme--purple_light: #$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3");
-    --dynamic_theme--aqua_dark: #$(jq -r ".\"$1\".palette.\"$2\".cyan" "$3")80;
-    --dynamic_theme--aqua_light: #$(jq -r ".\"$1\".palette.\"$2\".cyan" "$3");
-    --dynamic_theme--gray_light: #$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")80;
-    --dynamic_theme--orange_dark: #$(jq -r ".\"$1\".palette.\"$2\".orange" "$3")80;
-    --dynamic_theme--orange_light: #$(jq -r ".\"$1\".palette.\"$2\".orange" "$3");
-    --dynamic_theme--fg: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
-    --dynamic_theme--bg0_h: #$(jq -r ".\"$1\".palette.\"$2\".background" "$3");
-    --dynamic_theme--bg0: #$(jq -r ".\"$1\".palette.\"$2\".background" "$3");
-    --dynamic_theme--bg1: #$(jq -r ".\"$1\".palette.\"$2\".black" "$3");
-    --dynamic_theme--bg2: #$(jq -r ".\"$1\".palette.\"$2\".black" "$3");
-    --dynamic_theme--bg3: #$(jq -r ".\"$1\".palette.\"$2\".black" "$3");
-    --dynamic_theme--bg4: #$(jq -r ".\"$1\".palette.\"$2\".black" "$3");
-    --dynamic_theme--bg0_s: #$(jq -r ".\"$1\".palette.\"$2\".background" "$3");
-    --dynamic_theme--fg4: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
-    --dynamic_theme--fg3: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
-    --dynamic_theme--fg2: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
-    --dynamic_theme--fg1: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
-    --dynamic_theme--fg0: #$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3");
+    --dynamic_theme--bg: #${palette[0]};
+    --dynamic_theme--light_gray_dark: #${palette[11]};
+    --dynamic_theme--gray_dark: #${palette[11]};
+    --dynamic_theme--red_dark: #${palette[4]}80;
+    --dynamic_theme--red_light: #${palette[4]};
+    --dynamic_theme--green_dark: #${palette[5]}80;
+    --dynamic_theme--green_light: #${palette[5]};
+    --dynamic_theme--yellow_dark: #${palette[6]}80;
+    --dynamic_theme--yellow_light: #${palette[6]};
+    --dynamic_theme--blue_dark: #${palette[7]}80;
+    --dynamic_theme--blue_light: #${palette[7]};
+    --dynamic_theme--purple_dark: #${palette[8]}80;
+    --dynamic_theme--purple_light: #${palette[8]};
+    --dynamic_theme--aqua_dark: #${palette[9]}80;
+    --dynamic_theme--aqua_light: #${palette[9]};
+    --dynamic_theme--gray_light: #${palette[11]}80;
+    --dynamic_theme--orange_dark: #${palette[10]}80;
+    --dynamic_theme--orange_light: #${palette[10]};
+    --dynamic_theme--fg: #${palette[1]};
+    --dynamic_theme--bg0_h: #${palette[0]};
+    --dynamic_theme--bg0: #${palette[0]};
+    --dynamic_theme--bg1: #${palette[2]};
+    --dynamic_theme--bg2: #${palette[2]};
+    --dynamic_theme--bg3: #${palette[2]};
+    --dynamic_theme--bg4: #${palette[2]};
+    --dynamic_theme--bg0_s: #${palette[0]};
+    --dynamic_theme--fg4: #${palette[1]};
+    --dynamic_theme--fg3: #${palette[1]};
+    --dynamic_theme--fg2: #${palette[1]};
+    --dynamic_theme--fg1: #${palette[1]};
+    --dynamic_theme--fg0: #${palette[1]};
   
     --theme--accent_blue: var(--dynamic_theme--bg3);
     --theme--accent_blue-selection: rgba(80, 73, 69, 0.5);

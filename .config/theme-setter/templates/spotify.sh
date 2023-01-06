@@ -1,3 +1,5 @@
+palette=("${@}")
+
 dest_dir="$HOME/.config/spicetify/Themes/Default/"
 dest_file="color.ini"
 
@@ -5,21 +7,21 @@ dest_file="color.ini"
 
 output="$(cat << THEME
 [Ocean]
-text               = $(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-subtext            = $(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-main               = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-sidebar            = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-player             = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-card               = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-shadow             = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-selected-row       = $(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-button             = $(jq -r ".\"$1\".palette.\"$2\".red" "$3")
-button-active      = $(jq -r ".\"$1\".palette.\"$2\".red" "$3")
-button-disabled    = $(jq -r ".\"$1\".palette.\"$2\".black" "$3")
-tab-active         = $(jq -r ".\"$1\".palette.\"$2\".black" "$3")
-notification       = $(jq -r ".\"$1\".palette.\"$2\".cyan" "$3")
-notification-error = $(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-misc               = $(jq -r ".\"$1\".palette.\"$2\".background" "$3")
+text               = ${palette[1]}
+subtext            = ${palette[1]}
+main               = ${palette[0]}
+sidebar            = ${palette[0]}
+player             = ${palette[0]}
+card               = ${palette[0]}
+shadow             = ${palette[0]}
+selected-row       = ${palette[1]}
+button             = ${palette[4]}
+button-active      = ${palette[4]}
+button-disabled    = ${palette[2]}
+tab-active         = ${palette[2]}
+notification       = ${palette[9]}
+notification-error = ${palette[6]}
+misc               = ${palette[0]}
 THEME
 )"
 

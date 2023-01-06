@@ -1,3 +1,5 @@
+palette=("${@}")
+
 dest_dir="$HOME/.local/share/color-schemes/"
 dest_file="DynamicTheme.colors"
 
@@ -5,7 +7,7 @@ dest_file="DynamicTheme.colors"
 
 output="$(cat << THEME
 [ColorEffects:Disabled]
-Color=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
+Color=#${palette[11]}
 ColorAmount=0.15000000000000002
 ColorEffect=1
 ColorAmount=0.42500000000000004
@@ -27,103 +29,103 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-BackgroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-DecorationFocus=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-DecorationHover=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundActive=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundInactive=#$(jq -r ".\"$1\".palette.\"$2\".black" "$3")
-ForegroundLink=#$(jq -r ".\"$1\".palette.\"$2\".blue" "$3")
-ForegroundNegative=#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")
-ForegroundNeutral=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-ForegroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundPositive=#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
-ForegroundVisited=#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")
+BackgroundAlternate=#${palette[6]}
+BackgroundNormal=#${palette[11]}
+DecorationFocus=#${palette[6]}
+DecorationHover=#${palette[11]}
+ForegroundActive=#${palette[1]}
+ForegroundInactive=#${palette[2]}
+ForegroundLink=#${palette[7]}
+ForegroundNegative=#${palette[4]}
+ForegroundNeutral=#${palette[6]}
+ForegroundNormal=#${palette[1]}
+ForegroundPositive=#${palette[5]}
+ForegroundVisited=#${palette[8]}
 
 [Colors:Complementary]
-BackgroundAlternate=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-BackgroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-DecorationFocus=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-DecorationHover=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundActive=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundInactive=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundLink=#$(jq -r ".\"$1\".palette.\"$2\".blue" "$3")
-ForegroundNegative=#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")
-ForegroundNeutral=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-ForegroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundPositive=#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
-ForegroundVisited=#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")
+BackgroundAlternate=#${palette[0]}
+BackgroundNormal=#${palette[0]}
+DecorationFocus=#${palette[6]}
+DecorationHover=#${palette[11]}
+ForegroundActive=#${palette[1]}
+ForegroundInactive=#${palette[11]}
+ForegroundLink=#${palette[7]}
+ForegroundNegative=#${palette[4]}
+ForegroundNeutral=#${palette[6]}
+ForegroundNormal=#${palette[1]}
+ForegroundPositive=#${palette[5]}
+ForegroundVisited=#${palette[8]}
 
 [Colors:Header]
-BackgroundAlternate=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-BackgroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-DecorationFocus=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-DecorationHover=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundActive=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundInactive=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundLink=#$(jq -r ".\"$1\".palette.\"$2\".blue" "$3")
-ForegroundNegative=#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")
-ForegroundNeutral=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-ForegroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundPositive=#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
-ForegroundVisited=#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")
+BackgroundAlternate=#${palette[0]}
+BackgroundNormal=#${palette[0]}
+DecorationFocus=#${palette[6]}
+DecorationHover=#${palette[11]}
+ForegroundActive=#${palette[1]}
+ForegroundInactive=#${palette[11]}
+ForegroundLink=#${palette[7]}
+ForegroundNegative=#${palette[4]}
+ForegroundNeutral=#${palette[6]}
+ForegroundNormal=#${palette[1]}
+ForegroundPositive=#${palette[5]}
+ForegroundVisited=#${palette[8]}
 
 [Colors:Selection]
-BackgroundAlternate=#$(jq -r ".\"$1\".palette.\"$2\".orange" "$3")
-BackgroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".orange" "$3")
-DecorationFocus=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-DecorationHover=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundLink=#$(jq -r ".\"$1\".palette.\"$2\".blue" "$3")
-ForegroundInactive=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-ForegroundActive=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundLink=#$(jq -r ".\"$1\".palette.\"$2\".blue" "$3")
-ForegroundNegative=#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")
-ForegroundNeutral=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-ForegroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-ForegroundPositive=#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
-ForegroundVisited=#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")
+BackgroundAlternate=#${palette[10]}
+BackgroundNormal=#${palette[10]}
+DecorationFocus=#${palette[6]}
+DecorationHover=#${palette[11]}
+ForegroundLink=#${palette[7]}
+ForegroundInactive=#${palette[0]}
+ForegroundActive=#${palette[1]}
+ForegroundLink=#${palette[7]}
+ForegroundNegative=#${palette[4]}
+ForegroundNeutral=#${palette[6]}
+ForegroundNormal=#${palette[0]}
+ForegroundPositive=#${palette[5]}
+ForegroundVisited=#${palette[8]}
 
 [Colors:Tooltip]
-BackgroundAlternate=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-BackgroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-DecorationFocus=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-DecorationHover=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundActive=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundInactive=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundLink=#$(jq -r ".\"$1\".palette.\"$2\".blue" "$3")
-ForegroundNegative=#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")
-ForegroundNeutral=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-ForegroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundPositive=#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
-ForegroundVisited=#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")
+BackgroundAlternate=#${palette[0]}
+BackgroundNormal=#${palette[0]}
+DecorationFocus=#${palette[6]}
+DecorationHover=#${palette[11]}
+ForegroundActive=#${palette[1]}
+ForegroundInactive=#${palette[11]}
+ForegroundLink=#${palette[7]}
+ForegroundNegative=#${palette[4]}
+ForegroundNeutral=#${palette[6]}
+ForegroundNormal=#${palette[1]}
+ForegroundPositive=#${palette[5]}
+ForegroundVisited=#${palette[8]}
 
 [Colors:View]
-BackgroundAlternate=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-BackgroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-DecorationFocus=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-DecorationHover=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundActive=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundInactive=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundLink=#$(jq -r ".\"$1\".palette.\"$2\".blue" "$3")
-ForegroundNegative=#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")
-ForegroundNeutral=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-ForegroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundPositive=#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
-ForegroundVisited=#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")
+BackgroundAlternate=#${palette[0]}
+BackgroundNormal=#${palette[0]}
+DecorationFocus=#${palette[6]}
+DecorationHover=#${palette[11]}
+ForegroundActive=#${palette[1]}
+ForegroundInactive=#${palette[11]}
+ForegroundLink=#${palette[7]}
+ForegroundNegative=#${palette[4]}
+ForegroundNeutral=#${palette[6]}
+ForegroundNormal=#${palette[1]}
+ForegroundPositive=#${palette[5]}
+ForegroundVisited=#${palette[8]}
 
 [Colors:Window]
-BackgroundAlternate=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-BackgroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-DecorationFocus=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-DecorationHover=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundActive=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundInactive=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-ForegroundLink=#$(jq -r ".\"$1\".palette.\"$2\".blue" "$3")
-ForegroundNegative=#$(jq -r ".\"$1\".palette.\"$2\".red" "$3")
-ForegroundNeutral=#$(jq -r ".\"$1\".palette.\"$2\".yellow" "$3")
-ForegroundNormal=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-ForegroundPositive=#$(jq -r ".\"$1\".palette.\"$2\".green" "$3")
-ForegroundVisited=#$(jq -r ".\"$1\".palette.\"$2\".magenta" "$3")
+BackgroundAlternate=#${palette[0]}
+BackgroundNormal=#${palette[0]}
+DecorationFocus=#${palette[6]}
+DecorationHover=#${palette[11]}
+ForegroundActive=#${palette[1]}
+ForegroundInactive=#${palette[11]}
+ForegroundLink=#${palette[7]}
+ForegroundNegative=#${palette[4]}
+ForegroundNeutral=#${palette[6]}
+ForegroundNormal=#${palette[1]}
+ForegroundPositive=#${palette[5]}
+ForegroundVisited=#${palette[8]}
 
 [General]
 ColorScheme=DynamicTheme
@@ -135,12 +137,12 @@ shadeSortColumn=true
 contrast=4
 
 [WM]
-activeBackground=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-activeBlend=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-activeForeground=#$(jq -r ".\"$1\".palette.\"$2\".foreground" "$3")
-inactiveBackground=#$(jq -r ".\"$1\".palette.\"$2\".background" "$3")
-inactiveBlend=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
-inactiveForeground=#$(jq -r ".\"$1\".palette.\"$2\".gray" "$3")
+activeBackground=#${palette[0]}
+activeBlend=#${palette[1]}
+activeForeground=#${palette[1]}
+inactiveBackground=#${palette[0]}
+inactiveBlend=#${palette[11]}
+inactiveForeground=#${palette[11]}
 THEME
 )"
 
@@ -148,7 +150,7 @@ printf '%s' "$output" > "${dest_dir}${dest_file}"
 
 # Latte Dock
 killall latte-dock
-/usr/lib/plasma-changeicons $(jq -r ".\"$1\".icons" "$3")
+/usr/lib/plasma-changeicons "${palette[12]}"
 latte-dock &
 
 # Wallpaper
@@ -160,7 +162,7 @@ for (i=0;i<Desktops.length;i++) {
         d.currentConfigGroup = Array('Wallpaper',
                                     'org.kde.image',
                                     'General');
-        d.writeConfig('Image', '$(jq -r ".current.wallpaper" "$3")');
+        d.writeConfig('Image', '${palette[13]}');
 }"
 
 plasma-theme -c "${dest_dir}${dest_file}"
