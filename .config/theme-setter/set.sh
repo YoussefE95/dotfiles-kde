@@ -42,12 +42,12 @@ palette=(
     "$(jq ".\"$theme\".palette.\"$mode\".gray" "$theme_info" | sed 's/\"//g')"
 )
 
-$templates/plasma.sh "${palette[@]}" "$icon_theme" "$random_wallpaper"
-$templates/gtk.sh "$icon_theme" "$gtk_theme"
-$templates/alacritty.sh "${palette[@]}"
-$templates/vs_code.sh "$vs_theme"
-$templates/notion.sh "${palette[@]}"
-$templates/discord.sh "${palette[@]}"
-$templates/spotify.sh "${palette[@]}"
-
-clear
+{
+    $templates/plasma.sh "${palette[@]}" "$icon_theme" "$random_wallpaper"
+    $templates/gtk.sh "$icon_theme" "$gtk_theme"
+    $templates/alacritty.sh "${palette[@]}"
+    $templates/vs_code.sh "$vs_theme"
+    $templates/notion.sh "${palette[@]}"
+    $templates/discord.sh "${palette[@]}"
+    $templates/spotify.sh "${palette[@]}"
+} &> /dev/null

@@ -150,7 +150,7 @@ printf '%s' "$output" > "${dest_dir}${dest_file}"
 
 # Latte Dock
 /usr/lib/plasma-changeicons "${palette[12]}"
-$latte-dock —replace
+$latte
 
 # Wallpaper
 dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript "string:
