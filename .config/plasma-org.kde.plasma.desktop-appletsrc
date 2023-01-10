@@ -98,7 +98,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][32][Applets][34][Configuration]
-PreloadWeight=60
+PreloadWeight=75
 
 [Containments][32][Applets][35]
 immutability=1
@@ -126,14 +126,21 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][32][Applets][52][Configuration]
-PreloadWeight=70
+PreloadWeight=85
 
 [Containments][32][Applets][53]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][32][Applets][53][Configuration]
-PreloadWeight=15
+PreloadWeight=65
+
+[Containments][32][Applets][58]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][32][Applets][58][Configuration]
+PreloadWeight=0
 
 [Containments][32][ConfigDialog]
 DialogHeight=796
@@ -236,7 +243,43 @@ ToolBoxButtonX=430
 ToolBoxButtonY=30
 
 [Containments][46][Wallpaper][org.kde.image][General]
-Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/normal/thomas-lefebvre-V63oM8OPJSo-unsplash.jpg
+Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/normal/daniel-sessler-_3DI_vx2ygg-unsplash.jpg
+
+[Containments][58]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][58][Applets][59]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][58][Applets][59][Configuration][ConfigDialog]
+DialogHeight=510
+DialogWidth=680
+
+[Containments][58][Applets][59][Configuration][General]
+groupedTaskVisualization=2
+iconSpacing=0
+launchers=preferred://browser,applications:notion-app-enhanced.desktop,applications:discord.desktop,applications:spotify.desktop,preferred://filemanager,applications:org.kde.kcalc.desktop,applications:Alacritty.desktop,applications:code.desktop
+maxStripes=1
+showOnlyCurrentActivity=false
+showOnlyCurrentDesktop=false
+
+[Containments][58][Applets][60]
+immutability=1
+plugin=org.kde.plasma.trash
+
+[Containments][58][ConfigDialog]
+DialogHeight=84
+DialogWidth=1920
+
+[Containments][58][General]
+AppletOrder=59;60
 
 [Containments][8]
 activityId=

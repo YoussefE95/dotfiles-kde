@@ -24,7 +24,7 @@ jq --arg t "$theme" '.theme = $t' $current_info > "$tmp_info" && mv "$tmp_info" 
 jq --arg m "$mode" '.mode = $m' $current_info > "$tmp_info" && mv "$tmp_info" $current_info
 jq --arg w "$random_wallpaper" '.wallpaper = $w' $current_info > "$tmp_info" && mv "$tmp_info" $current_info
 
-icon_theme=$(jq ".\"$theme\".icons" "$theme_info" | sed 's/\"//g')
+icon_theme=$(jq ".\"$theme\".icons.\"$mode\"" "$theme_info" | sed 's/\"//g')
 gtk_theme=$(jq ".\"$theme\".gtk.\"$mode\"" "$theme_info" | sed 's/\"//g')
 vs_theme=$(jq ".\"$theme\".vs_code.\"$mode\"" "$theme_info")
 palette=(

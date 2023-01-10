@@ -3,8 +3,6 @@ update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-vir
 
 [1]
 Description=Remove Title Bar and Set Window Opacity
-noborder=true
-noborderrule=2
 opacityactive=80
 opacityactiverule=2
 opacityinactive=80

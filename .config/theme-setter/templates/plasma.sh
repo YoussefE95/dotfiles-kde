@@ -148,9 +148,10 @@ THEME
 
 printf '%s' "$output" > "${dest_dir}${dest_file}"
 
-# Latte Dock
+plasma-theme -c "${dest_dir}${dest_file}"
+
+# Icons
 /usr/lib/plasma-changeicons "${palette[12]}"
-$latte
 
 # Wallpaper
 dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript "string:
@@ -163,5 +164,3 @@ for (i=0;i<Desktops.length;i++) {
                                     'General');
         d.writeConfig('Image', '${palette[13]}');
 }"
-
-plasma-theme -c "${dest_dir}${dest_file}"

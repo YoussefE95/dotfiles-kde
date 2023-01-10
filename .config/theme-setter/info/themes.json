@@ -1,6 +1,10 @@
 {
     "catppuccin": {
-        "icons": "Papirus",
+        "icons": {
+            "light": "Papirus-Green",
+            "normal": "Papirus-Blue",
+            "dark": "Papirus-Black"
+        },
         "gtk": {
             "light": "Catppuccin-Latte",
             "normal": "Catppuccin-Macchiato",
@@ -57,7 +61,11 @@
         }
     },
     "gruvbox": {
-        "icons": "Newaita",
+        "icons": {
+            "light": "Newaita-Reborn",
+            "normal": "Newaita-Reborn-Light-Brown",
+            "dark": "Newaita-Reborn-Light-Brown"
+        },
         "gtk": {
             "light": "Gruvbox-Light",
             "normal": "Gruvbox-Material",
@@ -114,7 +122,11 @@
         }
     },
     "rose-pine": {
-        "icons": "Papirus",
+        "icons": {
+            "light": "Tela-Blue",
+            "normal": "Tela-Purple",
+            "dark": "Tela-Black"
+        },
         "gtk": {
             "light": "Rose-Pine-Dawn",
             "normal": "Rose-Pine-Moon",

@@ -4,7 +4,8 @@ yay -S plasma-desktop
 yay -S xorg-server
 yay -S xsettingsd
 yay -S dolphin
-yay -S latte-dock
+yay -S ark
+yay -S kcalc
 yay -S sddm
 yay -S powerdevil
 yay -S plasma-pa
@@ -14,10 +15,6 @@ yay -S zsh
 yay -S starship
 yay -S apple-fonts
 yay -S nerd-fonts-meslo
-yay -S ttf-meslo-nerd-font-powerlevel10k
-yay -S ttf-font-awesome-5
-yay -S ttf-raleway
-yay -S papirus-icon-theme-git
 yay -S ranger
 yay -S ueberzug
 yay -S neofetch
@@ -38,6 +35,7 @@ yay -S jq
 yay -S python-pip
 yay -S bluez
 yay -S bluedevil
+yay -S nodejs npm
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
