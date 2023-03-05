@@ -10,6 +10,7 @@ yay -S sddm
 yay -S powerdevil
 yay -S plasma-pa
 yay -S plasma-nm
+yay -S spectacle
 yay -S alacritty
 yay -S zsh
 yay -S starship
@@ -45,9 +46,11 @@ python3 -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/ma
 sudo rsync -a .zshrc .config .local .themes .icons ~/
 sudo cp .config/theme-setter/set-theme /usr/local/bin/
 sudo cp .config/theme-setter/get-theme /usr/local/bin/
+sudo cp .config/theme-setter/set-theme.service /etc/systemd/system/
 
 sudo rm -rf ~/Documents ~/Music ~/Public ~/Videos ~/Templates ~/Pictures
 
+sudo systemctl enable set-theme
 sudo systemctl enable bluetooth
 sudo systemctl enable expressvpn
 sudo systemctl enable sddm.service

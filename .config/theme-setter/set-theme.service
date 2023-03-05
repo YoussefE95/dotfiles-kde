@@ -1,0 +1,8 @@
+[Unit]
+Description=Global Theme Setter Service
+
+[Service]
+ExecStart=set-theme $(get-theme) $(get-theme --mode)
+
+[Install]
+WantedBy=multi-user.target
