@@ -4,7 +4,7 @@ theme_info="$base_dir/info/themes.json"
 current_info="$base_dir/info/current.json"
 tmp_info="$base_dir/info/tmp.json"
 
-if [[ "$1" == "catppuccin" || "$1" == "gruvbox" || "$1" == "rose-pine" ]]; then
+if [[ "$1" == "catppuccin" || "$1" == "gruvbox" || "$1" == "rose-pine" || "$1" == "everforest" ]]; then
     theme="$1"
 else
     echo "$1 is not a supported theme"

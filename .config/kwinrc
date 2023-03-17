@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Desktops]
 Id_1=9b9c32ad-b132-4fe9-894e-25ae4f4acfba
@@ -43,14 +43,23 @@ enableMonocleLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
-floatingClass=dolphin
+floatingClass=dolphin, kcalc
 layoutPerActivity=false
 monocleMaximize=false
-screenGapBottom=5
+screenGapBottom=20
 screenGapLeft=20
 screenGapRight=20
 screenGapTop=20
 tileLayoutGap=15
+
+[Tiling]
+padding=4
+
+[Tiling][87c34fd7-12b8-5e9e-971b-856668ce4220]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][9e8cec4c-523d-5f2f-803e-2448a3fcd1e9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
 AutoRaise=true
@@ -59,5 +68,7 @@ DelayFocusInterval=100
 FocusPolicy=FocusFollowsMouse
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=XIA
+ButtonsOnLeft=X
 ButtonsOnRight=
+library=org.kde.breeze
+theme=Breeze

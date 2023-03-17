@@ -11,7 +11,7 @@ colors:
     background: '#${palette[0]}'
     foreground: '#${palette[1]}'
   normal:
-    black: '#${palette[0]}'
+    black: '#${palette[2]}'
     red: '#${palette[4]}'
     green: '#${palette[5]}'
     yellow: '#${palette[6]}'

@@ -20,6 +20,8 @@ Recent URLs[$e]=file:$HOME/.local/share/icons/,file:$HOME/.local/,file:$HOME/Dow
 detailViewIconSize=16
 
 [KPropertiesDialog]
+DP-2 DP-4 Height 2560x1440 DP-2=631
+DP-2 DP-4 Width 2560x1440 DP-2=499
 eDP1 Height 1920x1080 eDP1=526
 eDP1 Width 1920x1080 eDP1=445
 

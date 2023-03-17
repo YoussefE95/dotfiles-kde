@@ -86,8 +86,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=480
+popupWidth=480
 wallpaperplugin=org.kde.image
 
 [Containments][32][Applets][33][Configuration]
@@ -98,7 +98,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][32][Applets][34][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][32][Applets][35]
 immutability=1
@@ -106,6 +106,9 @@ plugin=org.kde.plasma.volume
 
 [Containments][32][Applets][35][Configuration]
 PreloadWeight=100
+
+[Containments][32][Applets][35][Configuration][General]
+migrated=true
 
 [Containments][32][Applets][36]
 immutability=1
@@ -126,7 +129,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][32][Applets][52][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 
 [Containments][32][Applets][53]
 immutability=1
@@ -228,6 +231,7 @@ knownItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.
 
 [Containments][46]
 ItemGeometries-1920x1080=
+ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
 activityId=98179bdc-8893-4568-bfb5-ae10fa9e286a
 formfactor=0
@@ -243,7 +247,7 @@ ToolBoxButtonX=430
 ToolBoxButtonY=30
 
 [Containments][46][Wallpaper][org.kde.image][General]
-Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/normal/daniel-sessler-_3DI_vx2ygg-unsplash.jpg
+Image=/home/younix/Dropbox/Pictures/Wallpapers/everforest/normal/luke-flynt-3HzMu0IvGME-unsplash.jpg
 
 [Containments][58]
 activityId=
@@ -265,7 +269,7 @@ DialogWidth=680
 [Containments][58][Applets][59][Configuration][General]
 groupedTaskVisualization=2
 iconSpacing=0
-launchers=preferred://browser,applications:notion-app-enhanced.desktop,applications:discord.desktop,applications:spotify.desktop,preferred://filemanager,applications:org.kde.kcalc.desktop,applications:Alacritty.desktop,applications:code.desktop
+launchers=preferred://browser,applications:notion-app-enhanced.desktop,applications:discord.desktop,applications:slack.desktop,applications:spotify.desktop,preferred://filemanager,applications:org.kde.kcalc.desktop,applications:Alacritty.desktop,applications:code.desktop
 maxStripes=1
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false
@@ -280,6 +284,18 @@ DialogWidth=1920
 
 [Containments][58][General]
 AppletOrder=59;60
+
+[Containments][61]
+activityId=98179bdc-8893-4568-bfb5-ae10fa9e286a
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][61][Wallpaper][org.kde.image][General]
+Image=/home/younix/Dropbox/Pictures/Wallpapers/everforest/normal/luke-flynt-3HzMu0IvGME-unsplash.jpg
 
 [Containments][8]
 activityId=
