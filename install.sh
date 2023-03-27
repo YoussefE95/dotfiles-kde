@@ -46,6 +46,7 @@ python3 -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/ma
 sudo rsync -a .zshrc .config .local .themes .icons ~/
 sudo cp .config/theme-setter/set-theme /usr/local/bin/
 sudo cp .config/theme-setter/get-theme /usr/local/bin/
+sudo cp .config/theme-setter/reapply-theme /usr/local/bin/
 sudo cp .config/theme-setter/set-theme.service /etc/systemd/system/
 
 sudo rm -rf ~/Documents ~/Music ~/Public ~/Videos ~/Templates ~/Pictures

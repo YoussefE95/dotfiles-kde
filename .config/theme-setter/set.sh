@@ -1,3 +1,5 @@
+#!/bin/bash
+
 base_dir="$HOME/.config/theme-setter"
 templates="$base_dir/templates"
 theme_info="$base_dir/info/themes.json"
