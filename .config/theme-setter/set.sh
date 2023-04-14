@@ -48,7 +48,7 @@ palette=(
     $templates/plasma.sh "${palette[@]}" "$icon_theme" "$random_wallpaper"
     $templates/gtk.sh "$icon_theme" "$gtk_theme"
     $templates/alacritty.sh "${palette[@]}"
-    $templates/vs_code.sh "$vs_theme"
+    $templates/vs_code.sh "$theme" "$mode" "$vs_theme"
     $templates/notion.sh "${palette[@]}"
     $templates/discord.sh "${palette[@]}"
     $templates/spotify.sh "${palette[@]}"
