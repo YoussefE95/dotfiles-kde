@@ -5,22 +5,22 @@
             "normal": "Papirus-Blue",
             "dark": "Papirus-Black"
         },
+        "cursors": {
+            "light": "Capitaine-Cursors",
+            "normal": "Capitaine-Cursors-White",
+            "dark": "Capitaine-Cursors-White"
+        },
         "gtk": {
             "light": "Catppuccin-Latte",
             "normal": "Catppuccin-Macchiato",
             "dark": "Catppuccin-Mocha"
-        },
-        "vs_code": {
-            "light": "Catppuccin Latte",
-            "normal": "Catppuccin Macchiato",
-            "dark": "Catppuccin Mocha"
-        },
+        }, 
         "palette": {
             "light": {
                 "background": "eff1f5",
                 "foreground": "4c4f69",
-                "black": "ccd0da",
-                "white": "4c4f69",
+                "black": "232634",
+                "white": "dce0e8",
                 "red": "d20f39",
                 "green": "40a02b",
                 "yellow": "e49320",
@@ -28,7 +28,7 @@
                 "magenta": "8839ef",
                 "cyan": "209fb5",
                 "orange": "fe640b",
-                "gray": "bcc0cc"
+                "gray": "6c6f85"
             },
             "normal": {
                 "background": "24273a",
@@ -56,7 +56,7 @@
                 "magenta": "cba6f7",
                 "cyan": "94e2d5",
                 "orange": "fab387",
-                "gray": "45475a"
+                "gray": "5b6078"
             }
         }
     },
@@ -66,22 +66,22 @@
             "normal": "Newaita",
             "dark": "Newaita-Black"
         },
+        "cursors": {
+            "light": "Capitaine-Cursors-Gruvbox",
+            "normal": "Capitaine-Cursors-Gruvbox-White",
+            "dark": "Capitaine-Cursors-Gruvbox-White"
+        },
         "gtk": {
             "light": "Gruvbox-Light",
             "normal": "Gruvbox-Material",
             "dark": "Gruvbox-Dark"
         },
-        "vs_code": {
-            "light": "Gruvbox Material Light",
-            "normal": "Gruvbox Material Dark",
-            "dark": "Gruvbox Material Dark"
-        },
         "palette": {
             "light": {
-                "background": "fbf1c7",
+                "background": "f2e5bc",
                 "foreground": "4f3829",
-                "black": "7c5f64",
-                "white": "7c5f64",
+                "black": "252423",
+                "white": "d4be98",
                 "red": "c14a4a",
                 "green": "6c782e",
                 "yellow": "b47109",
@@ -89,12 +89,12 @@
                 "magenta": "945e80",
                 "cyan": "4c7a5d",
                 "orange": "c35e0a",
-                "gray": "928374"
+                "gray": "7c6f64"
             },
             "normal": {
                 "background": "282828",
                 "foreground": "ddc7a1",
-                "black": "7c6f64",
+                "black": "1b1b1b",
                 "white": "d4be98",
                 "red": "ea6962",
                 "green": "a9b665",
@@ -103,12 +103,12 @@
                 "magenta": "d3869b",
                 "cyan": "89b482",
                 "orange": "e78a4e",
-                "gray": "928374"
+                "gray": "7c6f64"
             },
             "dark": {
-                "background": "202020",
+                "background": "1d2021",
                 "foreground": "ddc7a1",
-                "black": "7c6f64",
+                "black": "141617",
                 "white": "d4be98",
                 "red": "ea6962",
                 "green": "a9b665",
@@ -117,32 +117,32 @@
                 "magenta": "d3869b",
                 "cyan": "89b482",
                 "orange": "e78a4e",
-                "gray": "928374"
+                "gray": "7c6f64"
             }
         }
     },
     "rose-pine": {
         "icons": {
-            "light": "Newaita-Reborn-PopOs",
-            "normal": "Newaita-Reborn-Deep-Purple",
-            "dark": "Newaita-Reborn-Dracula"
+            "light": "Papirus-Green",
+            "normal": "Papirus-Blue",
+            "dark": "Papirus-Black"
+        },
+        "cursors": {
+            "light": "Capitaine-Cursors",
+            "normal": "Capitaine-Cursors-White",
+            "dark": "Capitaine-Cursors-White"
         },
         "gtk": {
             "light": "Rose-Pine-Dawn",
             "normal": "Rose-Pine-Moon",
             "dark": "Rose-Pine"
         },
-        "vs_code": {
-            "light": "Rosé Pine Dawn",
-            "normal": "Rosé Pine Moon",
-            "dark": "Rosé Pine"
-        },
         "palette": {
             "light": {
                 "background": "faf4ed",
                 "foreground": "575279",
-                "black": "fffaf3",
-                "white": "9893a5",
+                "black": "575279",
+                "white": "bfb9b2",
                 "red": "b4637a",
                 "green": "76a264",
                 "yellow": "ea9d34",
@@ -156,7 +156,7 @@
                 "background": "232136",
                 "foreground": "e0def4",
                 "black": "393552",
-                "white": "6e6a86",
+                "white": "c8c5d9",
                 "red": "eb6f92",
                 "green": "76a264",
                 "yellow": "f6c177",
@@ -170,7 +170,7 @@
                 "background": "191724",
                 "foreground": "e0def4",
                 "black": "26233a",
-                "white": "6e6a86",
+                "white": "c8c5d9",
                 "red": "eb6f92",
                 "green": "76a264",
                 "yellow": "f6c177",

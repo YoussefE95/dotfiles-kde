@@ -11,7 +11,7 @@ env:
 window:
   dimensions:
     columns: 78
-    lines: 26
+    lines: 29
 
   padding:
     x: 20
@@ -24,7 +24,6 @@ window:
 ## scrolling
   history: 10000
   multiplier: 3
-
 ## Background opacity
   opacity: 1.0
 
