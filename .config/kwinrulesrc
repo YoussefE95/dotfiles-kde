@@ -3,11 +3,11 @@ update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-vir
 
 [1]
 Description=Remove Title Bar and Set Window Opacity
-opacityactive=100
+opacityactive=76
 opacityactiverule=2
-opacityinactive=100
+opacityinactive=76
 opacityinactiverule=2
-types=66491
+types=66489
 wmclass=^(?!firefox)
 wmclassmatch=3
 

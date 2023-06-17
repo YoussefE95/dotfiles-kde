@@ -124,6 +124,10 @@ plugin=org.kde.plasma.battery
 [Containments][32][Applets][49][Configuration]
 PreloadWeight=100
 
+[Containments][32][Applets][51]
+immutability=1
+plugin=org.kde.kdeconnect
+
 [Containments][32][Applets][52]
 immutability=1
 plugin=org.kde.plasma.bluetooth
@@ -136,7 +140,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][32][Applets][53][Configuration]
-PreloadWeight=65
+PreloadWeight=80
 
 [Containments][32][Applets][58]
 immutability=1
@@ -150,9 +154,9 @@ DialogHeight=796
 DialogWidth=1095
 
 [Containments][32][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement
+extraItems=org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.printmanager
 hiddenItems=firewall-applet
-knownItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement
+knownItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.printmanager
 shownItems=dropbox-client-PID,org.kde.plasma.battery
 
 [Containments][39]
@@ -222,12 +226,16 @@ plugin=org.kde.plasma.bluetooth
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][39][Applets][56]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
 [Containments][39][Configuration]
 PreloadWeight=42
 
 [Containments][39][General]
-extraItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement
-knownItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.printmanager
+knownItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.printmanager
 
 [Containments][46]
 ItemGeometries-1920x1080=
@@ -247,43 +255,7 @@ ToolBoxButtonX=430
 ToolBoxButtonY=30
 
 [Containments][46][Wallpaper][org.kde.image][General]
-Image=/home/younix/Dropbox/Pictures/Wallpapers/everforest/normal/luke-flynt-3HzMu0IvGME-unsplash.jpg
-
-[Containments][58]
-activityId=
-formfactor=2
-immutability=1
-lastScreen=0
-location=4
-plugin=org.kde.panel
-wallpaperplugin=org.kde.image
-
-[Containments][58][Applets][59]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][58][Applets][59][Configuration][ConfigDialog]
-DialogHeight=510
-DialogWidth=680
-
-[Containments][58][Applets][59][Configuration][General]
-groupedTaskVisualization=2
-iconSpacing=0
-launchers=preferred://browser,applications:notion-app-enhanced.desktop,applications:discord.desktop,applications:slack.desktop,applications:spotify.desktop,preferred://filemanager,applications:org.kde.kcalc.desktop,applications:Alacritty.desktop,applications:code.desktop
-maxStripes=1
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
-
-[Containments][58][Applets][60]
-immutability=1
-plugin=org.kde.plasma.trash
-
-[Containments][58][ConfigDialog]
-DialogHeight=84
-DialogWidth=1920
-
-[Containments][58][General]
-AppletOrder=59;60
+Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/normal/hugo-delauney-0O4C9qtn_48-unsplash.jpg
 
 [Containments][61]
 activityId=98179bdc-8893-4568-bfb5-ae10fa9e286a
@@ -295,7 +267,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][61][Wallpaper][org.kde.image][General]
-Image=/home/younix/Dropbox/Pictures/Wallpapers/everforest/normal/luke-flynt-3HzMu0IvGME-unsplash.jpg
+Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/normal/hugo-delauney-0O4C9qtn_48-unsplash.jpg
 
 [Containments][8]
 activityId=
@@ -351,6 +323,18 @@ plugin=org.kde.plasma.bluetooth
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][8][Applets][62]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][8][Applets][63]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][8][Applets][64]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42
 
@@ -362,9 +346,9 @@ DialogWidth=986
 PreloadWeight=42
 
 [Containments][8][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement
+extraItems=org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.printmanager
 hiddenItems=firewall-applet
-knownItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement
+knownItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.printmanager
 shownItems=dropbox-client-PID,org.kde.plasma.battery
 
 [ScreenMapping]

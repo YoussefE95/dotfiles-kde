@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered,bismuth_new_logger.upd:bismuth-new-logger
 
 [Desktops]
 Id_1=9b9c32ad-b132-4fe9-894e-25ae4f4acfba
@@ -23,10 +23,28 @@ BorderActivateAll=9
 CommandAllWheel=Change Opacity
 
 [Plugins]
+bismuthEnabled=true
 blurEnabled=true
 forceblurEnabled=true
-krohnkiteEnabled=true
+krohnkiteEnabled=false
 kwin4_effect_shapecornersEnabled=false
+
+[Script-bismuth]
+enableFloatingLayout=true
+enableMonocleLayout=false
+enableSpiralLayout=false
+enableSpreadLayout=false
+enableStairLayout=false
+enableThreeColumnLayout=false
+enableTileLayout=false
+floatingClass=spectacle,dolphin,systemsettings,firefox
+ignoreClass=yakuake,Conky,zoom
+screenGapBottom=30
+screenGapLeft=30
+screenGapRight=30
+screenGapTop=30
+tileLayoutGap=15
+untileByDragging=false
 
 [Script-desktopchangeosd]
 PopupHideDelay=800
@@ -40,10 +58,12 @@ directionalKeyDwm=false
 directionalKeyFocus=true
 enableFloatingLayout=true
 enableMonocleLayout=false
+enableSpiralLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
-floatingClass=dolphin, kcalc
+floatingClass=dolphin, kcalc, systemsettings
+ignoreClass=krunner,yakuake,spectacle,kded5,
 layoutPerActivity=false
 monocleMaximize=false
 screenGapBottom=20
@@ -54,6 +74,9 @@ tileLayoutGap=15
 
 [Tiling]
 padding=4
+
+[Tiling][0d3998b5-12fb-5e5d-9844-298a9a2f96a3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][87c34fd7-12b8-5e9e-971b-856668ce4220]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -68,7 +91,7 @@ DelayFocusInterval=100
 FocusPolicy=FocusFollowsMouse
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=X
+ButtonsOnLeft=XIA
 ButtonsOnRight=
-library=org.kde.breeze
-theme=Breeze
+library=org.kde.sierrabreeze
+theme=Sierra Breeze

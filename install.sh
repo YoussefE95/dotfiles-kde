@@ -1,6 +1,6 @@
 yay -Syyu
 
-yay -S xorg-server xsettingsd alacritty zsh starship apple-fonts ttf-iosevka-nerd ranger ueberzug neofetch cmatrix pipes.sh gotop-bin htop discord dropbox neovim expressvpn spotifyd spotify-tui cmake extra-cmake-modules jq python-pip bluez bluedevil nodejs npm
+yay -S kwin-bismuth sierrabreeze-kwin-decoration-git xorg-server xsettingsd alacritty zsh starship apple-fonts ttf-iosevka-nerd ranger ueberzug neofetch cmatrix pipes.sh gotop-bin htop discord dropbox neovim expressvpn spotifyd spotify-tui cmake extra-cmake-modules jq python-pip bluez bluedevil nodejs npm
 
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
