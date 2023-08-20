@@ -6,7 +6,7 @@ theme_info="$base_dir/info/themes.json"
 current_info="$base_dir/info/current.json"
 tmp_info="$base_dir/info/tmp.json"
 
-if [[ "$1" == "catppuccin" || "$1" == "gruvbox" || "$1" == "rose-pine" ]]; then
+if [[ "$1" == "gruvbox" || "$1" == "rose-pine" ]]; then
     theme="$1"
 else
     echo "$1 is not a supported theme"
@@ -41,6 +41,7 @@ palette=(
     "$(jq ".\"$theme\".palette.\"$mode\".cyan" "$theme_info" | sed 's/\"//g')"
     "$(jq ".\"$theme\".palette.\"$mode\".orange" "$theme_info" | sed 's/\"//g')"
     "$(jq ".\"$theme\".palette.\"$mode\".gray" "$theme_info" | sed 's/\"//g')"
+    "$(jq ".\"$theme\".palette.\"$mode\".backgroundAlt" "$theme_info" | sed 's/\"//g')"
 )
 
 {
@@ -48,5 +49,6 @@ palette=(
     $templates/discord.sh "${palette[@]}"
     $templates/gtk.sh "$icon_theme" "$gtk_theme"
     $templates/nvim.sh "$theme" "$mode"
-    $templates/plasma.sh "${palette[@]}" "$icon_theme" "$random_wallpaper"  
+    $templates/plasma.sh "${palette[@]}" "$icon_theme" "$random_wallpaper"
+    $templates/spotify.sh "${palette[@]}"
 } &> /dev/null

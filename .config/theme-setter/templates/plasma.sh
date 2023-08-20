@@ -151,7 +151,7 @@ printf '%s' "$output" > "${dest_dir}${dest_file}"
 plasma-theme -c "${dest_dir}${dest_file}"
 
 # Icons
-/usr/lib/plasma-changeicons "${palette[12]}"
+/usr/lib/plasma-changeicons "${palette[13]}"
 
 # Wallpaper
 dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript "string:
@@ -162,5 +162,5 @@ for (i=0;i<Desktops.length;i++) {
         d.currentConfigGroup = Array('Wallpaper',
                                     'org.kde.image',
                                     'General');
-        d.writeConfig('Image', '${palette[13]}');
+        d.writeConfig('Image', '${palette[14]}');
 }"

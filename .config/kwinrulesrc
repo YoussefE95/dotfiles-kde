@@ -2,7 +2,7 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
 [1]
-Description=Remove Title Bar and Set Window Opacity
+Description=Window Opacity
 opacityactive=76
 opacityactiverule=2
 opacityinactive=76
@@ -19,5 +19,12 @@ wmclass=.*
 wmclassmatch=3
 
 [General]
-count=1
-rules=1
+count=2
+rules=1,fc4b263b-797c-4129-a0da-a94048667cd1
+
+[fc4b263b-797c-4129-a0da-a94048667cd1]
+Description=Remove Title Bars
+noborder=true
+noborderrule=2
+wmclass=^.
+wmclassmatch=3

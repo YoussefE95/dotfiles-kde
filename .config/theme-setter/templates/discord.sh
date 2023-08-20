@@ -24,9 +24,9 @@ pre > code {
 
 .theme-dark {
     --background-primary: #${palette[0]};
-    --background-secondary: #${palette[0]};
-    --background-tertiary: #${palette[0]};
-    --background-accent: #${palette[0]};
+    --background-secondary: #${palette[12]};
+    --background-tertiary: #${palette[12]};
+    --background-accent: #${palette[11]};
     --text-normal: #${palette[1]};
     --text-spotify: #${palette[5]}
     --text-muted: #${palette[1]};
@@ -56,6 +56,10 @@ pre > code {
     --interactive-muted: #928374;
     --interactive-hover: #504945;
     --interactive-active: #7c6f64;
+}
+
+* {
+    color: var(--text-normal);
 }
 
 [class*="root"][class*="modalSize"] {
@@ -88,20 +92,6 @@ div[class*="wrapper"][class*="fixClipping"]{
 div[class*="newMessagesBar"] {
     background-color: var(--background-accent);
 }
-
-/* Hide the action bar nametag and status */
-section > div[class*="container"] > [class*='nameTag-'] {
-    display:none;
-}
-
-/* Center buttons in the panels container */
-div[class*="sidebar"] > [class*='panels-'] [class*='container-']{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content: center;
-}
-
-/* Credit to craftxbox */
 
 /* Mentions (channel, user) */
 span[class*="mention"][class*="interactive"] {
@@ -211,7 +201,8 @@ div[role="dialog"] {
 }
 
 div[class*="activityPanel"] {
-    background-color: var(--background-secondary)
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 
 div[class^="text"] {
@@ -228,18 +219,22 @@ div[class^="side"] > div[class^="item"] {
 
 /* Video Button */
 [class*="lookFilled"][class*="colorBrand"] {
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 [class*="lookFilled"][class*="colorBrand"]:hover {
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 
 /* Screen recording */
 [class*="color"][class*="buttonColor"][class*="buttonActive"] {
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 [class*="color"][class*="buttonColor"][class*="buttonActive"]:hover {
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 
 div[class*="tooltip"] {
@@ -492,7 +487,6 @@ div[class*="searchBox"] {
 
 div[class*="searchBox"] > div[class*="inputWrapper"] {
     background-color: var(--background-tertiary);
-    
 }
 
 div[class*="headerContentWrapper"] {
@@ -715,12 +709,12 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
     display: block;
     overflow-x: auto;
     padding: 0.5em;
-    background: #282828;
+    background: var(--background-primary);
 }
   
 .theme-dark .hljs,
 .hljs-subst {
-    color: #ebdbb2;
+    color: var(--text-normal);
 }
   
 /* Gruvbox Red */
@@ -730,7 +724,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-keyword,
 .hljs-link,
 .hljs-selector-tag {
-    color: #fb4934;
+    color: #${palette[4]};
 }
   
 /* Gruvbox Blue */
@@ -742,7 +736,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-strong,
 .hljs-title,
 .hljs-variable {
-    color: #83a598;
+    color: #${palette[7]};
 }
   
 /* Gruvbox Yellow */
@@ -750,7 +744,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-params,
 .hljs-template-tag,
 .hljs-type {
-    color: #fabd2f;
+    color: #${palette[6]};
 }
   
 /* Gruvbox Purple */
@@ -759,7 +753,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-doctag,
 .hljs-literal,
 .hljs-number {
-    color: #8f3f71;
+    color: #${palette[8]};
 }
   
 /* Gruvbox Orange */
@@ -769,7 +763,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-regexp,
 .hljs-selector-id,
 .hljs-template-variable {
-    color: #fe8019;
+    color: #${palette[10]};
 }
   
 /* Gruvbox Green */
@@ -781,7 +775,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-selector-class,
 .hljs-string,
 .hljs-symbol {
-    color: #b8bb26;
+    color: #${palette[5]};
 }
   
 /* Gruvbox Aqua */
@@ -794,13 +788,13 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-meta-keyword,
 .hljs-selector-pseudo,
 .hljs-tag {
-    color: #8ec07c;
+    color: #${palette[9]};
 }
   
 /* Gruvbox Gray */
 .theme-dark,
 .hljs-comment {
-    color: #928374;
+    color: #${palette[11]};
 }
   
 /* Gruvbox Purple */
@@ -808,7 +802,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-link_label,
 .hljs-literal,
 .hljs-number {
-    color: #d3869b;
+    color: #${palette[8]};
 }
   
 .theme-dark
@@ -833,7 +827,7 @@ div[class*="headerTitle"] {
 }
 
 div[class*="viewers"] > span {
-    color: #b9bbbe;
+    color: var(--text-normal);
 }
 THEME
 )"
