@@ -5,6 +5,6 @@ require('Comment').setup()
 require 'colorizer'.setup()
 require('nvim-tree').setup({
 	view = {
-		width = 25,
+		width = 34,
 	},
 })
