@@ -4,8 +4,8 @@ update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminp
 [Mouse]
 X11LibInputXAccelProfileFlat=true
 XLbInptLeftHanded=false
-cursorSize=36
-cursorTheme=capitaine-cursors
+cursorSize=32
+cursorTheme=Capitaine-Cursors-Gruvbox-White
 
 [Tmp]
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

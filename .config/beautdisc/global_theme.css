@@ -15,21 +15,21 @@ pre > code {
 /** End Iosevka */
 
 .theme-dark {
-    --background-primary: #282828;
-    --background-secondary: #282828;
-    --background-tertiary: #282828;
-    --background-accent: #282828;
-    --text-normal: #ddc7a1;
-    --text-spotify: #a9b665
-    --text-muted: #ddc7a1;
-    --text-link: #7daea3;
-    --background-floating: #282828;
-    --header-primary: #ddc7a1;
-    --header-secondary: #ddc7a1;
-    --header-spotify: #a9b665
-    --interactive-normal: #ddc7a1;
-    --interactive-hover: #ddc7a1;
-    --interactive-active: #a9b665
+    --background-primary: #191724;
+    --background-secondary: #0f0e17;
+    --background-tertiary: #0f0e17;
+    --background-accent: #908caa;
+    --text-normal: #e0def4;
+    --text-spotify: #76a264
+    --text-muted: #e0def4;
+    --text-link: #31748f;
+    --background-floating: #191724;
+    --header-primary: #e0def4;
+    --header-secondary: #e0def4;
+    --header-spotify: #76a264
+    --interactive-normal: #e0def4;
+    --interactive-hover: #e0def4;
+    --interactive-active: #76a264
 }
 
 .theme-light {
@@ -48,6 +48,10 @@ pre > code {
     --interactive-muted: #928374;
     --interactive-hover: #504945;
     --interactive-active: #7c6f64;
+}
+
+* {
+    color: var(--text-normal);
 }
 
 [class*="root"][class*="modalSize"] {
@@ -80,20 +84,6 @@ div[class*="wrapper"][class*="fixClipping"]{
 div[class*="newMessagesBar"] {
     background-color: var(--background-accent);
 }
-
-/* Hide the action bar nametag and status */
-section > div[class*="container"] > [class*='nameTag-'] {
-    display:none;
-}
-
-/* Center buttons in the panels container */
-div[class*="sidebar"] > [class*='panels-'] [class*='container-']{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content: center;
-}
-
-/* Credit to craftxbox */
 
 /* Mentions (channel, user) */
 span[class*="mention"][class*="interactive"] {
@@ -203,7 +193,8 @@ div[role="dialog"] {
 }
 
 div[class*="activityPanel"] {
-    background-color: var(--background-secondary)
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 
 div[class^="text"] {
@@ -220,18 +211,22 @@ div[class^="side"] > div[class^="item"] {
 
 /* Video Button */
 [class*="lookFilled"][class*="colorBrand"] {
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 [class*="lookFilled"][class*="colorBrand"]:hover {
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 
 /* Screen recording */
 [class*="color"][class*="buttonColor"][class*="buttonActive"] {
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 [class*="color"][class*="buttonColor"][class*="buttonActive"]:hover {
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
 }
 
 div[class*="tooltip"] {
@@ -484,7 +479,6 @@ div[class*="searchBox"] {
 
 div[class*="searchBox"] > div[class*="inputWrapper"] {
     background-color: var(--background-tertiary);
-    
 }
 
 div[class*="headerContentWrapper"] {
@@ -707,12 +701,12 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
     display: block;
     overflow-x: auto;
     padding: 0.5em;
-    background: #282828;
+    background: var(--background-primary);
 }
   
 .theme-dark .hljs,
 .hljs-subst {
-    color: #ebdbb2;
+    color: var(--text-normal);
 }
   
 /* Gruvbox Red */
@@ -722,7 +716,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-keyword,
 .hljs-link,
 .hljs-selector-tag {
-    color: #fb4934;
+    color: #eb6f92;
 }
   
 /* Gruvbox Blue */
@@ -734,7 +728,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-strong,
 .hljs-title,
 .hljs-variable {
-    color: #83a598;
+    color: #31748f;
 }
   
 /* Gruvbox Yellow */
@@ -742,7 +736,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-params,
 .hljs-template-tag,
 .hljs-type {
-    color: #fabd2f;
+    color: #f6c177;
 }
   
 /* Gruvbox Purple */
@@ -751,7 +745,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-doctag,
 .hljs-literal,
 .hljs-number {
-    color: #8f3f71;
+    color: #c4a7e7;
 }
   
 /* Gruvbox Orange */
@@ -761,7 +755,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-regexp,
 .hljs-selector-id,
 .hljs-template-variable {
-    color: #fe8019;
+    color: #ebbcba;
 }
   
 /* Gruvbox Green */
@@ -773,7 +767,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-selector-class,
 .hljs-string,
 .hljs-symbol {
-    color: #b8bb26;
+    color: #76a264;
 }
   
 /* Gruvbox Aqua */
@@ -786,13 +780,13 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-meta-keyword,
 .hljs-selector-pseudo,
 .hljs-tag {
-    color: #8ec07c;
+    color: #9ccfd8;
 }
   
 /* Gruvbox Gray */
 .theme-dark,
 .hljs-comment {
-    color: #928374;
+    color: #908caa;
 }
   
 /* Gruvbox Purple */
@@ -800,7 +794,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-link_label,
 .hljs-literal,
 .hljs-number {
-    color: #d3869b;
+    color: #c4a7e7;
 }
   
 .theme-dark
@@ -825,5 +819,5 @@ div[class*="headerTitle"] {
 }
 
 div[class*="viewers"] > span {
-    color: #b9bbbe;
+    color: var(--text-normal);
 }

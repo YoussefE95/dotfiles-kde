@@ -78,6 +78,9 @@ padding=4
 [Tiling][0d3998b5-12fb-5e5d-9844-298a9a2f96a3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][87c34fd7-12b8-5e9e-971b-856668ce4220]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -93,5 +96,5 @@ FocusPolicy=FocusFollowsMouse
 [org.kde.kdecoration2]
 ButtonsOnLeft=XIA
 ButtonsOnRight=
-library=org.kde.sierrabreeze
-theme=Sierra Breeze
+library=org.kde.breeze
+theme=Breeze

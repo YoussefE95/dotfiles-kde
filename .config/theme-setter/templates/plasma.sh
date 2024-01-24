@@ -151,6 +151,7 @@ printf '%s' "$output" > "${dest_dir}${dest_file}"
 plasma-theme -c "${dest_dir}${dest_file}"
 
 # Icons
+/usr/lib/plasma-changeicons "Newaita-Black"
 /usr/lib/plasma-changeicons "${palette[13]}"
 
 # Wallpaper
