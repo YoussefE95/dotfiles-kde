@@ -26,6 +26,8 @@ sudo cp cmake-build-release/plasma-theme /usr/local/bin/
 # ~/.local/bin/beautifuldiscord --css ~/.config/beautdisc/global_theme.css
 
 # set spotify theme
+# sudo chmod a+wr /opt/spotify
+# sudo chmod a+wr /opt/spotify/Apps -R
 # spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_js 1
 # spicetify config current_theme Comfy
 # spicetify config color_scheme dynamic
