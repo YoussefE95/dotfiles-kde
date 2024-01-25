@@ -46,10 +46,10 @@ palette=(
     # $templates/gtk-3.sh "${palette[@]}" "$gtk"
     # $templates/gtk-4.sh "${palette[@]}" "$gtk"
 
-    $templates/alacritty.sh "${palette[@]}"
     $templates/code.sh "$code" "$mode"
     $templates/discord.sh "${palette[@]}"
     $templates/gtk.sh "$icon" "$gtk"
+    $templates/kitty.sh "${palette[@]}"
     $templates/plasma.sh "${palette[@]}" "$icon" "$wallpaper"
     $templates/spicetify.sh "${palette[@]}"
 } &> /dev/null
