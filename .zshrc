@@ -17,6 +17,7 @@ bindkey '^[[B' history-substring-search-down
 alias rang='source ranger'
 alias vpn='expressvpn'
 alias py='python3'
+alias clear='printf "\033[2J\033[3J\033[1;1H"'
 
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -24,3 +25,4 @@ source $HOME/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
+export ARDUINO_DIRECTORIES_USER=$HOME/Dropbox/Work/Arduino/
