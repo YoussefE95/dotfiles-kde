@@ -50,6 +50,7 @@ palette=(
     $templates/discord.sh "${palette[@]}"
     $templates/gtk.sh "$icon" "$gtk"
     $templates/kitty.sh "${palette[@]}"
+    $templates/obsidian.sh "${palette[@]}"
     $templates/plasma.sh "${palette[@]}" "$icon" "$wallpaper"
     $templates/spicetify.sh "${palette[@]}"
 } &> /dev/null
