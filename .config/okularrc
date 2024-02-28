@@ -1,0 +1,46 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[KFileDialog Settings]
+Recent Files[$e]=Homework 1.pdf,file:$HOME/Downloads/Homework 1.pdf
+Recent URLs[$e]=file:$HOME/Downloads/
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: Height=883
+1920x1080 screen: Width=1396
+1920x1080 screen: XPosition=260
+1920x1080 screen: YPosition=197
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAADIAAACcfwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAABLAAACcQAAAAMBAAACAAAFdAAAA0QAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP=eDP
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/CS5470-Syllabus-Handout-Spring-2024-1.pdf
+File10[$e]=$HOME/Downloads/The QUIC Transport Protocol Design and Internet-Scale Deployment - 8b935debf13bd176a08326738f5f88ad115a071e.pdf
+File2[$e]=$HOME/Downloads/DSI ACE PREP - Data Science Interview_ Prep for SQL, Panda, Python, R Language, Machine Learning, DBMS and RDBMS – And More – The Full Data Scientist Interview Handbook-Data Science Interview Boo.pdf
+File3[$e]=$HOME/Downloads/The Full Data Scientist Interview Handbook.pdf
+File4[$e]=$HOME/Downloads/SU6.pdf
+File5[$e]=$HOME/Downloads/student_employment_application-completed.pdf
+File6[$e]=$HOME/Lec02 Quiz CS 4660-01 (35846).pdf
+File7[$e]=$HOME/Downloads/Work -- James Suzman -- 2021 -- Penguin Publishing Group -- 6fa42b890d86bb77211f003f10de93b4 -- Anna’s Archive.epub
+File8[$e]=$HOME/Downloads/Homework 1.pdf
+File9[$e]=$HOME/Downloads/Lecture04.pdf
+Name1[$e]=CS5470-Syllabus-Handout-Spring-2024-1.pdf
+Name10[$e]=The QUIC Transport Protocol Design and Internet-Scale Deployment - 8b935debf13bd176a08326738f5f88ad115a071e.pdf
+Name2[$e]=DSI ACE PREP - Data Science Interview_ Prep for SQL, Panda, Python, R Language, Machine Learning, DBMS and RDBMS – And More – The Full Data Scientist Interview Handbook-Data Science Interview Boo.pdf
+Name3[$e]=The Full Data Scientist Interview Handbook.pdf
+Name4[$e]=SU6.pdf
+Name5[$e]=student_employment_application-completed.pdf
+Name6[$e]=Lec02 Quiz CS 4660-01 (35846).pdf
+Name7[$e]=Work -- James Suzman -- 2021 -- Penguin Publishing Group -- 6fa42b890d86bb77211f003f10de93b4 -- Anna’s Archive.epub
+Name8[$e]=Homework 1.pdf
+Name9[$e]=Lecture04.pdf
+
+[UiSettings]
+ColorScheme=

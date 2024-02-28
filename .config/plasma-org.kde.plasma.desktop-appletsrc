@@ -73,7 +73,7 @@ DialogHeight=510
 DialogWidth=680
 
 [Containments][24][ConfigDialog]
-DialogHeight=84
+DialogHeight=93
 DialogWidth=1920
 
 [Containments][24][General]
@@ -86,8 +86,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
-popupHeight=480
-popupWidth=480
+popupHeight=528
+popupWidth=528
 wallpaperplugin=org.kde.image
 
 [Containments][32][Applets][33][Configuration]
@@ -98,7 +98,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][32][Applets][34][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 
 [Containments][32][Applets][35]
 immutability=1
@@ -113,6 +113,9 @@ migrated=true
 [Containments][32][Applets][36]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][32][Applets][36][Configuration]
+PreloadWeight=75
 
 [Containments][32][Applets][37][Configuration]
 PreloadWeight=42
@@ -133,7 +136,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][32][Applets][52][Configuration]
-PreloadWeight=92
+PreloadWeight=5
 
 [Containments][32][Applets][53]
 immutability=1
@@ -231,7 +234,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][39][Applets][54][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][39][Applets][55]
 immutability=1
@@ -268,13 +271,17 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][46][ConfigDialog]
+DialogHeight=510
+DialogWidth=680
+
 [Containments][46][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=430
 ToolBoxButtonY=30
 
 [Containments][46][Wallpaper][org.kde.image][General]
-Image=/home/younix/Dropbox/Pictures/Wallpapers/rose-pine/dark/aleksandr-popov-ez4pqCpEfuI-unsplash.jpg
+Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/medium/joel-lee-i3gMcRIZUfc-unsplash.jpg
 
 [Containments][61]
 activityId=98179bdc-8893-4568-bfb5-ae10fa9e286a
@@ -286,7 +293,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][61][Wallpaper][org.kde.image][General]
-Image=/home/younix/Dropbox/Pictures/Wallpapers/rose-pine/dark/aleksandr-popov-ez4pqCpEfuI-unsplash.jpg
+Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/medium/joel-lee-i3gMcRIZUfc-unsplash.jpg
 
 [Containments][8]
 activityId=
@@ -339,7 +346,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][56][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][8][Applets][57]
 immutability=1
@@ -356,6 +363,10 @@ plugin=org.kde.kscreen
 [Containments][8][Applets][64]
 immutability=1
 plugin=org.kde.plasma.printmanager
+
+[Containments][8][Applets][66]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
 
 [Containments][8][Applets][67]
 immutability=1

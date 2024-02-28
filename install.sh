@@ -1,6 +1,6 @@
 yay -Syu
 
-yay -S kitty zsh starship ttf-hack ttf-hack-nerd ranger neofetch cmatrix nvtop htop discord dropbox obsidian visual-studio-code-bin expressvpn spotify spicetify-cli cmake extra-cmake-modules bc jq python-pipx python-pillow bluez bluedevil nodejs npm
+yay -S kitty zsh starship ttf-iosevka-nerd ranger neofetch cmatrix nvtop htop discord dropbox obsidian visual-studio-code-bin expressvpn spotify spicetify-cli cmake extra-cmake-modules bc jq python-pipx python-pillow bluez bluedevil nodejs npm
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions

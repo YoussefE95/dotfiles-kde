@@ -4,19 +4,25 @@ MenuBar=Disabled
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
 [ExtractDialog]
-DirHistory[$e]=$HOME/.local/share/icons/
+1920x1080 screen: Height=641
+1920x1080 screen: Width=1048
+DirHistory[$e]=$HOME/Dropbox/Work/Python/HomeworkOne/,$HOME/.local/share/icons/
 eDP1 Height 1920x1080 eDP1=530
 eDP1 Width 1920x1080 eDP1=1280
 
 [General]
+RememberOpenedTabs=false
 Version=202
 ViewPropsTimestamp=2023,1,3,12,57,41.419
+
+[IconsMode]
+PreviewSize=112
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
-Recent Files[$e]=file:$HOME
-Recent URLs[$e]=file:$HOME/.local/share/icons/,file:$HOME/.local/,file:$HOME/Downloads/,file:$HOME/,file:$HOME/.local/share/
+Recent Files[$e]=file:$HOME,file:$HOME/Dropbox/Work/Python/HomeworkOne
+Recent URLs[$e]=file:$HOME/.local/share/icons/,file:$HOME/.local/,file:$HOME/Downloads/,file:$HOME/,file:$HOME/.local/share/,file:$HOME/Dropbox/Work/Python/HomeworkOne/
 detailViewIconSize=16
 
 [KPropertiesDialog]
