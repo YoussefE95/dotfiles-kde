@@ -52,6 +52,7 @@ palette=(
     $templates/kitty.sh "${palette[@]}" &
     $templates/obsidian.sh "${palette[@]}" &
     $templates/okular.sh "${palette[@]}" &
+    # $templates/plasma-titlebars.sh "${palette[@]}" &
     $templates/plasma.sh "${palette[@]}" "$icon" "$wallpaper" &
     $templates/spicetify.sh "${palette[@]}" &
 } &> /dev/null
