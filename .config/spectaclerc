@@ -1,11 +1,5 @@
-[$Version]
-update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+[ImageSave]
+translatedScreenshotsFolder=Screenshots
 
-[GuiConfig]
-captureMode=0
-
-[KFileDialog Settings]
-detailViewIconSize=16
-
-[Save]
-lastSaveLocation=file:///home/younix/Screenshot_20240212_195717-1.png
+[VideoSave]
+translatedScreencastsFolder=Screencasts

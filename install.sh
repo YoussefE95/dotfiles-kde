@@ -22,6 +22,8 @@ cd plasma-theme-switcher
 ./build-release
 sudo cp cmake-build-release/plasma-theme /usr/local/bin/
 
+chsh -s $(which zsh)
+
 # set discord theme
 # ~/.local/bin/beautifuldiscord --css ~/.config/beautdisc/global_theme.css
 

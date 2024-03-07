@@ -1,39 +1,3 @@
-[KFileDialog Settings]
-detailViewIconSize=16
-
-[Main]
-ActiveView=systemsettings_icon_mode
-
 [MainWindow]
-1920x1080 screen: Height=884
-1920x1080 screen: Width=1224
-1920x1080 screen: XPosition=399
-1920x1080 screen: YPosition=133
-2 screens: Height=886
-2 screens: Width=1039
-2 screens: XPosition=2360
-2 screens: YPosition=126
-DP-2 DP-4=DP-2
-DP-2 DP-4 Height 2560x1440 DP-2=763
-DP-2 DP-4 Height 2560x1440 DP-4=763
-DP-2 DP-4 Width 2560x1440 DP-2=1129
-DP-2 DP-4 Width 2560x1440 DP-4=1129
-DP-2 DP-4 XPosition 2560x1440 DP-2=715
-DP-2 DP-4 XPosition 2560x1440 DP-4=2560
-DP-2 DP-4 YPosition 2560x1440 DP-2=341
-DP-2 DP-4 YPosition 2560x1440 DP-4=435
-HDMI-A-0 eDP=eDP
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABMgAAANGAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-eDP=eDP
-eDP-1=eDP-1
-eDP1=eDP1
-eDP1 Height 1920x1080 eDP1=932
-eDP1 Width 1920x1080 eDP1=1880
-eDP1 XPosition 1920x1080 eDP1=20
-eDP1 YPosition 1920x1080 eDP1=79
-
-[Open-with settings]
-CompletionMode=1
-History=not,firefox,ala
