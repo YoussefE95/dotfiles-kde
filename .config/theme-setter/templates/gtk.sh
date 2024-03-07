@@ -1,12 +1,4 @@
-xsettingsd_dir="$HOME/.config/xsettingsd/"
-xsettingsd_file="xsettingsd.conf"
-
-xsettingsd_output="$(cat << THEME
-Net/IconThemeName "$1"
-Net/ThemeName "$2"
-THEME
-)"
-
-printf '%s' "$xsettingsd_output" > "${xsettingsd_dir}${xsettingsd_file}"
-
-xsettingsd &
+gsettings set org.gnome.desktop.interface icon-theme "$1"
+# gsettings set org.gnome.desktop.interface cursor-theme "$2"
+gsettings set org.gnome.desktop.interface gtk-theme "$3"
+gsettings set org.gnome.desktop.wm.preferences theme "$3"

@@ -21,7 +21,7 @@ wallpapers="$HOME/Dropbox/Pictures/Wallpapers/$theme/$mode"
 wallpaper="$wallpapers/$(ls $wallpapers | sort -R | tail -1)"
 
 icon=$(jq ".\"$theme\".icons.\"$mode\"" "$theme_info" | sed 's/\"//g')
-# cursor=$(jq ".\"$theme\".cursors.\"$mode\"" "$theme_info" | sed 's/\"//g')
+cursor=$(jq ".\"$theme\".cursors.\"$mode\"" "$theme_info" | sed 's/\"//g')
 gtk=$(jq ".\"$theme\".gtk.\"$mode\"" "$theme_info" | sed 's/\"//g')
 code=$(jq ".\"$theme\".code.\"$mode\"" "$theme_info" | sed 's/\"//g')
 palette=(
@@ -48,7 +48,7 @@ palette=(
 
     $templates/code.sh "$code" "$mode" &
     $templates/discord.sh "${palette[@]}" &
-    $templates/gtk.sh "$icon" "$gtk" &
+    $templates/gtk.sh "$icon" "$cursor" "$gtk" &
     $templates/kitty.sh "${palette[@]}" &
     $templates/obsidian.sh "${palette[@]}" &
     $templates/okular.sh "${palette[@]}" &
