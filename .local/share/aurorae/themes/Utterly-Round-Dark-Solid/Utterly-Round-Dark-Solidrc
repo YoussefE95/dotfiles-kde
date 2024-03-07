@@ -1,7 +1,7 @@
 [General]
-ActiveTextColor=235,235,235
+ActiveTextColor=0,0,0,0
 Animation=0
-InactiveTextColor=215,215,215
+InactiveTextColor=0,0,0,0
 LeftButtons=XIA
 RightButtons=
 Shadow=false
@@ -19,10 +19,10 @@ ButtonWidth=15
 ButtonMarginTop=3
 ButtonSpacing=8
 ExplicitButtonSpacer=10
-PaddingBottom=10
-PaddingLeft=10
-PaddingRight=10
-PaddingTop=10
+PaddingBottom=15
+PaddingLeft=15
+PaddingRight=15
+PaddingTop=15
 TitleEdgeBottom=5
 TitleEdgeBottomMaximized=3
 TitleEdgeLeft=8
