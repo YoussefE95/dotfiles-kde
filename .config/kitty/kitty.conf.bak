@@ -1,0 +1,30 @@
+font_family      Iosevka Nerd Font Mono
+font_size 14.0
+text_composition_strategy legacy
+
+cursor_shape beam
+
+scrollback_lines 2000
+
+remember_window_size  no
+initial_window_width  1020
+initial_window_height 700
+
+window_padding_width 10
+
+tab_bar_edge top
+tab_bar_style powerline
+tab_powerline_style slanted
+active_tab_font_style   bold
+inactive_tab_font_style normal
+tab_title_max_length 25
+tab_title_template "{title[title.rfind('/')+1:]}"
+
+confirm_os_window_close 0
+
+map ctrl+shift+t new_tab_with_cwd
+
+# BEGIN_KITTY_THEME
+# Dynamic
+include current-theme.conf
+# END_KITTY_THEME

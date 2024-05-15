@@ -1,6 +1,6 @@
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=#7c6f64
+Color=#908caa
 ColorAmount=0.42500000000000004
 ColorEffect=2
 ContrastAmount=0.1
@@ -21,120 +21,120 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=#d8a657
-BackgroundNormal=#7c6f64
-DecorationFocus=#d8a657
-DecorationHover=#7c6f64
-ForegroundActive=#ddc7a1
-ForegroundInactive=#1b1b1b
-ForegroundLink=#7daea3
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+BackgroundAlternate=145,118,210
+BackgroundNormal=#908caa
+DecorationFocus=146,110,228
+DecorationHover=146,110,228
+ForegroundActive=146,110,228
+ForegroundInactive=#26233a
+ForegroundLink=146,110,228
+ForegroundNegative=#eb6f92
+ForegroundNeutral=#f6c177
+ForegroundNormal=#e0def4
+ForegroundPositive=#76a264
+ForegroundVisited=#c4a7e7
 
 [Colors:Complementary]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
-DecorationFocus=#d8a657
-DecorationHover=#7c6f64
-ForegroundActive=#ddc7a1
-ForegroundInactive=#7c6f64
-ForegroundLink=#7daea3
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+BackgroundAlternate=#191724
+BackgroundNormal=#191724
+DecorationFocus=146,110,228
+DecorationHover=146,110,228
+ForegroundActive=146,110,228
+ForegroundInactive=#908caa
+ForegroundLink=146,110,228
+ForegroundNegative=#eb6f92
+ForegroundNeutral=#f6c177
+ForegroundNormal=#e0def4
+ForegroundPositive=#76a264
+ForegroundVisited=#c4a7e7
 
 [Colors:Header]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
-DecorationFocus=#d8a657
-DecorationHover=#7c6f64
-ForegroundActive=#ddc7a1
-ForegroundInactive=#7c6f64
-ForegroundLink=#7daea3
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+BackgroundAlternate=#191724
+BackgroundNormal=#191724
+DecorationFocus=146,110,228
+DecorationHover=146,110,228
+ForegroundActive=146,110,228
+ForegroundInactive=#908caa
+ForegroundLink=146,110,228
+ForegroundNegative=#eb6f92
+ForegroundNeutral=#f6c177
+ForegroundNormal=#e0def4
+ForegroundPositive=#76a264
+ForegroundVisited=#c4a7e7
 
 [Colors:Selection]
-BackgroundAlternate=#e78a4e
-BackgroundNormal=#e78a4e
-DecorationFocus=#d8a657
-DecorationHover=#7c6f64
-ForegroundActive=#ddc7a1
-ForegroundInactive=#292828
-ForegroundLink=#7daea3
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#292828
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+BackgroundAlternate=109,83,170
+BackgroundNormal=109,83,170
+DecorationFocus=146,110,228
+DecorationHover=146,110,228
+ForegroundActive=146,110,228
+ForegroundInactive=255,255,255
+ForegroundLink=146,110,228
+ForegroundNegative=#eb6f92
+ForegroundNeutral=#f6c177
+ForegroundNormal=255,255,255
+ForegroundPositive=#76a264
+ForegroundVisited=#c4a7e7
 
 [Colors:Tooltip]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
-DecorationFocus=#d8a657
-DecorationHover=#7c6f64
-ForegroundActive=#ddc7a1
-ForegroundInactive=#7c6f64
-ForegroundLink=#7daea3
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+BackgroundAlternate=#191724
+BackgroundNormal=#191724
+DecorationFocus=146,110,228
+DecorationHover=146,110,228
+ForegroundActive=146,110,228
+ForegroundInactive=#908caa
+ForegroundLink=146,110,228
+ForegroundNegative=#eb6f92
+ForegroundNeutral=#f6c177
+ForegroundNormal=#e0def4
+ForegroundPositive=#76a264
+ForegroundVisited=#c4a7e7
 
 [Colors:View]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
-DecorationFocus=#d8a657
-DecorationHover=#7c6f64
-ForegroundActive=#ddc7a1
-ForegroundInactive=#7c6f64
-ForegroundLink=#7daea3
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+BackgroundAlternate=#191724
+BackgroundNormal=#191724
+DecorationFocus=146,110,228
+DecorationHover=146,110,228
+ForegroundActive=146,110,228
+ForegroundInactive=#908caa
+ForegroundLink=146,110,228
+ForegroundNegative=#eb6f92
+ForegroundNeutral=#f6c177
+ForegroundNormal=#e0def4
+ForegroundPositive=#76a264
+ForegroundVisited=#c4a7e7
 
 [Colors:Window]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
-DecorationFocus=#d8a657
-DecorationHover=#7c6f64
-ForegroundActive=#ddc7a1
-ForegroundInactive=#7c6f64
-ForegroundLink=#7daea3
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+BackgroundAlternate=#191724
+BackgroundNormal=#191724
+DecorationFocus=146,110,228
+DecorationHover=146,110,228
+ForegroundActive=146,110,228
+ForegroundInactive=#908caa
+ForegroundLink=146,110,228
+ForegroundNegative=#eb6f92
+ForegroundNeutral=#f6c177
+ForegroundNormal=#e0def4
+ForegroundPositive=#76a264
+ForegroundVisited=#c4a7e7
 
 [General]
-ColorSchemeHash=10507d72b1f4b170fc6aca9577c94f1ddf4d0838
+ColorSchemeHash=03794b8ad4ac02e135e13c38c180807b15c9e2c7
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=Iosevka Nerd Font Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Iosevka Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Iosevka Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+fixed=Iosevka Nerd Font Mono,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Iosevka Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Iosevka Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Iosevka Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=Iosevka Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Iosevka Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
-Theme=Newaita
+Theme=Papirus-Blue
 
 [KDE]
-LookAndFeelPackage=org.kde.breezedark.desktop
+LookAndFeelPackage=org.kde.breeze.desktop
 contrast=4
 
 [KFileDialog Settings]
@@ -157,11 +157,14 @@ Sort reversed=false
 Speedbar Width=104
 View Style=DetailTree
 
+[PreviewSettings]
+MaximumRemoteSize=0
+
 [WM]
-activeBackground=#292828
-activeBlend=#ddc7a1
-activeFont=Iosevka Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-activeForeground=#ddc7a1
-inactiveBackground=#292828
-inactiveBlend=#7c6f64
-inactiveForeground=#7c6f64
+activeBackground=25,23,36
+activeBlend=224,222,244
+activeFont=Iosevka Nerd Font,13,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeForeground=224,222,244
+inactiveBackground=25,23,36
+inactiveBlend=144,140,170
+inactiveForeground=144,140,170

@@ -15,10 +15,8 @@ BorderActivate=9
 
 [Plugins]
 desktopchangeosdEnabled=false
-fadedesktopEnabled=true
-slideEnabled=false
 synchronizeskipswitcherEnabled=false
-videowallEnabled=false
+videowallEnabled=true
 
 [Tiling]
 padding=4
@@ -42,5 +40,3 @@ Scale=1
 [org.kde.kdecoration2]
 ButtonsOnLeft=XIA
 ButtonsOnRight=
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Utterly-Round-Dark-Solid

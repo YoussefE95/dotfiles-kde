@@ -21,7 +21,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=445
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/medium/gigi--8HnCvSQum0-unsplash.jpg
+Image=file:///home/younix/Dropbox/Pictures/Wallpapers/rosepine/dark/mike-kononov-lFv0V3_2H6s-unsplash.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -38,9 +38,9 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][2][Applets][30][Configuration]
-PreloadWeight=76
+PreloadWeight=65
 configMigrated=true
-popupHeight=290
+popupHeight=291
 popupWidth=278
 
 [Containments][2][Applets][30][Configuration][ConfigDialog]
@@ -86,15 +86,15 @@ popupHeight=400
 popupWidth=560
 
 [Containments][2][Applets][44][Configuration][ConfigDialog]
-DialogHeight=570
-DialogWidth=760
+DialogHeight=600
+DialogWidth=800
 
 [Containments][2][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=70
+PreloadWeight=85
 SystrayContainmentId=8
 
 [Containments][2][General]
@@ -107,8 +107,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=456
-popupWidth=456
+popupHeight=480
+popupWidth=480
 wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][10]
@@ -156,14 +156,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=100
+PreloadWeight=70
 
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=76
+PreloadWeight=36
 
 [Containments][8][Applets][24]
 immutability=1
@@ -177,19 +177,25 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][35][Configuration]
-PreloadWeight=51
+PreloadWeight=19
+
+[Containments][8][Applets][45]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][8][Applets][45][Configuration]
+PreloadWeight=10
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42
 
 [Containments][8][ConfigDialog]
-DialogHeight=570
-DialogWidth=760
+DialogHeight=600
+DialogWidth=800
 
 [Containments][8][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.networkmanagement
 hiddenItems=firewall-applet,org.kde.plasma.bluetooth
-iconSpacing=1
 knownItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
 scaleIconsToFit=true
 shownItems=org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery
