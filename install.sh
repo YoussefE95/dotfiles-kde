@@ -1,6 +1,6 @@
 yay -Syu
 
-yay -S kitty zsh starship ttf-iosevka-nerd ranger neofetch cmatrix nvtop htop discord dropbox obsidian visual-studio-code-bin expressvpn spotify spicetify-cli cmake extra-cmake-modules bc jq python-pipx python-pillow bluez bluedevil nodejs npm
+yay -S kitty zsh starship ttf-iosevka-nerd neovim zathura zathura-pdf-poppler wl-clipboard ranger nvtop htop discord dropbox obsidian expressvpn spotify spicetify-cli cmake extra-cmake-modules bc jq python-pipx python-pillow bluez bluedevil nodejs npm
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
@@ -11,16 +11,10 @@ pipx install https://github.com/leovoel/BeautifulDiscord/archive/master.zip
 sudo rm -rf ~/Documents ~/Music ~/Public ~/Videos ~/Templates ~/Pictures
 
 sudo rsync -a .config .local .zshrc ~/
-sudo cp .config/theme-setter/set-theme /usr/local/bin/
+sudo cp .config/theme-setter/set-theme .config/theme-setter/get-theme /usr/local/bin/
 
 sudo systemctl enable bluetooth
 sudo systemctl enable expressvpn
-
-cd ~/Downloads/
-git clone https://github.com/maldoinc/plasma-theme-switcher
-cd plasma-theme-switcher
-./build-release
-sudo cp cmake-build-release/plasma-theme /usr/local/bin/
 
 chsh -s $(which zsh)
 

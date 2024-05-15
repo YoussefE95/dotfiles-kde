@@ -1,0 +1,8 @@
+#!/bin/bash
+parser="$HOME/.config/theme-setter/scripts/parser.sh"
+
+if [[ $1 == "--mode" ]]; then
+    $parser --mode
+else
+    $parser --theme
+fi
