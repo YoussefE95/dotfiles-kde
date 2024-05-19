@@ -1,6 +1,8 @@
-yay -Syu
+sudo pacman -Syu
 
-yay -S kitty zsh starship ttf-iosevka-nerd neovim zathura zathura-pdf-poppler wl-clipboard ranger nvtop htop discord dropbox obsidian expressvpn spotify spicetify-cli cmake extra-cmake-modules bc jq python-pipx python-pillow bluez bluedevil nodejs npm
+sudo pacman -S kitty zsh starship ttf-iosevka-nerd neovim ripgrep zathura zathura-pdf-poppler wl-clipboard ranger nvtop htop discord spotify-launcher obsidian jq nodejs npm python-pipx python-pillow
+# cmake extra-cmake-modules bluez bluedevil
+# AUR: dropbox expressvpn spotify spicetify-cli
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
@@ -14,7 +16,7 @@ sudo rsync -a .config .local .zshrc ~/
 sudo cp .config/theme-setter/set-theme .config/theme-setter/get-theme /usr/local/bin/
 
 sudo systemctl enable bluetooth
-sudo systemctl enable expressvpn
+#sudo systemctl enable expressvpn
 
 chsh -s $(which zsh)
 
