@@ -1,4 +1,59 @@
 {
+    "catppuccin": {
+        "nvim": "catppuccin",
+        "icons": {
+            "light": "Papirus-Green",
+            "medium": "Papirus-Blue",
+            "dark": "Papirus-Blue"
+        },
+        "palette": {
+            "light": {
+                "background": "eff1f5",
+                "backgroundAlt": "e6e9ef",
+                "foreground": "4c4f69",
+                "black": "4c4f69",
+                "white": "dce0e8",
+                "red": "d20f39",
+                "green": "40a02b",
+                "yellow": "df8e1d",
+                "blue": "1e66f5",
+                "magenta": "8839ef",
+                "cyan": "179299",
+                "orange": "fe640b",
+                "gray": "5c5f77"
+            },
+            "medium": {
+                "background": "24273a",
+                "backgroundAlt": "1e2030",
+                "foreground": "cad3f5",
+                "black": "181926",
+                "white": "b8c0e0",
+                "red": "ed8796",
+                "green": "a6da95",
+                "yellow": "eed49f",
+                "blue": "8aadf4",
+                "magenta": "c6a0f6",
+                "cyan": "8bd5ca",
+                "orange": "f5a97f",
+                "gray": "b8c0e0"
+            },
+            "dark": {
+                "background": "1e1e2e",
+                "backgroundAlt": "181825",
+                "foreground": "cdd6f4",
+                "black": "11111b",
+                "white": "a6adc8",
+                "red": "f38ba8",
+                "green": "a6e3a1",
+                "yellow": "f9e2af",
+                "blue": "89b4fa",
+                "magenta": "cba6f7",
+                "cyan": "94e2d5",
+                "orange": "fab387",
+                "gray": "585b70"
+            } 
+        }
+    },
     "everforest": {
         "nvim": "everforest",
         "icons": {

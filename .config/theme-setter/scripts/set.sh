@@ -39,13 +39,14 @@ palette=(
 )
 
 {
+    $setters/plasma.sh "${palette[@]}" "$icons" "$wallpapers/$wallpaper" &
     $setters/discord.sh "${palette[@]}" &
     $setters/gtk.sh "$theme-$mode" "$icons" &
     $setters/kitty.sh "${palette[@]}" &
+    $setters/konsole.sh "${palette[@]}" &
     $setters/nvim.sh "$nvim" "$mode" &
     $setters/obsidian.sh "${palette[@]}" &
     $setters/okular.sh "${palette[@]}" &
-    $setters/plasma.sh "${palette[@]}" "$icons" "$wallpapers/$wallpaper" &
     $setters/spicetify.sh "${palette[@]}" &
     $setters/zathura.sh "${palette[@]}" &
 } &> /dev/null

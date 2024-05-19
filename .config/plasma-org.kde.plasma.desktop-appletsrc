@@ -16,15 +16,19 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=445
+ToolBoxButtonState=top
+ToolBoxButtonX=420
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/younix/Dropbox/Pictures/Wallpapers/rosepine/dark/mike-kononov-lFv0V3_2H6s-unsplash.jpg
+Image=file:///home/younix/Dropbox/Pictures/Wallpapers/catppuccin/medium/evening-sky.png
 SlidePaths=/usr/share/wallpapers/
 
-[Containments][2]
+[Containments][51]
 activityId=
 formfactor=2
 immutability=1
@@ -33,72 +37,58 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][30]
-immutability=1
-plugin=org.kde.plasma.weather
-
-[Containments][2][Applets][30][Configuration]
-PreloadWeight=65
-configMigrated=true
-popupHeight=291
-popupWidth=278
-
-[Containments][2][Applets][30][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][30][Configuration][Units]
-pressureUnit=5028
-speedUnit=9002
-temperatureUnit=6002
-visibilityUnit=2024
-
-[Containments][2][Applets][30][Configuration][WeatherStation]
-source=wettercom|weather|Los Angeles, California, US|US0CA0627;Los Angeles
-
-[Containments][2][Applets][38]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][38][Configuration][General]
-expanding=false
-length=100
-
-[Containments][2][Applets][39]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][39][Configuration][General]
-expanding=false
-length=100
-
-[Containments][2][Applets][4]
+[Containments][51][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
 
-[Containments][2][Applets][44]
+[Containments][51][General]
+AppletOrder=4
+
+[Containments][56]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][56][Applets][55]
 immutability=1
 plugin=org.kde.plasma.fuzzyclock
 
-[Containments][2][Applets][44][Configuration]
-PreloadWeight=100
+[Containments][56][Applets][55][Configuration]
+PreloadWeight=75
+UserBackgroundHints=StandardBackground
 popupHeight=400
 popupWidth=560
 
-[Containments][2][Applets][44][Configuration][ConfigDialog]
+[Containments][56][Applets][55][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
-[Containments][2][Applets][7]
+[Containments][56][General]
+AppletOrder=55
+
+[Containments][57]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][57][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
-[Containments][2][Applets][7][Configuration]
-PreloadWeight=85
+[Containments][57][Applets][7][Configuration]
+PreloadWeight=100
 SystrayContainmentId=8
 
-[Containments][2][General]
-AppletOrder=4;39;30;44;38;7
+[Containments][57][General]
+AppletOrder=7
 
 [Containments][8]
 activityId=
@@ -107,8 +97,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=480
-popupWidth=480
+popupHeight=576
+popupWidth=576
 wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][10]
@@ -128,6 +118,9 @@ PreloadWeight=42
 [Containments][8][Applets][14]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][8][Applets][14][Configuration]
+PreloadWeight=100
 
 [Containments][8][Applets][15][Configuration]
 PreloadWeight=42
@@ -156,14 +149,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=70
+PreloadWeight=5
 
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=36
+PreloadWeight=5
 
 [Containments][8][Applets][24]
 immutability=1
@@ -177,14 +170,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][35][Configuration]
-PreloadWeight=19
+PreloadWeight=0
 
 [Containments][8][Applets][45]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][8][Applets][45][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42
@@ -197,8 +190,16 @@ DialogWidth=800
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.networkmanagement
 hiddenItems=firewall-applet,org.kde.plasma.bluetooth
 knownItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
-scaleIconsToFit=true
 shownItems=org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery
+
+[Containments1Appletsts][48][Configuration][Appearance]
+autoFontAndSize=false
+fontFamily=Iosevka Nerd Font
+fontSize=14
+fontStyleName=Regular
+fontWeight=400
+showDate=false
+showSeconds=Never
 
 [ScreenMapping]
 itemsOnDisabledScreens=

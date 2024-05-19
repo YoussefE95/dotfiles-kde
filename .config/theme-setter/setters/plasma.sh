@@ -1,3 +1,4 @@
+#!/bin/bash
 palette=("${@}")
 
 dest_dir="$HOME/.local/share/color-schemes/"
@@ -20,7 +21,7 @@ IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=112,111,110
+Color=#${palette[11]}
 ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
@@ -30,12 +31,12 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=#${palette[6]}
-BackgroundNormal=#${palette[11]}
-DecorationFocus=#${palette[6]}
-DecorationHover=#${palette[11]}
+BackgroundAlternate=#${palette[12]}
+BackgroundNormal=#${palette[12]}
+DecorationFocus=#${palette[8]}
+DecorationHover=#${palette[8]}
 ForegroundActive=#${palette[1]}
-ForegroundInactive=#${palette[2]}
+ForegroundInactive=#${palette[1]}
 ForegroundLink=#${palette[7]}
 ForegroundNegative=#${palette[4]}
 ForegroundNeutral=#${palette[6]}
@@ -58,8 +59,8 @@ ForegroundPositive=#${palette[5]}
 ForegroundVisited=#${palette[8]}
 
 [Colors:Header]
-BackgroundAlternate=#${palette[0]}
-BackgroundNormal=#${palette[0]}
+BackgroundAlternate=#${palette[12]}
+BackgroundNormal=#${palette[12]}
 DecorationFocus=#${palette[6]}
 DecorationHover=#${palette[11]}
 ForegroundActive=#${palette[1]}
@@ -115,8 +116,8 @@ ForegroundPositive=#${palette[5]}
 ForegroundVisited=#${palette[8]}
 
 [Colors:Window]
-BackgroundAlternate=#${palette[0]}
-BackgroundNormal=#${palette[0]}
+BackgroundAlternate=#${palette[12]}
+BackgroundNormal=#${palette[12]}
 DecorationFocus=#${palette[6]}
 DecorationHover=#${palette[11]}
 ForegroundActive=#${palette[1]}

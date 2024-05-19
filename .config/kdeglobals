@@ -1,6 +1,6 @@
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=#908caa
+Color=#b8c0e0
 ColorAmount=0.42500000000000004
 ColorEffect=2
 ContrastAmount=0.1
@@ -11,7 +11,7 @@ IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=112,111,110
+Color=#b8c0e0
 ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
@@ -21,114 +21,114 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=145,118,210
-BackgroundNormal=#908caa
+BackgroundAlternate=111,86,174
+BackgroundNormal=#1e2030
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
-ForegroundInactive=#26233a
+ForegroundInactive=#cad3f5
 ForegroundLink=146,110,228
-ForegroundNegative=#eb6f92
-ForegroundNeutral=#f6c177
-ForegroundNormal=#e0def4
-ForegroundPositive=#76a264
-ForegroundVisited=#c4a7e7
+ForegroundNegative=#ed8796
+ForegroundNeutral=#eed49f
+ForegroundNormal=#cad3f5
+ForegroundPositive=#a6da95
+ForegroundVisited=#c6a0f6
 
 [Colors:Complementary]
-BackgroundAlternate=#191724
-BackgroundNormal=#191724
+BackgroundAlternate=#24273a
+BackgroundNormal=#24273a
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
-ForegroundInactive=#908caa
+ForegroundInactive=#b8c0e0
 ForegroundLink=146,110,228
-ForegroundNegative=#eb6f92
-ForegroundNeutral=#f6c177
-ForegroundNormal=#e0def4
-ForegroundPositive=#76a264
-ForegroundVisited=#c4a7e7
+ForegroundNegative=#ed8796
+ForegroundNeutral=#eed49f
+ForegroundNormal=#cad3f5
+ForegroundPositive=#a6da95
+ForegroundVisited=#c6a0f6
 
 [Colors:Header]
-BackgroundAlternate=#191724
-BackgroundNormal=#191724
+BackgroundAlternate=#1e2030
+BackgroundNormal=#1e2030
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
-ForegroundInactive=#908caa
+ForegroundInactive=#b8c0e0
 ForegroundLink=146,110,228
-ForegroundNegative=#eb6f92
-ForegroundNeutral=#f6c177
-ForegroundNormal=#e0def4
-ForegroundPositive=#76a264
-ForegroundVisited=#c4a7e7
+ForegroundNegative=#ed8796
+ForegroundNeutral=#eed49f
+ForegroundNormal=#cad3f5
+ForegroundPositive=#a6da95
+ForegroundVisited=#c6a0f6
 
 [Colors:Selection]
-BackgroundAlternate=109,83,170
-BackgroundNormal=109,83,170
+BackgroundAlternate=113,88,177
+BackgroundNormal=113,88,177
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
 ForegroundInactive=255,255,255
 ForegroundLink=146,110,228
-ForegroundNegative=#eb6f92
-ForegroundNeutral=#f6c177
+ForegroundNegative=#ed8796
+ForegroundNeutral=#eed49f
 ForegroundNormal=255,255,255
-ForegroundPositive=#76a264
-ForegroundVisited=#c4a7e7
+ForegroundPositive=#a6da95
+ForegroundVisited=#c6a0f6
 
 [Colors:Tooltip]
-BackgroundAlternate=#191724
-BackgroundNormal=#191724
+BackgroundAlternate=#24273a
+BackgroundNormal=#24273a
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
-ForegroundInactive=#908caa
+ForegroundInactive=#b8c0e0
 ForegroundLink=146,110,228
-ForegroundNegative=#eb6f92
-ForegroundNeutral=#f6c177
-ForegroundNormal=#e0def4
-ForegroundPositive=#76a264
-ForegroundVisited=#c4a7e7
+ForegroundNegative=#ed8796
+ForegroundNeutral=#eed49f
+ForegroundNormal=#cad3f5
+ForegroundPositive=#a6da95
+ForegroundVisited=#c6a0f6
 
 [Colors:View]
-BackgroundAlternate=#191724
-BackgroundNormal=#191724
+BackgroundAlternate=#24273a
+BackgroundNormal=#24273a
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
-ForegroundInactive=#908caa
+ForegroundInactive=#b8c0e0
 ForegroundLink=146,110,228
-ForegroundNegative=#eb6f92
-ForegroundNeutral=#f6c177
-ForegroundNormal=#e0def4
-ForegroundPositive=#76a264
-ForegroundVisited=#c4a7e7
+ForegroundNegative=#ed8796
+ForegroundNeutral=#eed49f
+ForegroundNormal=#cad3f5
+ForegroundPositive=#a6da95
+ForegroundVisited=#c6a0f6
 
 [Colors:Window]
-BackgroundAlternate=#191724
-BackgroundNormal=#191724
+BackgroundAlternate=#1e2030
+BackgroundNormal=#1e2030
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
-ForegroundInactive=#908caa
+ForegroundInactive=#b8c0e0
 ForegroundLink=146,110,228
-ForegroundNegative=#eb6f92
-ForegroundNeutral=#f6c177
-ForegroundNormal=#e0def4
-ForegroundPositive=#76a264
-ForegroundVisited=#c4a7e7
+ForegroundNegative=#ed8796
+ForegroundNeutral=#eed49f
+ForegroundNormal=#cad3f5
+ForegroundPositive=#a6da95
+ForegroundVisited=#c6a0f6
 
 [General]
-ColorSchemeHash=03794b8ad4ac02e135e13c38c180807b15c9e2c7
+ColorSchemeHash=5518ee3f4963d246777b431add7a63c129f29aac
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=Iosevka Nerd Font Mono,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Iosevka Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Iosevka Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=Iosevka Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=Iosevka Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+fixed=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
+font=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
+menuFont=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
+smallestReadableFont=Iosevka Nerd Font Mono,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
+toolBarFont=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
 
 [Icons]
 Theme=Papirus-Blue
@@ -149,7 +149,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
@@ -161,10 +161,10 @@ View Style=DetailTree
 MaximumRemoteSize=0
 
 [WM]
-activeBackground=25,23,36
-activeBlend=224,222,244
-activeFont=Iosevka Nerd Font,13,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-activeForeground=224,222,244
-inactiveBackground=25,23,36
-inactiveBlend=144,140,170
-inactiveForeground=144,140,170
+activeBackground=36,39,58
+activeBlend=202,211,245
+activeFont=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
+activeForeground=202,211,245
+inactiveBackground=36,39,58
+inactiveBlend=184,192,224
+inactiveForeground=184,192,224

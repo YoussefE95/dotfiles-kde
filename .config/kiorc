@@ -1,6 +1,6 @@
 [Confirmations]
 ConfirmDelete=false
-ConfirmEmptyTrash=true
+ConfirmEmptyTrash=false
 ConfirmTrash=false
 
 [Executable scripts]

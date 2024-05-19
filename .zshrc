@@ -14,6 +14,7 @@ bindkey '^[[3~' delete-char
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
+alias vim='nvim'
 alias rang='source ranger'
 alias vpn='expressvpn'
 alias py='python3'

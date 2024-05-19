@@ -1,3 +1,6 @@
+[GuiConfig]
+captureMode=0
+
 [ImageSave]
 translatedScreenshotsFolder=Screenshots
 

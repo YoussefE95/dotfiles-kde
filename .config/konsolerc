@@ -1,0 +1,13 @@
+MenuBar=Disabled
+
+[Desktop Entry]
+DefaultProfile=younix.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[UiSettings]
+ColorScheme=

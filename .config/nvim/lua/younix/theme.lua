@@ -1,12 +1,11 @@
-require('rose-pine').setup({
-    dark_variant = 'main'
+require('catppuccin').setup({
+    flavour = 'macchiato'
 })
-vim.g.everforest_better_performance = 1
-vim.g.everforest_background = 'hard'
-
-vim.g.gruvbox_material_better_performance = 1
-vim.g.gruvbox_material_background = 'hard'
-
+require('rose-pine').setup({
+    dark_variant = 'moon'
+})
+vim.g.everforest_background = 'medium'
+vim.g.gruvbox_material_background = 'medium'
 vim.o.background = 'dark'
 
-vim.cmd('colorscheme rose-pine')
+vim.cmd('colorscheme catppuccin')

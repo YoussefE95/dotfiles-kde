@@ -16,7 +16,7 @@ BorderActivate=9
 [Plugins]
 desktopchangeosdEnabled=false
 synchronizeskipswitcherEnabled=false
-videowallEnabled=true
+videowallEnabled=false
 
 [Tiling]
 padding=4

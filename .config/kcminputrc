@@ -1,2 +1,11 @@
+[Libinput][2][14][ETPS/2 Elantech Touchpad]
+DisableWhileTyping=true
+NaturalScroll=false
+ScrollFactor=1
+
+[Libinput][2][14][ETPS/2 Elantech TrackPoint]
+NaturalScroll=false
+PointerAccelerationProfile=1
+
 [Mouse]
-cursorSize=30
+cursorSize=32

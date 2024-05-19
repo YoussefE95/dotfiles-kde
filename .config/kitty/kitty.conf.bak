@@ -1,4 +1,4 @@
-font_family      Iosevka Nerd Font Mono
+font_family Iosevka NFM SemiBold
 font_size 14.0
 text_composition_strategy legacy
 
@@ -7,8 +7,8 @@ cursor_shape beam
 scrollback_lines 2000
 
 remember_window_size  no
-initial_window_width  1020
-initial_window_height 700
+initial_window_width  1070
+initial_window_height 770
 
 window_padding_width 10
 

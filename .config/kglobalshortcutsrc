@@ -117,7 +117,7 @@ Walk Through Windows of Current Application Alternative=none,,Walk Through Windo
 Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
-Window Close=Meta+Q,Alt+F4,Close Window
+Window Close=Meta+Shift+Q,Alt+F4,Close Window
 Window Fullscreen=Meta+F,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
@@ -213,7 +213,7 @@ Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Incre
 Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Increase Screen Brightness
 Increase Screen Brightness Small=Shift+Monitor Brightness Up,Shift+Monitor Brightness Up,Increase Screen Brightness by 1%
 PowerDown=Power Down,Power Down,Power Down
-PowerOff=Power Off,Power Off,Power Off
+PowerOff=Meta+Del\tPower Off,Power Off,Power Off
 Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
 Turn Off Screen=none,none,Turn Off Screen
@@ -232,8 +232,8 @@ activate task manager entry 6=none,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
-activate widget 44=none,none,Activate Fuzzy Clock Widget
-activate widget 8=,none,Activate System Tray Widget
+activate widget 48=none,none,Activate Digital Clock Widget
+activate widget 8=none,none,Activate System Tray Widget
 cycle-panels=none,Meta+Alt+P,Move keyboard focus between panels
 manage activities=none,Meta+Q,Show Activity Switcher
 next activity=none,none,Walk through activities
@@ -255,6 +255,9 @@ _launch=none
 
 [services][org.kde.konsole.desktop]
 _launch=none
+
+[services][org.kde.krunner.desktop]
+_launch=Meta+Space\tAlt+Space\tSearch\tAlt+F2
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=none
