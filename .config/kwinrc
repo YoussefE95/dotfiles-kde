@@ -1,14 +1,14 @@
 [Desktops]
 Id_1=45f01092-6f6d-4fd4-a0d4-05c94fe1e0ad
-Id_2=f8a6a988-36ef-4c12-b78f-d104c2decdc1
-Id_3=392ae971-aee8-4856-9d8f-61e53c0b1c7b
-Id_4=87702c28-4981-46d1-a457-16e9ef4be49e
+Id_2=392ae971-aee8-4856-9d8f-61e53c0b1c7b
+Id_3=87702c28-4981-46d1-a457-16e9ef4be49e
+Id_4=c67c933a-d9a7-4b17-84d7-1a72d33a704b
 Name_1=1
 Name_2=2
 Name_3=3
 Name_4=4
 Number=4
-Rows=1
+Rows=4
 
 [Effect-overview]
 BorderActivate=9
@@ -31,8 +31,6 @@ EnablePrimarySelection=false
 AutoRaise=true
 AutoRaiseInterval=150
 DelayFocusInterval=100
-FocusPolicy=FocusFollowsMouse
-NextFocusPrefersMouse=true
 
 [Xwayland]
 Scale=1

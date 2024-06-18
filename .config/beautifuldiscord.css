@@ -18,18 +18,18 @@ pre > code {
     --background-primary: #24273a;
     --background-secondary: #1e2030;
     --background-tertiary: #1e2030;
-    --background-accent: #b8c0e0;
+    --background-accent: #1e2030;
     --text-normal: #cad3f5;
     --text-spotify: #a6da95
     --text-muted: #cad3f5;
     --text-link: #8aadf4;
-    --background-floating: #24273a;
+    --background-floating: #1e2030;
     --header-primary: #cad3f5;
     --header-secondary: #cad3f5;
     --header-spotify: #a6da95
     --interactive-normal: #cad3f5;
     --interactive-hover: #cad3f5;
-    --interactive-active: #a6da95
+    --interactive-active: #a6da95;
 }
 
 .theme-light {
@@ -428,7 +428,7 @@ div[class*="roleName"] {
 
 /** and the pill beside it */
 div[class*="pill"] > span[class*="item"] {
-    background-color: var(--background-primary)
+    background-color: var(--interactive-active)
 }
 
 /** Deleted Messages */

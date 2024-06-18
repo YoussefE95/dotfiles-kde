@@ -25,18 +25,18 @@ pre > code {
     --background-primary: #${palette[0]};
     --background-secondary: #${palette[12]};
     --background-tertiary: #${palette[12]};
-    --background-accent: #${palette[11]};
+    --background-accent: #${palette[12]};
     --text-normal: #${palette[1]};
     --text-spotify: #${palette[5]}
     --text-muted: #${palette[1]};
     --text-link: #${palette[7]};
-    --background-floating: #${palette[0]};
+    --background-floating: #${palette[12]};
     --header-primary: #${palette[1]};
     --header-secondary: #${palette[1]};
     --header-spotify: #${palette[5]}
     --interactive-normal: #${palette[1]};
     --interactive-hover: #${palette[1]};
-    --interactive-active: #${palette[5]}
+    --interactive-active: #${palette[5]};
 }
 
 .theme-light {
@@ -435,7 +435,7 @@ div[class*="roleName"] {
 
 /** and the pill beside it */
 div[class*="pill"] > span[class*="item"] {
-    background-color: var(--background-primary)
+    background-color: var(--interactive-active)
 }
 
 /** Deleted Messages */

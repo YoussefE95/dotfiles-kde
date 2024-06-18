@@ -3,7 +3,7 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=true
+ShowSidebar=false
 
 [MainWindow]
 ToolBarsMovable=Disabled
@@ -11,5 +11,7 @@ ToolBarsMovable=Disabled
 [Recent Files]
 File1[$e]=$HOME/Dropbox/Education/MS/CS5470/HW1/HW1.pdf
 File2[$e]=$HOME/Dropbox/Education/MS/CS5470/Computer_Networks.pdf
+File3[$e]=$HOME/Downloads/Elzein_AppointmentLetter_061024.pdf
 Name1[$e]=HW1.pdf
 Name2[$e]=Computer_Networks.pdf
+Name3[$e]=Elzein_AppointmentLetter_061024.pdf

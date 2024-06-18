@@ -22,27 +22,11 @@ DialogWidth=800
 
 [Containments][1][General]
 ToolBoxButtonState=top
-ToolBoxButtonX=420
+ToolBoxButtonX=479
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///home/younix/Dropbox/Pictures/Wallpapers/catppuccin/medium/evening-sky.png
 SlidePaths=/usr/share/wallpapers/
-
-[Containments][51]
-activityId=
-formfactor=2
-immutability=1
-lastScreen=0
-location=4
-plugin=org.kde.panel
-wallpaperplugin=org.kde.image
-
-[Containments][51][Applets][4]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][51][General]
-AppletOrder=4
 
 [Containments][56]
 activityId=
@@ -58,7 +42,7 @@ immutability=1
 plugin=org.kde.plasma.fuzzyclock
 
 [Containments][56][Applets][55][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 UserBackgroundHints=StandardBackground
 popupHeight=400
 popupWidth=560
@@ -72,12 +56,24 @@ AppletOrder=55
 
 [Containments][57]
 activityId=
-formfactor=2
+formfactor=3
 immutability=1
 lastScreen=0
-location=4
+location=5
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
+
+[Containments][57][Applets][4]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][57][Applets][69]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][57][Applets][69][Configuration][General]
+expanding=false
+length=10
 
 [Containments][57][Applets][7]
 immutability=1
@@ -87,15 +83,38 @@ plugin=org.kde.plasma.systemtray
 PreloadWeight=100
 SystrayContainmentId=8
 
+[Containments][57][Applets][70]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][57][Applets][70][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][57][Applets][70][Configuration][General]
+groupedTaskVisualization=2
+iconSpacing=0
+launchers=preferred://browser,applications:spotify-launcher.desktop,applications:discord.desktop,applications:kitty.desktop,preferred://filemanager,applications:steam.desktop
+showOnlyCurrentActivity=false
+showOnlyCurrentDesktop=false
+
+[Containments][57][Applets][71]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][57][Applets][71][Configuration][General]
+expanding=false
+length=10
+
 [Containments][57][General]
-AppletOrder=7
+AppletOrder=4;69;70;71;7
 
 [Containments][8]
 activityId=
-formfactor=2
+formfactor=3
 immutability=1
 lastScreen=0
-location=4
+location=5
 plugin=org.kde.plasma.private.systemtray
 popupHeight=576
 popupWidth=576
@@ -149,14 +168,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][8][Applets][24]
 immutability=1
@@ -177,7 +196,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][8][Applets][45][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=42
