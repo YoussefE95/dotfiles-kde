@@ -21,6 +21,7 @@ wallpapers="$HOME/Dropbox/Pictures/Wallpapers/$theme/$mode"
 wallpaper=$(ls $wallpapers | sort -R | tail -1)
 
 nvim=$($parser --nvim)
+cursors=$($parser --cursors)
 icons=$($parser --icons)
 palette=(
     "$($parser --palette background)"
@@ -39,7 +40,7 @@ palette=(
 )
 
 {
-    $setters/plasma.sh "${palette[@]}" "$icons" "$wallpapers/$wallpaper" &
+    $setters/plasma.sh "${palette[@]}" "$cursors" "$icons" "$wallpapers/$wallpaper" &
     $setters/discord.sh "${palette[@]}" &
     $setters/gtk.sh "$theme-$mode" "$icons" &
     $setters/kitty.sh "${palette[@]}" &

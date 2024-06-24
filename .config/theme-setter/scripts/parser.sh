@@ -32,6 +32,10 @@ get_nvim() {
     jq ".$(get_theme).nvim" "$themes" | sed 's/\"//g'
 }
 
+get_cursors() {
+    jq ".$(get_theme).cursors.$(get_mode)" "$themes" | sed 's/\"//g'
+}
+
 get_icons() {
     jq ".$(get_theme).icons.$(get_mode)" "$themes" | sed 's/\"//g'
 }
@@ -50,6 +54,8 @@ elif [ "$1" == "--mode" ]; then
     get_mode
 elif [ "$1" == "--nvim" ]; then
     get_nvim
+elif [ "$1" == "--cursors" ]; then
+    get_cursors
 elif [ "$1" == "--icons" ]; then
     get_icons
 elif [ "$1" == "--palette" ]; then

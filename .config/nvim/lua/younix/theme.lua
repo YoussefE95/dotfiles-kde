@@ -8,4 +8,4 @@ vim.g.everforest_background = 'medium'
 vim.g.gruvbox_material_background = 'medium'
 vim.o.background = 'dark'
 
-vim.cmd('colorscheme catppuccin')
+vim.cmd('colorscheme gruvbox-material')

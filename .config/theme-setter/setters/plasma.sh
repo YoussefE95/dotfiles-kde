@@ -5,7 +5,7 @@ dest_dir="$HOME/.local/share/color-schemes/"
 dest_file="BreezeLight.colors"
 
 # Wallpaper
-plasma-apply-wallpaperimage ${palette[14]}
+plasma-apply-wallpaperimage ${palette[15]}
 
 output="$(cat << THEME
 [ColorEffects:Disabled]
@@ -153,5 +153,8 @@ printf '%s' "$output" > "${dest_dir}${dest_file}"
 # Breeze Theme
 lookandfeeltool -a org.kde.breeze.desktop
 
+# Cursors
+plasma-apply-cursortheme "${palette[13]}" 
+
 # Icons
-/usr/lib/plasma-changeicons "${palette[13]}"
+/usr/lib/plasma-changeicons "${palette[14]}"

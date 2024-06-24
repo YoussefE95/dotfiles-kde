@@ -1,92 +1,92 @@
 [Background]
-Color=#24273a
+Color=#292828
 
 [BackgroundFaint]
-Color=#24273a
+Color=#292828
 
 [BackgroundIntense]
-Color=#24273a
+Color=#292828
 
 [Color0]
-Color=#b8c0e0
+Color=#7c6f64
 
 [Color0Faint]
-Color=#b8c0e0
+Color=#7c6f64
 
 [Color0Intense]
-Color=#b8c0e0
+Color=#7c6f64
 
 [Color1]
-Color=#ed8796
+Color=#ea6962
 
 [Color1Faint]
-Color=#ed8796
+Color=#ea6962
 
 [Color1Intense]
-Color=#ed8796
+Color=#ea6962
 
 [Color2]
-Color=#a6da95
+Color=#a9b665
 
 [Color2Faint]
-Color=#a6da95
+Color=#a9b665
 
 [Color2Intense]
-Color=#a6da95
+Color=#a9b665
 
 [Color3]
-Color=#eed49f
+Color=#d8a657
 
 [Color3Faint]
-Color=#eed49f
+Color=#d8a657
 
 [Color3Intense]
-Color=#eed49f
+Color=#d8a657
 
 [Color4]
-Color=#8aadf4
+Color=#7daea3
 
 [Color4Faint]
-Color=#8aadf4
+Color=#7daea3
 
 [Color4Intense]
-Color=#8aadf4
+Color=#7daea3
 
 [Color5]
-Color=#c6a0f6
+Color=#d3869b
 
 [Color5Faint]
-Color=#c6a0f6
+Color=#d3869b
 
 [Color5Intense]
-Color=#c6a0f6
+Color=#d3869b
 
 [Color6]
-Color=#8bd5ca
+Color=#89b482
 
 [Color6Faint]
-Color=#8bd5ca
+Color=#89b482
 
 [Color6Intense]
-Color=#8bd5ca
+Color=#89b482
 
 [Color7]
-Color=#cad3f5
+Color=#ddc7a1
 
 [Color7Faint]
-Color=#cad3f5
+Color=#ddc7a1
 
 [Color7Intense]
-Color=#cad3f5
+Color=#ddc7a1
 
 [Foreground]
-Color=#cad3f5
+Color=#ddc7a1
 
 [ForegroundFaint]
-Color=#cad3f5
+Color=#ddc7a1
 
 [ForegroundIntense]
-Color=#cad3f5
+Color=#ddc7a1
 
 [General]
 Description=Breeze

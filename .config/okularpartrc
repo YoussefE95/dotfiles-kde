@@ -2,8 +2,8 @@
 update_info=okular.upd:annotation-toolbar,okular.upd:builtin-annotations
 
 [Dlg Accessibility]
-RecolorBackground=36,39,58
-RecolorForeground=202,211,245
+RecolorBackground=41,40,40
+RecolorForeground=221,199,161
 
 [Document]
 ChangeColors=true
