@@ -8,14 +8,9 @@ sudo rsync -a .config .local .zshrc ~/
 sudo cp .config/theme-setter/set-theme .config/theme-setter/get-theme /usr/local/bin/
 
 # Update and install packages
-sudo pacman -Syu && sudo pacman -S kitty starship ttf-iosevka-nerd neovim ripgrep zathura zathura-pdf-poppler wl-clipboard ranger nvtop htop discord spotify-launcher obsidian jq nodejs npm python-pipx python-pillow zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting
-
-# Install Dropbox
-cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-# ~/.dropbox-dist/dropboxd
+yay -Syu && yay -S kitty starship ttf-iosevka-nerd neovim ripgrep zathura zathura-pdf-poppler wl-clipboard ranger nvtop htop expressvpn dropbox discord spotify-launcher spicetify-cli obsidian jq nodejs npm python-pipx python-pillow zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting
 
 # Install Spicetify
-curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
 # spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_js 1
 # spicetify config current_theme Comfy
 # spicetify config color_scheme dynamic
