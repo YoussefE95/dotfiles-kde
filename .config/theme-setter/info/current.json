@@ -1,4 +1,5 @@
 {
   "theme": "gruvbox",
-  "mode": "medium"
+  "mode": "medium",
+  "bg_opt": "ghibli"
 }

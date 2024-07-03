@@ -4,8 +4,9 @@ themes="$HOME/.config/theme-setter/info/themes.json"
 
 set() {
     tmp=$(mktemp)
-    jq --arg t "$1" '.theme = $t' $current > "$tmp" && mv "$tmp" $current
-    jq --arg m "$2" '.mode = $m' $current > "$tmp" && mv "$tmp" $current
+    jq --arg a "$1" '.theme = $a' $current > "$tmp" && mv "$tmp" $current
+    jq --arg a "$2" '.mode = $a' $current > "$tmp" && mv "$tmp" $current
+    jq --arg a "$3" '.bg_opt = $a' $current > "$tmp" && mv "$tmp" $current
 }
 
 is_valid_theme() {
@@ -28,6 +29,10 @@ get_mode() {
     echo "$(jq ".mode" "$current" | sed 's/\"//g')"
 }
 
+get_bg_opt() {
+    echo "$(jq ".bg_opt" "$current" | sed 's/\"//g')"
+}
+
 get_nvim() {
     jq ".$(get_theme).nvim" "$themes" | sed 's/\"//g'
 }
@@ -45,7 +50,7 @@ get_palette() {
 }
 
 if [ "$1" == "--set" ]; then
-    set $2 $3
+    set $2 $3 $4
 elif [ "$1" == "--is-valid" ]; then
     is_valid_theme $2
 elif [ "$1" == "--theme" ]; then

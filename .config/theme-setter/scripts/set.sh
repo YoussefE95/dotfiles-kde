@@ -15,9 +15,15 @@ else
     mode="$2"
 fi
 
-$parser --set $theme $mode
+if [ "$3" != "" ]; then
+    bg_opt="/ghibli/"
+else
+    bg_opt="/"
+fi
 
-wallpapers="$HOME/Dropbox/Pictures/Wallpapers/$theme/$mode"
+$parser --set $theme $mode $(echo "$bg_opt" | sed 's/\///g')
+
+wallpapers="$HOME/Dropbox/Pictures/Wallpapers/$theme$bg_opt$mode"
 wallpaper=$(ls $wallpapers | sort -R | tail -1)
 
 nvim=$($parser --nvim)
