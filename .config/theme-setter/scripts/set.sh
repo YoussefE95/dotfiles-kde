@@ -43,7 +43,7 @@ palette=(
 )
 
 {
-    $setters/wallpaper.sh "$theme" "$mode" "$(echo "$bg_opt" | sed 's/\///g')" &
+    $setters/wallpaper.sh
     $setters/plasma.sh "${palette[@]}" "$cursors" "$icons" &
     $setters/discord.sh "${palette[@]}" &
     $setters/gtk.sh "$theme-$mode" "$icons" &

@@ -1,5 +1,6 @@
 {
   "theme": "gruvbox",
   "mode": "medium",
-  "bg_opt": "ghibli"
+  "bg_opt": "ghibli",
+  "bg": "howl010.jpg"
 }
