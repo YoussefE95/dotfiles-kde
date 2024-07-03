@@ -4,9 +4,6 @@ palette=("${@}")
 dest_dir="$HOME/.local/share/color-schemes/"
 dest_file="BreezeLight.colors"
 
-# Wallpaper
-plasma-apply-wallpaperimage ${palette[15]}
-
 output="$(cat << THEME
 [ColorEffects:Disabled]
 Color=#${palette[11]}

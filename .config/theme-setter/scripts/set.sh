@@ -15,16 +15,13 @@ else
     mode="$2"
 fi
 
-if [ "$3" != "" ]; then
+if [ "$3" == "ghibli" ]; then
     bg_opt="/ghibli/"
 else
     bg_opt="/"
 fi
 
 $parser --set $theme $mode $(echo "$bg_opt" | sed 's/\///g')
-
-wallpapers="$HOME/Dropbox/Pictures/Wallpapers/$theme$bg_opt$mode"
-wallpaper=$(ls $wallpapers | sort -R | tail -1)
 
 nvim=$($parser --nvim)
 cursors=$($parser --cursors)
@@ -46,7 +43,8 @@ palette=(
 )
 
 {
-    $setters/plasma.sh "${palette[@]}" "$cursors" "$icons" "$wallpapers/$wallpaper" &
+    $setters/wallpaper.sh "$theme" "$mode" "$(echo "$bg_opt" | sed 's/\///g')" &
+    $setters/plasma.sh "${palette[@]}" "$cursors" "$icons" &
     $setters/discord.sh "${palette[@]}" &
     $setters/gtk.sh "$theme-$mode" "$icons" &
     $setters/kitty.sh "${palette[@]}" &

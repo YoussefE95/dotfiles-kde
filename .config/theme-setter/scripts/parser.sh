@@ -57,6 +57,8 @@ elif [ "$1" == "--theme" ]; then
     get_theme
 elif [ "$1" == "--mode" ]; then
     get_mode
+elif [ "$1" == "--bg_opt" ]; then
+    get_bg_opt
 elif [ "$1" == "--nvim" ]; then
     get_nvim
 elif [ "$1" == "--cursors" ]; then
