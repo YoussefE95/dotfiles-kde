@@ -33,7 +33,7 @@ set notification-warning-bg "#7daea3"
 set notification-warning-fg "#ddc7a1"
 
 set highlight-color "#d3869b"
-set highlight-active-color "#292828"
+set highlight-active-color "#ddc7a1"
 
 set completion-highlight-fg "#ddc7a1"
 set completion-highlight-bg "#1b1b1b"

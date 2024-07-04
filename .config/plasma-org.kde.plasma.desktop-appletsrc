@@ -25,7 +25,8 @@ ToolBoxButtonState=top
 ToolBoxButtonX=479
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/younix/Dropbox/Pictures/Wallpapers/gruvbox/medium/kevin-schmid-6GogXRh4blw-unsplash.jpg
+Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/ghibli/medium/mimi031.jpg
+PreviewImage=/usr/share/wallpapers/EndeavourOS/
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][56]
@@ -41,20 +42,6 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.pager
 
-[Containments][56][Applets][55]
-immutability=1
-plugin=org.kde.plasma.fuzzyclock
-
-[Containments][56][Applets][55][Configuration]
-PreloadWeight=100
-UserBackgroundHints=StandardBackground
-popupHeight=400
-popupWidth=560
-
-[Containments][56][Applets][55][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][56][Applets][93]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -63,8 +50,27 @@ plugin=org.kde.plasma.panelspacer
 expanding=false
 length=10
 
+[Containments][56][Applets][96]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][56][Applets][96][Configuration]
+PreloadWeight=100
+UserBackgroundHints=StandardBackground
+popupHeight=500
+popupWidth=560
+
+[Containments][56][Applets][96][Configuration][Appearance]
+fontFamily=JetBrains Mono
+fontSize=11
+fontWeight=400
+
+[Containments][56][Applets][96][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][56][General]
-AppletOrder=55;93;4
+AppletOrder=96;93;4
 
 [Containments][72]
 activityId=
@@ -80,7 +86,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][72][Applets][75][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 SystrayContainmentId=76
 
 [Containments][72][General]
@@ -93,13 +99,12 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=480
-popupWidth=480
+popupHeight=528
+popupWidth=528
 wallpaperplugin=org.kde.image
 
-[Containments][76][Applets][77]
-immutability=1
-plugin=org.kde.kdeconnect
+[Containments][76][Applets][77][Configuration]
+PreloadWeight=42
 
 [Containments][76][Applets][78]
 immutability=1
@@ -119,6 +124,9 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][76][Applets][82][Configuration]
+PreloadWeight=100
+
 [Containments][76][Applets][83]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
@@ -127,9 +135,8 @@ plugin=org.kde.plasma.keyboardindicator
 immutability=1
 plugin=org.kde.kscreen
 
-[Containments][76][Applets][85]
-immutability=1
-plugin=org.kde.plasma.keyboardlayout
+[Containments][76][Applets][85][Configuration]
+PreloadWeight=42
 
 [Containments][76][Applets][86]
 immutability=1
@@ -150,28 +157,28 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=51
+PreloadWeight=14
 
 [Containments][76][Applets][89]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][89][Configuration]
-PreloadWeight=41
+PreloadWeight=2
 
 [Containments][76][Applets][90]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=72
+PreloadWeight=20
 
 [Containments][76][Applets][91]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][76][Applets][91][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 
 [Containments][76][Applets][92]
 immutability=1
@@ -193,14 +200,22 @@ visibilityUnit=2024
 [Containments][76][Applets][92][Configuration][WeatherStation]
 source=wettercom|weather|Montclair, California, US|US0CA0709;Montclair
 
+[Containments][76][Applets][94]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][76][Applets][94][Configuration]
+PreloadWeight=0
+
 [Containments][76][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
 [Containments][76][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.notifications
-hiddenItems=firewall-applet,Xwayland Video Bridge_pipewireToXProxy
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.notifications
+hiddenItems=firewall-applet
 knownItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
+shownItems=dropbox-client-PID,org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery
 
 [Containments][8]
 activityId=
@@ -312,6 +327,31 @@ extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.bright
 hiddenItems=firewall-applet,org.kde.plasma.bluetooth
 knownItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
 shownItems=org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery
+
+[Containments][94]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][94][Applets][95]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][94][Applets][95][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][94][Applets][95][Configuration][General]
+launchers=applications:firefox.desktop,applications:spotify-launcher.desktop,applications:discord.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:dev.goats.xivlauncher.desktop
+showOnlyCurrentActivity=false
+showOnlyCurrentDesktop=false
+
+[Containments][94][General]
+AppletOrder=95
 
 [Containments1Appletsts][48][Configuration][Appearance]
 autoFontAndSize=false

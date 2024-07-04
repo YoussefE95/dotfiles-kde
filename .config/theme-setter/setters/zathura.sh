@@ -21,7 +21,7 @@ sed -i "s/.*notification-bg.*/set notification-bg \"#${palette[12]}\"/" $zathura
 sed -i "s/.*notification-fg.*/set notification-fg \"#${palette[1]}\"/" $zathura
 
 sed -i "s/.*highlight-color .*/set highlight-color \"#${palette[8]}\"/" $zathura
-sed -i "s/.*highlight-active-color.*/set highlight-active-color \"#${palette[0]}\"/" $zathura
+sed -i "s/.*highlight-active-color.*/set highlight-active-color \"#${palette[1]}\"/" $zathura
 
 sed -i "s/.*completion-highlight-bg.*/set completion-highlight-bg \"#${palette[12]}\"/" $zathura
 sed -i "s/.*completion-highlight-fg.*/set completion-highlight-fg \"#${palette[1]}\"/" $zathura

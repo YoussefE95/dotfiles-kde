@@ -118,17 +118,21 @@ ForegroundNormal=#ddc7a1
 ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
+[DirSelect Dialog]
+DirSelectDialog Size=797,588
+History Items[$e]=file:$HOME/Dropbox/Documents/Vault,file:$HOME/Dropbox/Documents/Obsidian Vault
+
 [General]
-ColorSchemeHash=5518ee3f4963d246777b431add7a63c129f29aac
+ColorSchemeHash=3643a9d579fd1dccd0de1e2f77d58d4b38ea24ad
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
-font=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
-menuFont=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
-smallestReadableFont=Iosevka Nerd Font Mono,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
-toolBarFont=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
+fixed=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=JetBrains Mono,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
 Theme=Papirus-Brown
@@ -164,7 +168,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=41,40,40
 activeBlend=221,199,161
-activeFont=Iosevka Nerd Font Mono,12,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold
+activeFont=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=221,199,161
 inactiveBackground=41,40,40
 inactiveBlend=124,111,100
