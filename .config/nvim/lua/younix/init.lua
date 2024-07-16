@@ -24,3 +24,8 @@ vim.api.nvim_create_autocmd('VimEnter', {
     pattern = '*',
     command = ':PetsNewCustom dog brown Peanut'
 })
+
+vim.api.nvim_create_autocmd('VimEnter', {
+    pattern = '*',
+    command = ':PetsNewCustom slime blue Blu'
+})

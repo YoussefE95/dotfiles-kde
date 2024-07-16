@@ -8,19 +8,9 @@ vim.keymap.set('n', '<leader>fs', function()
 	telescopeApi.grep_string({ search = vim.fn.input('Grep > ')});
 end)
 
-vim.keymap.set('n', '<leader>rain', function()
-    vim.api.nvim_create_autocmd('VimEnter', {
-        pattern = '*',
-        command = 'treeApi.tree.toggle'
-    })
-    vim.api.nvim_create_autocmd('VimEnter', {
-        pattern = '*',
-        command = ':CellularAutomaton make_it_rain'
-    })
-end)
-
-vim.keymap.set('n', '<leader>game', ':CellularAutomaton game_of_life<CR>')
-vim.keymap.set('n', '<leader>sp', ':PetsNewCustom dog brown Peanut<CR>', { silent = true })
+vim.keymap.set('n', '<leader>rain', ':CellularAutomaton make_it_rain<CR>', { silent = true })
+vim.keymap.set('n', '<leader>game', ':CellularAutomaton game_of_life<CR>', { silent = true })
+vim.keymap.set('n', '<leader>sp', ':PetsNewCustom dog brown Peanut<CR>:PetsNewCustom slime blue Blu<CR>', { silent = true })
 vim.keymap.set('n', '<leader>kp', ':PetsKillAll<CR>', { silent = true })
 
 vim.keymap.set('n', '<leader>st', ':so ~/.config/nvim/lua/younix/theme.lua<CR>', { silent = true })
