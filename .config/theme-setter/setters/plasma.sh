@@ -6,7 +6,7 @@ dest_file="BreezeLight.colors"
 
 output="$(cat << THEME
 [ColorEffects:Disabled]
-Color=#${palette[11]}
+Color=#${palette[3]}
 ColorAmount=0.15000000000000002
 ColorEffect=1
 ColorAmount=0.42500000000000004
@@ -18,7 +18,7 @@ IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=#${palette[11]}
+Color=#${palette[3]}
 ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
@@ -28,16 +28,16 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=#${palette[12]}
-BackgroundNormal=#${palette[12]}
+BackgroundAlternate=#${palette[1]}
+BackgroundNormal=#${palette[1]}
 DecorationFocus=#${palette[8]}
 DecorationHover=#${palette[8]}
-ForegroundActive=#${palette[1]}
-ForegroundInactive=#${palette[1]}
+ForegroundActive=#${palette[2]}
+ForegroundInactive=#${palette[2]}
 ForegroundLink=#${palette[7]}
 ForegroundNegative=#${palette[4]}
 ForegroundNeutral=#${palette[6]}
-ForegroundNormal=#${palette[1]}
+ForegroundNormal=#${palette[2]}
 ForegroundPositive=#${palette[5]}
 ForegroundVisited=#${palette[8]}
 
@@ -45,27 +45,27 @@ ForegroundVisited=#${palette[8]}
 BackgroundAlternate=#${palette[0]}
 BackgroundNormal=#${palette[0]}
 DecorationFocus=#${palette[6]}
-DecorationHover=#${palette[11]}
-ForegroundActive=#${palette[1]}
-ForegroundInactive=#${palette[11]}
+DecorationHover=#${palette[3]}
+ForegroundActive=#${palette[2]}
+ForegroundInactive=#${palette[3]}
 ForegroundLink=#${palette[7]}
 ForegroundNegative=#${palette[4]}
 ForegroundNeutral=#${palette[6]}
-ForegroundNormal=#${palette[1]}
+ForegroundNormal=#${palette[2]}
 ForegroundPositive=#${palette[5]}
 ForegroundVisited=#${palette[8]}
 
 [Colors:Header]
-BackgroundAlternate=#${palette[12]}
-BackgroundNormal=#${palette[12]}
+BackgroundAlternate=#${palette[1]}
+BackgroundNormal=#${palette[1]}
 DecorationFocus=#${palette[6]}
-DecorationHover=#${palette[11]}
-ForegroundActive=#${palette[1]}
-ForegroundInactive=#${palette[11]}
+DecorationHover=#${palette[3]}
+ForegroundActive=#${palette[2]}
+ForegroundInactive=#${palette[3]}
 ForegroundLink=#${palette[7]}
 ForegroundNegative=#${palette[4]}
 ForegroundNeutral=#${palette[6]}
-ForegroundNormal=#${palette[1]}
+ForegroundNormal=#${palette[2]}
 ForegroundPositive=#${palette[5]}
 ForegroundVisited=#${palette[8]}
 
@@ -73,10 +73,10 @@ ForegroundVisited=#${palette[8]}
 BackgroundAlternate=#${palette[10]}
 BackgroundNormal=#${palette[10]}
 DecorationFocus=#${palette[6]}
-DecorationHover=#${palette[11]}
+DecorationHover=#${palette[3]}
 ForegroundLink=#${palette[7]}
 ForegroundInactive=#${palette[0]}
-ForegroundActive=#${palette[1]}
+ForegroundActive=#${palette[2]}
 ForegroundLink=#${palette[7]}
 ForegroundNegative=#${palette[4]}
 ForegroundNeutral=#${palette[6]}
@@ -88,13 +88,13 @@ ForegroundVisited=#${palette[8]}
 BackgroundAlternate=#${palette[0]}
 BackgroundNormal=#${palette[0]}
 DecorationFocus=#${palette[6]}
-DecorationHover=#${palette[11]}
-ForegroundActive=#${palette[1]}
-ForegroundInactive=#${palette[11]}
+DecorationHover=#${palette[3]}
+ForegroundActive=#${palette[2]}
+ForegroundInactive=#${palette[3]}
 ForegroundLink=#${palette[7]}
 ForegroundNegative=#${palette[4]}
 ForegroundNeutral=#${palette[6]}
-ForegroundNormal=#${palette[1]}
+ForegroundNormal=#${palette[2]}
 ForegroundPositive=#${palette[5]}
 ForegroundVisited=#${palette[8]}
 
@@ -102,27 +102,27 @@ ForegroundVisited=#${palette[8]}
 BackgroundAlternate=#${palette[0]}
 BackgroundNormal=#${palette[0]}
 DecorationFocus=#${palette[6]}
-DecorationHover=#${palette[11]}
-ForegroundActive=#${palette[1]}
-ForegroundInactive=#${palette[11]}
+DecorationHover=#${palette[3]}
+ForegroundActive=#${palette[2]}
+ForegroundInactive=#${palette[3]}
 ForegroundLink=#${palette[7]}
 ForegroundNegative=#${palette[4]}
 ForegroundNeutral=#${palette[6]}
-ForegroundNormal=#${palette[1]}
+ForegroundNormal=#${palette[2]}
 ForegroundPositive=#${palette[5]}
 ForegroundVisited=#${palette[8]}
 
 [Colors:Window]
-BackgroundAlternate=#${palette[12]}
-BackgroundNormal=#${palette[12]}
+BackgroundAlternate=#${palette[1]}
+BackgroundNormal=#${palette[1]}
 DecorationFocus=#${palette[6]}
-DecorationHover=#${palette[11]}
-ForegroundActive=#${palette[1]}
-ForegroundInactive=#${palette[11]}
+DecorationHover=#${palette[3]}
+ForegroundActive=#${palette[2]}
+ForegroundInactive=#${palette[3]}
 ForegroundLink=#${palette[7]}
 ForegroundNegative=#${palette[4]}
 ForegroundNeutral=#${palette[6]}
-ForegroundNormal=#${palette[1]}
+ForegroundNormal=#${palette[2]}
 ForegroundPositive=#${palette[5]}
 ForegroundVisited=#${palette[8]}
 
@@ -137,11 +137,11 @@ contrast=4
 
 [WM]
 activeBackground=#${palette[0]}
-activeBlend=#${palette[1]}
-activeForeground=#${palette[1]}
+activeBlend=#${palette[2]}
+activeForeground=#${palette[2]}
 inactiveBackground=#${palette[0]}
-inactiveBlend=#${palette[11]}
-inactiveForeground=#${palette[11]}
+inactiveBlend=#${palette[3]}
+inactiveForeground=#${palette[3]}
 THEME
 )"
 
@@ -151,7 +151,7 @@ printf '%s' "$output" > "${dest_dir}${dest_file}"
 lookandfeeltool -a org.kde.breeze.desktop
 
 # Cursors
-plasma-apply-cursortheme "${palette[13]}" 
+# plasma-apply-cursortheme "${palette[13]}" 
 
 # Icons
-/usr/lib/plasma-changeicons "${palette[14]}"
+# /usr/lib/plasma-changeicons "${palette[14]}"

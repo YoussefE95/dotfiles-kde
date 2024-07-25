@@ -15,13 +15,13 @@ Color=#${palette[0]}
 Color=#${palette[0]}
 
 [Color0]
-Color=#${palette[11]}
+Color=#${palette[3]}
 
 [Color0Faint]
-Color=#${palette[11]}
+Color=#${palette[3]}
 
 [Color0Intense]
-Color=#${palette[11]}
+Color=#${palette[3]}
 
 [Color1]
 Color=#${palette[4]}
@@ -78,22 +78,22 @@ Color=#${palette[9]}
 Color=#${palette[9]}
 
 [Color7]
-Color=#${palette[1]}
+Color=#${palette[2]}
 
 [Color7Faint]
-Color=#${palette[1]}
+Color=#${palette[2]}
 
 [Color7Intense]
-Color=#${palette[1]}
+Color=#${palette[2]}
 
 [Foreground]
-Color=#${palette[1]}
+Color=#${palette[2]}
 
 [ForegroundFaint]
-Color=#${palette[1]}
+Color=#${palette[2]}
 
 [ForegroundIntense]
-Color=#${palette[1]}
+Color=#${palette[2]}
 
 [General]
 Description=Breeze

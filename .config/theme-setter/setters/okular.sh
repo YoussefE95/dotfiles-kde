@@ -5,7 +5,7 @@ dest_dir="$HOME/.config/"
 dest_file="okularpartrc"
 
 back=$(printf "%d,%d,%d\n" 0x${palette[0]:0:2} 0x${palette[0]:2:2} 0x${palette[0]:4:2})
-fore=$(printf "%d,%d,%d\n" 0x${palette[1]:0:2} 0x${palette[1]:2:2} 0x${palette[1]:4:2})
+fore=$(printf "%d,%d,%d\n" 0x${palette[2]:0:2} 0x${palette[2]:2:2} 0x${palette[2]:4:2})
 
 output="$(cat << THEME
 [$Version]

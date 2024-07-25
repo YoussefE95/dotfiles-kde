@@ -1,6 +1,5 @@
 {
-  "theme": "gruvbox",
-  "mode": "medium",
-  "bg_opt": "ghibli",
-  "bg": "totoro031.jpg"
+  "mode": "dark",
+  "tone": "soft",
+  "bg": "2024-06-28T08.49.37.jpg"
 }

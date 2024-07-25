@@ -7,36 +7,36 @@ dest_file="theme.css"
 output="$(cat << THEME
 :root
 {
-    --dark0-hard_x:     #${palette[12]};
+    --dark0-hard_x:     #${palette[1]};
     --dark0-hard:       var(--dark0-hard_x);
     --dark0_x:          #${palette[0]};
     --dark0:            var(--dark0_x);
     --dark0-soft_x:     #${palette[0]};
     --dark0-soft:       var(--dark0-soft_x);
-    --dark1_x:          #${palette[12]}; 
+    --dark1_x:          #${palette[1]}; 
     --dark1:            var(--dark1_x);
-    --dark2_x:          #${palette[11]};
+    --dark2_x:          #${palette[3]};
     --dark2:            var(--dark2_x);
-    --dark3_x:          #${palette[11]};
+    --dark3_x:          #${palette[3]};
     --dark3:            var(--dark3_x);
-    --dark4_x:          #${palette[11]};
+    --dark4_x:          #${palette[3]};
     --dark4:            var(--dark4_x);
-    --gray_x:           #${palette[11]};
+    --gray_x:           #${palette[3]};
     --gray:             var(--gray_x);
 
-    --light0-hard_x:    #${palette[1]};
+    --light0-hard_x:    #${palette[2]};
     --light0-hard:      var(--light0-hard_x);
-    --light0_x:         #${palette[1]};
+    --light0_x:         #${palette[2]};
     --light0:           var(--light0_x);
-    --light0-soft_x:    #${palette[1]};
+    --light0-soft_x:    #${palette[2]};
     --light0-soft:      var(--light0-soft_x);
-    --light1_x:         #${palette[1]};
+    --light1_x:         #${palette[2]};
     --light1:           var(--light1_x);
-    --light2_x:         #${palette[1]};
+    --light2_x:         #${palette[2]};
     --light2:           var(--light2_x);
-    --light3_x:         #${palette[1]};
+    --light3_x:         #${palette[2]};
     --light3:           var(--light3_x);
-    --light4_x:         #${palette[1]};
+    --light4_x:         #${palette[2]};
     --light4:           var(--light4_x);
 
     --bright-red_x:     #${palette[4]};
@@ -137,7 +137,7 @@ body
     --background-secondary-alt:      var(--dark1);
     --background-modifier-border:    var(--dark1);
 
-    --cursor-line-background:        #${palette[12]}60;
+    --cursor-line-background:        #${palette[1]}60;
 
     --text-normal:                   var(--light0);
     --text-faint:                    var(--light1);
@@ -173,13 +173,13 @@ body
     --checkbox-color-hover:          var(--light4);
     --checkbox-border-color:         var(--light4);
     --checkbox-border-color-hover:   var(--light4);
-    --checklist-done-color:          #${palette[1]}50;
+    --checklist-done-color:          #${palette[2]}50;
 
-    --table-header-background:       #${palette[12]}20;
-    --table-header-background-hover: #${palette[12]}60;
-    --table-row-even-background:     #${palette[12]}20;
-    --table-row-odd-background:      #${palette[12]}40;
-    --table-row-background-hover:    #${palette[12]}60;
+    --table-header-background:       #${palette[1]}20;
+    --table-header-background-hover: #${palette[1]}60;
+    --table-row-even-background:     #${palette[1]}20;
+    --table-row-odd-background:      #${palette[1]}40;
+    --table-row-background-hover:    #${palette[1]}60;
 
     --text-selection:                #${palette[8]}65;
     --flashing-background:           #${palette[8]}35;

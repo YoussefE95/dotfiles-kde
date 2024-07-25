@@ -6,9 +6,9 @@ $parser --set $1 $2
 
 palette=(
     "$($parser --palette background)"
+    "$($parser --palette backgroundAlt)"
     "$($parser --palette foreground)"
-    "$($parser --palette black)"
-    "$($parser --palette white)"
+    "$($parser --palette gray)"
     "$($parser --palette red)"
     "$($parser --palette green)"
     "$($parser --palette yellow)"
@@ -16,8 +16,6 @@ palette=(
     "$($parser --palette magenta)"
     "$($parser --palette cyan)"
     "$($parser --palette orange)"
-    "$($parser --palette gray)"
-    "$($parser --palette backgroundAlt)"
 )
 
 {

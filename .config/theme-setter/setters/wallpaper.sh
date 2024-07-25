@@ -1,20 +1,25 @@
 #!/bin/bash
 parser="$HOME/.config/theme-setter/scripts/parser.sh"
+wallpapers="$HOME/Dropbox/Pictures/Wallpapers"
 
-theme=$($parser --theme)
-mode=$($parser --mode)
-bg_opt=$($parser --bg_opt)
 current_wallpaper=$($parser --bg)
+current_wallpaper_base=$(basename $current_wallpaper .jpg)
 
-if [ "$bg_opt" == "" ]; then
-    bg_opt="/"
+if [ "$current_wallpaper" != "" ]; then
+    new_wallpaper=$(ls $wallpapers -I $current_wallpaper | sort -R | tail -1)
+    rm "$wallpapers/[DIM]$current_wallpaper_base.jpg"
 else
-    bg_opt="/$bg_opt/"
+    new_wallpaper=$(ls $wallpapers | sort -R | tail -1)
 fi
 
-wallpapers="$HOME/Dropbox/Pictures/Wallpapers/$theme$bg_opt$mode"
-wallpaper=$(ls $wallpapers -I $current_wallpaper | sort -R | tail -1)
+$parser --set-bg $new_wallpaper
+new_wallpaper_base=$(basename "$new_wallpaper" .jpg)
 
-plasma-apply-wallpaperimage "$wallpapers/$wallpaper"
+magick "$wallpapers/$new_wallpaper" \
+    -fill "#$($parser --palette backgroundAlt)" \
+    -colorize 25% \
+    -fill "#$($parser --palette orange)" \
+    -colorize 10% \
+    "$wallpapers/[DIM]$new_wallpaper_base.jpg"
 
-$parser --set-bg $wallpaper
+plasma-apply-wallpaperimage "$wallpapers/[DIM]$new_wallpaper_base.jpg"
