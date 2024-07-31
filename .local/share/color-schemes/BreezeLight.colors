@@ -21,8 +21,8 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=#1b1b1b
-BackgroundNormal=#1b1b1b
+BackgroundAlternate=#252423
+BackgroundNormal=#252423
 DecorationFocus=#d3869b
 DecorationHover=#d3869b
 ForegroundActive=#ddc7a1
@@ -35,8 +35,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Complementary]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
+BackgroundAlternate=#32302f
+BackgroundNormal=#32302f
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -49,8 +49,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Header]
-BackgroundAlternate=#1b1b1b
-BackgroundNormal=#1b1b1b
+BackgroundAlternate=#252423
+BackgroundNormal=#252423
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -68,18 +68,18 @@ BackgroundNormal=#e78a4e
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundLink=#7daea3
-ForegroundInactive=#292828
+ForegroundInactive=#32302f
 ForegroundActive=#ddc7a1
 ForegroundLink=#7daea3
 ForegroundNegative=#ea6962
 ForegroundNeutral=#d8a657
-ForegroundNormal=#292828
+ForegroundNormal=#32302f
 ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Tooltip]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
+BackgroundAlternate=#32302f
+BackgroundNormal=#32302f
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -92,8 +92,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:View]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
+BackgroundAlternate=#32302f
+BackgroundNormal=#32302f
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -106,8 +106,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Window]
-BackgroundAlternate=#1b1b1b
-BackgroundNormal=#1b1b1b
+BackgroundAlternate=#252423
+BackgroundNormal=#252423
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -129,9 +129,9 @@ shadeSortColumn=true
 contrast=4
 
 [WM]
-activeBackground=#292828
+activeBackground=#32302f
 activeBlend=#ddc7a1
 activeForeground=#ddc7a1
-inactiveBackground=#292828
+inactiveBackground=#32302f
 inactiveBlend=#7c6f64
 inactiveForeground=#7c6f64

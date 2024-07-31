@@ -22,7 +22,25 @@ visibilityUnit=2024
 source=wettercom|weather|Montclair, California, US|US0CA0709;Montclair
 
 [PlasmaTransientsConfig]
-PreloadWeight=42
+PreloadWeight=0
+
+[PlasmaViews][Panel 104]
+alignment=1
+floating=1
+panelLengthMode=1
+panelVisibility=3
+
+[PlasmaViews][Panel 104][Defaults]
+thickness=48
+
+[PlasmaViews][Panel 105]
+alignment=2
+floating=1
+panelLengthMode=1
+panelVisibility=3
+
+[PlasmaViews][Panel 105][Defaults]
+thickness=48
 
 [PlasmaViews][Panel 2]
 alignment=2
@@ -59,13 +77,14 @@ floating=1
 thickness=40
 
 [PlasmaViews][Panel 56]
-alignment=1
+alignment=132
 floating=1
 panelLengthMode=1
-panelVisibility=2
+panelOpacity=1
+panelVisibility=3
 
 [PlasmaViews][Panel 56][Defaults]
-thickness=40
+thickness=48
 
 [PlasmaViews][Panel 57]
 alignment=132
@@ -88,18 +107,18 @@ thickness=48
 alignment=2
 floating=1
 panelLengthMode=1
-panelVisibility=2
+panelVisibility=3
 
 [PlasmaViews][Panel 72][Defaults]
-thickness=40
+thickness=48
 
 [PlasmaViews][Panel 94]
 floating=1
 panelLengthMode=1
-panelVisibility=2
+panelVisibility=3
 
 [PlasmaViews][Panel 94][Defaults]
-thickness=40
+thickness=48
 
 [PlasmaViews][Panel 96]
 floating=1

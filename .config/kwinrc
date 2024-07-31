@@ -8,7 +8,7 @@ Name_2=2
 Name_3=3
 Name_4=4
 Number=4
-Rows=1
+Rows=4
 
 [Effect-overview]
 BorderActivate=9
@@ -24,6 +24,9 @@ DesktopMode=0
 
 [Tiling]
 padding=4
+
+[Tiling][18d05852-165c-5e9f-827b-8b035a8ef61f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][54a163c3-5681-52b8-99cb-e446ee91dbc5]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}

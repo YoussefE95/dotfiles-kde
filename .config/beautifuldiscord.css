@@ -15,15 +15,15 @@ pre > code {
 /** End Iosevka */
 
 .theme-dark {
-    --background-primary: #292828;
-    --background-secondary: #1b1b1b;
-    --background-tertiary: #1b1b1b;
-    --background-accent: #1b1b1b;
+    --background-primary: #32302f;
+    --background-secondary: #252423;
+    --background-tertiary: #252423;
+    --background-accent: #252423;
     --text-normal: #ddc7a1;
     --text-spotify: #a9b665
     --text-muted: #ddc7a1;
     --text-link: #7daea3;
-    --background-floating: #1b1b1b;
+    --background-floating: #252423;
     --header-primary: #ddc7a1;
     --header-secondary: #ddc7a1;
     --header-spotify: #a9b665

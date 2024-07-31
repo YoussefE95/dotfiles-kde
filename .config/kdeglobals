@@ -21,8 +21,8 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=110,85,167
-BackgroundNormal=#1b1b1b
+BackgroundAlternate=113,87,170
+BackgroundNormal=#252423
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
@@ -35,8 +35,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Complementary]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
+BackgroundAlternate=#32302f
+BackgroundNormal=#32302f
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
@@ -49,8 +49,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Header]
-BackgroundAlternate=#1b1b1b
-BackgroundNormal=#1b1b1b
+BackgroundAlternate=#252423
+BackgroundNormal=#252423
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
@@ -63,8 +63,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Selection]
-BackgroundAlternate=114,89,171
-BackgroundNormal=114,89,171
+BackgroundAlternate=117,91,173
+BackgroundNormal=117,91,173
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
@@ -77,8 +77,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Tooltip]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
+BackgroundAlternate=#32302f
+BackgroundNormal=#32302f
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
@@ -91,8 +91,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:View]
-BackgroundAlternate=#292828
-BackgroundNormal=#292828
+BackgroundAlternate=#32302f
+BackgroundNormal=#32302f
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
@@ -105,8 +105,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Window]
-BackgroundAlternate=#1b1b1b
-BackgroundNormal=#1b1b1b
+BackgroundAlternate=#252423
+BackgroundNormal=#252423
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
@@ -120,10 +120,11 @@ ForegroundVisited=#d3869b
 
 [DirSelect Dialog]
 DirSelectDialog Size=797,588
-History Items[$e]=file:$HOME/Dropbox/Documents/Vault,file:$HOME/Dropbox/Documents/Obsidian Vault
+History Items[$e]=file:$HOME,file:$HOME/Dropbox/Documents/Vault/,file:$HOME/Dropbox/Documents/,file:$HOME/Dropbox/Documents/Vault,file:$HOME/Dropbox/Documents/Obsidian Vault
 
 [General]
-ColorSchemeHash=3643a9d579fd1dccd0de1e2f77d58d4b38ea24ad
+BrowserApplication=vivaldi-stable.desktop
+ColorSchemeHash=1d74b7b22a9faa4afac54f7d5bed7c1c96589422
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 XftHintStyle=hintslight
@@ -133,9 +134,6 @@ font=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 menuFont=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=JetBrains Mono,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-
-[Icons]
-Theme=Papirus-Brown
 
 [KDE]
 LookAndFeelPackage=org.kde.breeze.desktop
@@ -166,10 +164,10 @@ View Style=DetailTree
 MaximumRemoteSize=0
 
 [WM]
-activeBackground=41,40,40
+activeBackground=50,48,47
 activeBlend=221,199,161
 activeFont=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=221,199,161
-inactiveBackground=41,40,40
+inactiveBackground=50,48,47
 inactiveBlend=124,111,100
 inactiveForeground=124,111,100

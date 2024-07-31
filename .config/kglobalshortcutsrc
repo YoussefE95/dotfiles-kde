@@ -237,7 +237,6 @@ activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
 activate widget 48=none,none,Activate Digital Clock Widget
 activate widget 66=none,none,Activate Icons-only Task Manager Widget
 activate widget 8=none,none,Activate System Tray Widget
-activate widget 96=,none,Activate Digital Clock Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=none,Meta+Alt+P,Move keyboard focus between panels
@@ -255,7 +254,7 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[services][firefox.desktop]
+[services][chromium.desktop]
 _launch=Meta+W
 
 [services][kitty.desktop]
@@ -288,3 +287,6 @@ RecordWindow=none
 RectangularRegionScreenShot=none
 WindowUnderCursorScreenShot=none
 _launch=Print
+
+[services][vivaldi-stable.desktop]
+_launch=Meta+W

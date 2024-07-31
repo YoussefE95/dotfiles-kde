@@ -16,88 +16,147 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][Applets][107][Configuration][SensorColors]
+cpu/cpu0/usage=117,91,173
+cpu/cpu1/usage=173,91,147
+cpu/cpu2/usage=173,117,91
+cpu/cpu3/usage=147,173,91
+cpu/cpu4/usage=91,173,117
+cpu/cpu5/usage=91,147,173
+
 [Containments][1][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
+DialogHeight=540
+DialogWidth=720
 
 [Containments][1][General]
 ToolBoxButtonState=top
 ToolBoxButtonX=479
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/younix/Dropbox/Pictures/Wallpapers/gruvbox/ghibli/medium/mimi031.jpg
+Image=file:///home/younix/Dropbox/Pictures/Wallpapers/[DIM]2024-07-21T10.19.20.jpg
 PreviewImage=/usr/share/wallpapers/EndeavourOS/
 SlidePaths=/usr/share/wallpapers/
 
-[Containments][56]
+[Containments][104]
 activityId=
-formfactor=2
+formfactor=3
 immutability=1
 lastScreen=0
-location=4
+location=5
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][56][Applets][4]
+[Containments][104][Applets][107]
 immutability=1
-plugin=org.kde.plasma.pager
+plugin=org.kde.plasma.systemmonitor.cpucore
 
-[Containments][56][Applets][93]
+[Containments][104][Applets][107][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
+PreloadWeight=100
+UserBackgroundHints=
+popupHeight=319
+popupWidth=237
+
+[Containments][104][Applets][107][Configuration][Appearance]
+chartFace=org.kde.ksysguard.barchart
+showTitle=false
+title=Individual Core Usage
+
+[Containments][104][Applets][107][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][104][Applets][107][Configuration][FaceGrid][Appearance]
+chartFace=org.kde.ksysguard.linechart
+showTitle=false
+
+[Containments][104][Applets][107][Configuration][FaceGrid][SensorColors]
+cpu/cpu.*/usage=117,91,173
+cpu/cpu0/usage=117,91,173
+cpu/cpu1/usage=173,91,147
+cpu/cpu2/usage=173,117,91
+cpu/cpu3/usage=147,173,91
+cpu/cpu4/usage=91,173,117
+cpu/cpu5/usage=91,147,173
+
+[Containments][104][Applets][107][Configuration][FaceGrid][Sensors]
+highPrioritySensorIds=["cpu/cpu5/usage"]
+
+[Containments][104][Applets][107][Configuration][SensorColors]
+cpu/cpu.*/usage=117,91,173
+cpu/cpu0/usage=117,91,173
+cpu/cpu1/usage=173,91,147
+cpu/cpu2/usage=173,117,91
+cpu/cpu3/usage=147,173,91
+cpu/cpu4/usage=91,173,117
+cpu/cpu5/usage=91,147,173
+
+[Containments][104][Applets][107][Configuration][Sensors]
+highPrioritySensorIds=["cpu/cpu.*/usage"]
+totalSensors=["cpu/all/usage"]
+
+[Containments][104][Applets][129]
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
-[Containments][56][Applets][93][Configuration][General]
+[Containments][104][Applets][129][Configuration][General]
 expanding=false
-length=10
+length=20
 
-[Containments][56][Applets][96]
+[Containments][104][Applets][130]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.panelspacer
 
-[Containments][56][Applets][96][Configuration]
-PreloadWeight=100
-UserBackgroundHints=StandardBackground
-popupHeight=500
-popupWidth=560
+[Containments][104][Applets][130][Configuration][General]
+expanding=false
+length=20
 
-[Containments][56][Applets][96][Configuration][Appearance]
-fontFamily=JetBrains Mono
-fontSize=11
-fontWeight=400
+[Containments][104][Applets][4]
+immutability=1
+plugin=org.kde.plasma.pager
 
-[Containments][56][Applets][96][Configuration][ConfigDialog]
+[Containments][104][Applets][95]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][104][Applets][95][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
-[Containments][56][General]
-AppletOrder=96;93;4
+[Containments][104][Applets][95][Configuration][General]
+launchers=applications:vivaldi-stable.desktop,applications:spotify-launcher.desktop,applications:discord.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:code-oss.desktop,applications:obsidian.desktop,applications:steam.desktop
+showOnlyCurrentActivity=false
+showOnlyCurrentDesktop=false
 
-[Containments][72]
+[Containments][104][General]
+AppletOrder=107;130;4;129;95
+
+[Containments][105]
 activityId=
-formfactor=2
+formfactor=3
 immutability=1
 lastScreen=0
-location=4
+location=5
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][72][Applets][75]
+[Containments][105][Applets][75]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
-[Containments][72][Applets][75][Configuration]
+[Containments][105][Applets][75][Configuration]
 PreloadWeight=100
 SystrayContainmentId=76
 
-[Containments][72][General]
+[Containments][105][General]
 AppletOrder=75
 
 [Containments][76]
 activityId=
-formfactor=2
+formfactor=3
 immutability=1
 lastScreen=0
-location=4
+location=5
 plugin=org.kde.plasma.private.systemtray
 popupHeight=528
 popupWidth=528
@@ -116,6 +175,9 @@ PreloadWeight=42
 [Containments][76][Applets][80]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][76][Applets][80][Configuration]
+PreloadWeight=100
 
 [Containments][76][Applets][81][Configuration]
 PreloadWeight=42
@@ -157,21 +219,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=14
+PreloadWeight=7
 
 [Containments][76][Applets][89]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][89][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][76][Applets][90]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=20
+PreloadWeight=15
 
 [Containments][76][Applets][91]
 immutability=1
@@ -328,30 +390,17 @@ hiddenItems=firewall-applet,org.kde.plasma.bluetooth
 knownItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
 shownItems=org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery
 
-[Containments][94]
-activityId=
-formfactor=2
+[Containments][97]
+activityId=d5bddb4b-068d-4702-bdf7-46a67d4c2329
+formfactor=0
 immutability=1
-lastScreen=0
-location=4
-plugin=org.kde.panel
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][94][Applets][95]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][94][Applets][95][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][94][Applets][95][Configuration][General]
-launchers=applications:firefox.desktop,applications:spotify-launcher.desktop,applications:discord.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:dev.goats.xivlauncher.desktop
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
-
-[Containments][94][General]
-AppletOrder=95
+[Containments][97][Wallpaper][org.kde.image][General]
+Image=file:///home/younix/Dropbox/Pictures/Wallpapers/[DIM]2024-07-21T10.19.20.jpg
 
 [Containments1Appletsts][48][Configuration][Appearance]
 autoFontAndSize=false
