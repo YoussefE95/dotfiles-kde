@@ -6,17 +6,16 @@ mode=$($parser --mode)
 tone=$($parser --tone)
 
 current_wallpaper=$($parser --bg)
-current_wallpaper_base=$(basename $current_wallpaper .jpg)
 
 if [ "$current_wallpaper" != "" ]; then
-    new_wallpaper=$(ls $wallpapers -I $current_wallpaper | sort -R | tail -1)
-    rm "$wallpapers/[DIM]$current_wallpaper_base.jpg"
+    available="ls $wallpapers -I $current_wallpaper -I '$wallpapers/current'"
+    rm "$wallpapers/current/$current_wallpaper"
 else
-    new_wallpaper=$(ls $wallpapers | sort -R | tail -1)
+    available="ls $wallpapers -I '$wallpapers/current'"
 fi
 
+new_wallpaper=$($available | sort -R | tail -1)
 $parser --set-bg $new_wallpaper
-new_wallpaper_base=$(basename "$new_wallpaper" .jpg)
 
 if [ $mode == "dark" ]; then
     if [ $tone == "hard" ]; then
@@ -33,6 +32,6 @@ magick "$wallpapers/$new_wallpaper" \
     -colorize $fill \
     -fill "#$($parser --palette orange)" \
     -colorize 10% \
-    "$wallpapers/[DIM]$new_wallpaper_base.jpg"
+    "$wallpapers/current/$new_wallpaper"
 
-plasma-apply-wallpaperimage "$wallpapers/[DIM]$new_wallpaper_base.jpg"
+plasma-apply-wallpaperimage "$wallpapers/current/$new_wallpaper"
