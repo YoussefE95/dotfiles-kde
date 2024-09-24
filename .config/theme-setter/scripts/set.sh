@@ -16,7 +16,6 @@ fi
 
 $parser --set $mode $tone
 
-icons=$($parser --icons)
 cursors=$($parser --cursors)
 palette=(
     "$($parser --palette background)"
@@ -34,7 +33,7 @@ palette=(
 
 {
     $setters/wallpaper.sh &
-    $setters/plasma.sh ${palette[@]} $cursors $icons &
+    $setters/plasma.sh ${palette[@]} $cursors &
     $setters/code.sh $mode $tone &
     $setters/discord.sh ${palette[@]} &
     $setters/kitty.sh ${palette[@]} &

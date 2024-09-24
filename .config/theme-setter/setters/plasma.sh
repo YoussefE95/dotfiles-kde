@@ -2,7 +2,7 @@
 palette=("${@}")
 
 dest_dir="$HOME/.local/share/color-schemes/"
-dest_file="BreezeLight.colors"
+dest_file="DynamicTheme.colors"
 
 output="$(cat << THEME
 [ColorEffects:Disabled]
@@ -147,43 +147,9 @@ THEME
 
 printf '%s' "$output" > "${dest_dir}${dest_file}"
 
-dest_dir="$HOME/.local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/"
-dest_file="defaults"
-
-output="$(cat << THEME
-[kdeglobals][KDE]
-widgetStyle=Breeze
-
-[kdeglobals][General]
-ColorScheme=BreezeLight
-
-[kdeglobals][Icons]
-Theme=${palette[12]}
-
-[plasmarc][Theme]
-name=default
-
-[Wallpaper]
-Image=Next
-
-[kcminputrc][Mouse]
-cursorTheme=${palette[11]}
-
-[kwinrc][org.kde.kdecoration2]
-library=org.kde.breeze
-
-[KSplash]
-Theme=org.kde.Breeze
-THEME
-)"
-
-printf '%s' "$output" > "${dest_dir}${dest_file}"
-
 # Cursors
 plasma-apply-cursortheme "${palette[11]}"
 
-# Icons
-/usr/lib/plasma-changeicons "${palette[12]}"
-
-# Breeze Theme
-lookandfeeltool -a org.kde.breeze.desktop
+# Color Scheme
+plasma-apply-colorscheme "BreezeDark"
+plasma-apply-colorscheme "DynamicTheme"
