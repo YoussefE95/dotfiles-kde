@@ -1,0 +1,4 @@
+2024-09-23 23:20:50.136 [info] Started local extension host with pid 60336.
+2024-09-23 23:20:50.215 [info] Started initializing default profile extensions in extensions installation folder. file:///home/younix/.vscode-oss/extensions
+2024-09-23 23:20:50.497 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/younix/.vscode-oss/extensions
+2024-09-23 23:20:53.299 [info] [perf] Render performance baseline is 136ms

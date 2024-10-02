@@ -8,13 +8,14 @@ Name_2=2
 Name_3=3
 Name_4=4
 Number=4
-Rows=4
+Rows=1
 
 [Effect-overview]
 BorderActivate=9
 
 [Plugins]
 desktopchangeosdEnabled=false
+shakecursorEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 
@@ -28,10 +29,19 @@ padding=4
 [Tiling][18d05852-165c-5e9f-827b-8b035a8ef61f]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][2bc0a078-685d-5bf9-b3f0-296289a3396d]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][54a163c3-5681-52b8-99cb-e446ee91dbc5]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][608ef5a0-ca70-5958-a7ce-7c34806f460d]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][8c2009ce-0e73-5937-b1da-ad99003399ed]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e037cd5c-ea8f-56b9-9ae8-0658e7259bb0]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]

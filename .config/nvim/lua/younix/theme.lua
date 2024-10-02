@@ -6,6 +6,6 @@ require('rose-pine').setup({
 })
 vim.g.everforest_background = 'medium'
 vim.g.gruvbox_material_background = 'soft'
-vim.o.background = 'dark'
+vim.o.background = 'light'
 
 vim.cmd('colorscheme gruvbox-material')

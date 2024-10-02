@@ -33,110 +33,52 @@ ToolBoxButtonState=top
 ToolBoxButtonX=479
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/younix/Dropbox/Pictures/Wallpapers/[DIM]2024-07-21T10.19.20.jpg
+Image=file:///home/younix/Dropbox/Pictures/Wallpapers/current/christopher-ott-_BW-l29lkd4-unsplash.jpg
 PreviewImage=/usr/share/wallpapers/EndeavourOS/
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][104]
 activityId=
-formfactor=3
+formfactor=2
 immutability=1
 lastScreen=0
-location=5
+location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][104][Applets][107]
+[Containments][104][Applets][132]
 immutability=1
-plugin=org.kde.plasma.systemmonitor.cpucore
+plugin=org.kde.plasma.digitalclock
 
-[Containments][104][Applets][107][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
+[Containments][104][Applets][132][Configuration]
 PreloadWeight=100
-UserBackgroundHints=
-popupHeight=319
-popupWidth=237
+popupHeight=450
+popupWidth=810
 
-[Containments][104][Applets][107][Configuration][Appearance]
-chartFace=org.kde.ksysguard.barchart
-showTitle=false
-title=Individual Core Usage
+[Containments][104][Applets][132][Configuration][Appearance]
+enabledCalendarPlugins=astronomicalevents
 
-[Containments][104][Applets][107][Configuration][ConfigDialog]
+[Containments][104][Applets][132][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
-
-[Containments][104][Applets][107][Configuration][FaceGrid][Appearance]
-chartFace=org.kde.ksysguard.linechart
-showTitle=false
-
-[Containments][104][Applets][107][Configuration][FaceGrid][SensorColors]
-cpu/cpu.*/usage=117,91,173
-cpu/cpu0/usage=117,91,173
-cpu/cpu1/usage=173,91,147
-cpu/cpu2/usage=173,117,91
-cpu/cpu3/usage=147,173,91
-cpu/cpu4/usage=91,173,117
-cpu/cpu5/usage=91,147,173
-
-[Containments][104][Applets][107][Configuration][FaceGrid][Sensors]
-highPrioritySensorIds=["cpu/cpu5/usage"]
-
-[Containments][104][Applets][107][Configuration][SensorColors]
-cpu/cpu.*/usage=117,91,173
-cpu/cpu0/usage=117,91,173
-cpu/cpu1/usage=173,91,147
-cpu/cpu2/usage=173,117,91
-cpu/cpu3/usage=147,173,91
-cpu/cpu4/usage=91,173,117
-cpu/cpu5/usage=91,147,173
-
-[Containments][104][Applets][107][Configuration][Sensors]
-highPrioritySensorIds=["cpu/cpu.*/usage"]
-totalSensors=["cpu/all/usage"]
-
-[Containments][104][Applets][129]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][104][Applets][129][Configuration][General]
-expanding=false
-length=20
-
-[Containments][104][Applets][130]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][104][Applets][130][Configuration][General]
-expanding=false
-length=20
 
 [Containments][104][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
 
-[Containments][104][Applets][95]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][104][Applets][95][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][104][Applets][95][Configuration][General]
-launchers=applications:vivaldi-stable.desktop,applications:spotify-launcher.desktop,applications:discord.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:code-oss.desktop,applications:obsidian.desktop,applications:steam.desktop
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
+[Containments][104][Applets][4][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][104][General]
-AppletOrder=107;130;4;129;95
+AppletOrder=132;4
 
 [Containments][105]
 activityId=
-formfactor=3
+formfactor=2
 immutability=1
 lastScreen=0
-location=5
+location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -151,12 +93,37 @@ SystrayContainmentId=76
 [Containments][105][General]
 AppletOrder=75
 
-[Containments][76]
+[Containments][131]
 activityId=
-formfactor=3
+formfactor=2
 immutability=1
 lastScreen=0
-location=5
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][131][Applets][95]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][131][Applets][95][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][131][Applets][95][Configuration][General]
+launchers=applications:firefox.desktop,applications:discord.desktop,applications:spotify-launcher.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:code-oss.desktop,applications:obsidian.desktop,applications:steam.desktop
+showOnlyCurrentActivity=false
+showOnlyCurrentDesktop=false
+
+[Containments][131][General]
+AppletOrder=95
+
+[Containments][76]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=4
 plugin=org.kde.plasma.private.systemtray
 popupHeight=528
 popupWidth=528
@@ -219,21 +186,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=7
+PreloadWeight=2
 
 [Containments][76][Applets][89]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][89][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][76][Applets][90]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=15
+PreloadWeight=36
 
 [Containments][76][Applets][91]
 immutability=1
@@ -241,6 +208,9 @@ plugin=org.kde.plasma.networkmanagement
 
 [Containments][76][Applets][91][Configuration]
 PreloadWeight=100
+
+[Containments][76][Applets][91][Configuration][General]
+currentDetailsTab=details
 
 [Containments][76][Applets][92]
 immutability=1
@@ -400,7 +370,10 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][97][Wallpaper][org.kde.image][General]
-Image=file:///home/younix/Dropbox/Pictures/Wallpapers/[DIM]2024-07-21T10.19.20.jpg
+Image=file:///home/younix/Dropbox/Pictures/Wallpapers/current/christopher-ott-_BW-l29lkd4-unsplash.jpg
+
+[Containments131Appletsts][95][Configuration][General]
+launchers=applications:firefox.desktop,applications:spotify-launcher.desktop,applications:discord.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:code-oss.desktop,applications:obsidian.desktop
 
 [Containments1Appletsts][48][Configuration][Appearance]
 autoFontAndSize=false

@@ -21,102 +21,102 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=113,87,170
-BackgroundNormal=#252423
+BackgroundAlternate=172,142,213
+BackgroundNormal=#ebdbb2
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
-ForegroundInactive=#ddc7a1
-ForegroundLink=209,199,242
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+ForegroundInactive=#4f3829
+ForegroundLink=118,54,221
+ForegroundNegative=#c14a4a
+ForegroundNeutral=#b47109
+ForegroundNormal=#4f3829
+ForegroundPositive=#6c782e
+ForegroundVisited=#945e80
 
 [Colors:Complementary]
-BackgroundAlternate=#32302f
-BackgroundNormal=#32302f
+BackgroundAlternate=#f2e5bc
+BackgroundNormal=#f2e5bc
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
 ForegroundInactive=#7c6f64
-ForegroundLink=209,199,242
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+ForegroundLink=118,54,221
+ForegroundNegative=#c14a4a
+ForegroundNeutral=#b47109
+ForegroundNormal=#4f3829
+ForegroundPositive=#6c782e
+ForegroundVisited=#945e80
 
 [Colors:Header]
-BackgroundAlternate=#252423
-BackgroundNormal=#252423
+BackgroundAlternate=#ebdbb2
+BackgroundNormal=#ebdbb2
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
 ForegroundInactive=#7c6f64
-ForegroundLink=209,199,242
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+ForegroundLink=118,54,221
+ForegroundNegative=#c14a4a
+ForegroundNeutral=#b47109
+ForegroundNormal=#4f3829
+ForegroundPositive=#6c782e
+ForegroundVisited=#945e80
 
 [Colors:Selection]
-BackgroundAlternate=117,91,173
-BackgroundNormal=117,91,173
+BackgroundAlternate=174,145,216
+BackgroundNormal=174,145,216
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
-ForegroundInactive=255,255,255
-ForegroundLink=118,54,221
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=255,255,255
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+ForegroundInactive=0,0,0
+ForegroundLink=209,199,242
+ForegroundNegative=#c14a4a
+ForegroundNeutral=#b47109
+ForegroundNormal=0,0,0
+ForegroundPositive=#6c782e
+ForegroundVisited=#945e80
 
 [Colors:Tooltip]
-BackgroundAlternate=#32302f
-BackgroundNormal=#32302f
+BackgroundAlternate=#f2e5bc
+BackgroundNormal=#f2e5bc
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
 ForegroundInactive=#7c6f64
-ForegroundLink=209,199,242
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+ForegroundLink=118,54,221
+ForegroundNegative=#c14a4a
+ForegroundNeutral=#b47109
+ForegroundNormal=#4f3829
+ForegroundPositive=#6c782e
+ForegroundVisited=#945e80
 
 [Colors:View]
-BackgroundAlternate=#32302f
-BackgroundNormal=#32302f
+BackgroundAlternate=#f2e5bc
+BackgroundNormal=#f2e5bc
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
 ForegroundInactive=#7c6f64
-ForegroundLink=209,199,242
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+ForegroundLink=118,54,221
+ForegroundNegative=#c14a4a
+ForegroundNeutral=#b47109
+ForegroundNormal=#4f3829
+ForegroundPositive=#6c782e
+ForegroundVisited=#945e80
 
 [Colors:Window]
-BackgroundAlternate=#252423
-BackgroundNormal=#252423
+BackgroundAlternate=#ebdbb2
+BackgroundNormal=#ebdbb2
 DecorationFocus=146,110,228
 DecorationHover=146,110,228
 ForegroundActive=146,110,228
 ForegroundInactive=#7c6f64
-ForegroundLink=209,199,242
-ForegroundNegative=#ea6962
-ForegroundNeutral=#d8a657
-ForegroundNormal=#ddc7a1
-ForegroundPositive=#a9b665
-ForegroundVisited=#d3869b
+ForegroundLink=118,54,221
+ForegroundNegative=#c14a4a
+ForegroundNeutral=#b47109
+ForegroundNormal=#4f3829
+ForegroundPositive=#6c782e
+ForegroundVisited=#945e80
 
 [DirSelect Dialog]
 DirSelectDialog Size=797,588
@@ -124,9 +124,10 @@ History Items[$e]=file:$HOME,file:$HOME/Dropbox/Documents/Vault/,file:$HOME/Drop
 
 [General]
 BrowserApplication=vivaldi-stable.desktop
-ColorSchemeHash=1d74b7b22a9faa4afac54f7d5bed7c1c96589422
+ColorSchemeHash=c4169b03b664eb7113500943321b37079c5cfecd
 TerminalApplication=kitty
 TerminalService=kitty.desktop
+UseSystemBell=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
@@ -157,17 +158,17 @@ Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
-Speedbar Width=104
+Speedbar Width=121
 View Style=DetailTree
 
 [PreviewSettings]
 MaximumRemoteSize=0
 
 [WM]
-activeBackground=50,48,47
-activeBlend=221,199,161
+activeBackground=242,229,188
+activeBlend=79,56,41
 activeFont=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-activeForeground=221,199,161
-inactiveBackground=50,48,47
+activeForeground=79,56,41
+inactiveBackground=242,229,188
 inactiveBlend=124,111,100
 inactiveForeground=124,111,100

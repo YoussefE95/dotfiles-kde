@@ -21,9 +21,6 @@ visibilityUnit=2024
 [Applets][92][Configuration][WeatherStation]
 source=wettercom|weather|Montclair, California, US|US0CA0709;Montclair
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
-
 [PlasmaViews][Panel 104]
 alignment=1
 floating=1
@@ -31,7 +28,7 @@ panelLengthMode=1
 panelVisibility=3
 
 [PlasmaViews][Panel 104][Defaults]
-thickness=48
+thickness=42
 
 [PlasmaViews][Panel 105]
 alignment=2
@@ -40,7 +37,15 @@ panelLengthMode=1
 panelVisibility=3
 
 [PlasmaViews][Panel 105][Defaults]
-thickness=48
+thickness=42
+
+[PlasmaViews][Panel 131]
+floating=1
+panelLengthMode=1
+panelVisibility=3
+
+[PlasmaViews][Panel 131][Defaults]
+thickness=42
 
 [PlasmaViews][Panel 2]
 alignment=2

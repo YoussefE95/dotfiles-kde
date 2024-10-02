@@ -15,21 +15,21 @@ pre > code {
 /** End Iosevka */
 
 .theme-dark {
-    --background-primary: #32302f;
-    --background-secondary: #252423;
-    --background-tertiary: #252423;
-    --background-accent: #252423;
-    --text-normal: #ddc7a1;
-    --text-spotify: #a9b665
-    --text-muted: #ddc7a1;
-    --text-link: #7daea3;
-    --background-floating: #252423;
-    --header-primary: #ddc7a1;
-    --header-secondary: #ddc7a1;
-    --header-spotify: #a9b665
-    --interactive-normal: #ddc7a1;
-    --interactive-hover: #ddc7a1;
-    --interactive-active: #a9b665;
+    --background-primary: #f2e5bc;
+    --background-secondary: #ebdbb2;
+    --background-tertiary: #ebdbb2;
+    --background-accent: #ebdbb2;
+    --text-normal: #4f3829;
+    --text-spotify: #6c782e
+    --text-muted: #4f3829;
+    --text-link: #45707a;
+    --background-floating: #ebdbb2;
+    --header-primary: #4f3829;
+    --header-secondary: #4f3829;
+    --header-spotify: #6c782e
+    --interactive-normal: #4f3829;
+    --interactive-hover: #4f3829;
+    --interactive-active: #6c782e;
 }
 
 .theme-light {
@@ -716,7 +716,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-keyword,
 .hljs-link,
 .hljs-selector-tag {
-    color: #ea6962;
+    color: #c14a4a;
 }
   
 /* Gruvbox Blue */
@@ -728,7 +728,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-strong,
 .hljs-title,
 .hljs-variable {
-    color: #7daea3;
+    color: #45707a;
 }
   
 /* Gruvbox Yellow */
@@ -736,7 +736,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-params,
 .hljs-template-tag,
 .hljs-type {
-    color: #d8a657;
+    color: #b47109;
 }
   
 /* Gruvbox Purple */
@@ -745,7 +745,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-doctag,
 .hljs-literal,
 .hljs-number {
-    color: #d3869b;
+    color: #945e80;
 }
   
 /* Gruvbox Orange */
@@ -755,7 +755,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-regexp,
 .hljs-selector-id,
 .hljs-template-variable {
-    color: #e78a4e;
+    color: #c35e0a;
 }
   
 /* Gruvbox Green */
@@ -767,7 +767,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-selector-class,
 .hljs-string,
 .hljs-symbol {
-    color: #a9b665;
+    color: #6c782e;
 }
   
 /* Gruvbox Aqua */
@@ -780,7 +780,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-meta-keyword,
 .hljs-selector-pseudo,
 .hljs-tag {
-    color: #89b482;
+    color: #4c7a5d;
 }
   
 /* Gruvbox Gray */
@@ -794,7 +794,7 @@ div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWid
 .hljs-link_label,
 .hljs-literal,
 .hljs-number {
-    color: #d3869b;
+    color: #945e80;
 }
   
 .theme-dark

@@ -1,5 +1,7 @@
 [Desktop Entry]
 FullScreen=false
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
 
 [General]
 LockSidebar=true
@@ -9,13 +11,23 @@ ShowSidebar=false
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Dropbox/Education/MS/CS5470/HW1/HW1.pdf
-File2[$e]=$HOME/Dropbox/Education/MS/CS5470/Computer_Networks.pdf
-File3[$e]=$HOME/Downloads/Elzein_AppointmentLetter_061024.pdf
-File4[$e]=$HOME/Dropbox/Education/MS/CS5470/HW3 - Reliable UDP/Homework 3.pdf
-File5[$e]=$HOME/Dropbox/Education/MS/CS5470/HW3 - Reliable UDP/HW 3.pdf
-Name1[$e]=HW1.pdf
-Name2[$e]=Computer_Networks.pdf
-Name3[$e]=Elzein_AppointmentLetter_061024.pdf
-Name4[$e]=Homework 3.pdf
-Name5[$e]=HW 3.pdf
+File1[$e]=$HOME/Downloads/Elzein_AppointmentLetter_061024.pdf
+File10[$e]=$HOME/Downloads/Lecture6.1. Parameter Tuning.pdf
+File2[$e]=$HOME/Dropbox/Education/MS/CS5470/HW3 - Reliable UDP/Homework 3.pdf
+File3[$e]=$HOME/Dropbox/Education/MS/CS5470/HW3 - Reliable UDP/HW 3.pdf
+File4[$e]=$HOME/Downloads/A2.pdf
+File5[$e]=$HOME/Dropbox/Education/MS/CS5470/HW1_Solution.pdf
+File6[$e]=$HOME/Downloads/Homework1_Solution.pdf
+File7[$e]=$HOME/Downloads/Homework1.pdf
+File8[$e]=$HOME/Dropbox/Work/AI/NQueens/A1-EA_8-QueensProblem.pdf
+File9[$e]=$HOME/Dropbox/Documents/Youssef_Elzein_Resume.pdf
+Name1[$e]=Elzein_AppointmentLetter_061024.pdf
+Name10[$e]=Lecture6.1. Parameter Tuning.pdf
+Name2[$e]=Homework 3.pdf
+Name3[$e]=HW 3.pdf
+Name4[$e]=A2.pdf
+Name5[$e]=HW1_Solution.pdf
+Name6[$e]=Homework1_Solution.pdf
+Name7[$e]=Homework1.pdf
+Name8[$e]=A1-EA_8-QueensProblem.pdf
+Name9[$e]=Youssef_Elzein_Resume.pdf

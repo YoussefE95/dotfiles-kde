@@ -7,7 +7,8 @@
             "file:///home/younix/Dropbox/Education/MS/CS5470/HW3%20-%20Reliable%20UDP": "__default__profile__",
             "file:///home/younix/.config/theme-setter": "__default__profile__",
             "file:///home/younix/Dropbox/Work/MassEvac/WebApp": "__default__profile__",
-            "file:///home/younix/Downloads/dotfiles-kde": "__default__profile__"
+            "file:///home/younix/Downloads/dotfiles-kde": "__default__profile__",
+            "file:///home/younix/Dropbox/Work/DroneSwarm/Everything": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -19,7 +20,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/younix/Downloads/dotfiles-kde"
+                "folderUri": "file:///home/younix/Dropbox/Work/DroneSwarm/Everything"
             }
         ],
         "emptyWindows": []
@@ -39,6 +40,18 @@
                     {
                         "id": "workbench.action.newWindow",
                         "label": "New &&Window"
+                    },
+                    {
+                        "id": "submenuitem.OpenProfile",
+                        "label": "New Window with Profile",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "workbench.profiles.actions.createProfile",
+                                    "label": "New Profile..."
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -66,6 +79,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/younix/Dropbox/Work/DroneSwarm/Everything",
+                                        "path": "/home/younix/Dropbox/Work/DroneSwarm/Everything",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dropbox/Work/DroneSwarm/Everything"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -190,19 +214,8 @@
                         "submenu": {
                             "items": [
                                 {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
-                                },
-                                {
-                                    "id": "workbench.profiles.actions.importProfile",
-                                    "label": "Import Profile..."
                                 }
                             ]
                         }
@@ -220,47 +233,8 @@
                         "submenu": {
                             "items": [
                                 {
-                                    "id": "submenuitem.Profiles",
-                                    "label": "Profile (Default)",
-                                    "submenu": {
-                                        "items": [
-                                            {
-                                                "id": "workbench.profiles.actions.profileEntry.__default__profile__",
-                                                "label": "Default",
-                                                "checked": true
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.showProfileContents",
-                                                "label": "Show Profile Contents"
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.createProfile",
-                                                "label": "Create Profile..."
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.deleteProfile",
-                                                "label": "Delete Profile...",
-                                                "enabled": false
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.exportProfile",
-                                                "label": "Export Profile..."
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.importProfile",
-                                                "label": "Import Profile..."
-                                            }
-                                        ]
-                                    }
+                                    "id": "workbench.profiles.actions.manageProfiles",
+                                    "label": "&&Profiles"
                                 },
                                 {
                                     "id": "workbench.action.openSettings",
@@ -276,11 +250,11 @@
                                 },
                                 {
                                     "id": "workbench.action.openSnippets",
-                                    "label": "Configure User Snippets"
+                                    "label": "Configure Snippets"
                                 },
                                 {
                                     "id": "workbench.action.tasks.openUserTasks",
-                                    "label": "User Tasks"
+                                    "label": "Tasks"
                                 },
                                 {
                                     "id": "submenuitem.ThemesSubMenu",
@@ -578,9 +552,8 @@
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.positionPanelBottom",
-                                                "label": "Bottom",
-                                                "checked": true
+                                                "id": "workbench.action.positionPanelTop",
+                                                "label": "Top"
                                             },
                                             {
                                                 "id": "workbench.action.positionPanelLeft",
@@ -589,6 +562,11 @@
                                             {
                                                 "id": "workbench.action.positionPanelRight",
                                                 "label": "Right"
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelBottom",
+                                                "label": "Bottom",
+                                                "checked": true
                                             }
                                         ]
                                     }
@@ -1741,19 +1719,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#32302f",
+    "themeBackground": "#1f1f1f",
     "windowSplash": {
         "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#a89984",
-            "background": "#32302f",
-            "editorBackground": "#32302f",
-            "titleBarBackground": "#32302f",
-            "activityBarBackground": "#32302f",
-            "sideBarBackground": "#32302f",
-            "statusBarBackground": "#32302f",
-            "statusBarNoFolderBackground": "#32302f"
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#1f1f1f"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -1767,14 +1745,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/younix/Downloads/dotfiles-kde",
-            "backupPath": "/home/younix/.config/Code - OSS/Backups/2bb0486873cd75f6ed0c0d4797e90858",
+            "folder": "file:///home/younix/Dropbox/Work/DroneSwarm/Everything",
+            "backupPath": "/home/younix/.config/Code - OSS/Backups/926d7fb1c7afb55a0da3bd9462fb5284",
             "uiState": {
                 "mode": 1,
-                "x": 355,
-                "y": 58,
-                "width": 1541,
-                "height": 1004
+                "x": 271,
+                "y": 78,
+                "width": 1364,
+                "height": 846
             }
         },
         "openedWindows": []

@@ -1,0 +1,33 @@
+2024-09-23 23:20:51.018 [info] [main] Log level: Info
+2024-09-23 23:20:51.018 [info] [main] Validating found git in: "git"
+2024-09-23 23:20:51.018 [info] [main] Using git "2.46.1" from "git"
+2024-09-23 23:20:51.018 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-23 23:20:51.018 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-23 23:20:51.018 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-23 23:20:51.018 [info] [Model][openRepository] Opened repository: /home/younix/Downloads/dotfiles-kde
+2024-09-23 23:20:51.018 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-23 23:20:51.018 [info] > git config --get commit.template [13ms]
+2024-09-23 23:20:51.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-23 23:20:51.018 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-23 23:20:51.018 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-23 23:20:51.614 [info] > git check-ignore -v -z --stdin [79ms]
+2024-09-23 23:20:51.691 [info] > git status -z -uall [669ms]
+2024-09-23 23:20:51.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-09-23 23:20:51.718 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-23 23:20:51.719 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-23 23:20:51.724 [info] > git config --get commit.template [14ms]
+2024-09-23 23:20:51.731 [info] > git reflog main --grep-reflog=branch: Created from *. [7ms]
+2024-09-23 23:20:51.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-09-23 23:20:51.738 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-23 23:20:51.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2024-09-23 23:20:51.759 [info] > git config --local branch.main.vscode-merge-base origin/main [2ms]
+2024-09-23 23:20:51.766 [info] > git status -z -uall [17ms] (cancelled)
+2024-09-23 23:20:51.766 [info] > git config --get commit.template [1ms]
+2024-09-23 23:20:51.803 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2024-09-23 23:20:52.108 [info] > git status -z -uall [297ms]
+2024-09-23 23:20:52.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-09-23 23:20:52.131 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-23 23:20:52.137 [info] > git merge-base refs/heads/main refs/remotes/origin/main [15ms]
+2024-09-23 23:20:52.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2024-09-23 23:20:52.146 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-09-23 23:20:52.155 [info] > git diff --name-status -z --diff-filter=ADMR 39b2fce24eef673bb1918d4ae264bcdfc7fad8d6...refs/remotes/origin/main [2ms]

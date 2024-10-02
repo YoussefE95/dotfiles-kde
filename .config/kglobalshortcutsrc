@@ -257,6 +257,9 @@ toggle do not disturb=none,,Toggle do not disturb
 [services][chromium.desktop]
 _launch=Meta+W
 
+[services][firefox.desktop]
+_launch=Meta+W
+
 [services][kitty.desktop]
 _launch=Meta+T
 
