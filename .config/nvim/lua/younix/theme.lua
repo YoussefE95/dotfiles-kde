@@ -1,11 +1,7 @@
 require('catppuccin').setup({
-    flavour = 'macchiato'
+    flavour = 'mocha'
 })
-require('rose-pine').setup({
-    dark_variant = 'moon'
-})
-vim.g.everforest_background = 'medium'
+vim.o.background = 'dark'
 vim.g.gruvbox_material_background = 'soft'
-vim.o.background = 'light'
 
-vim.cmd('colorscheme gruvbox-material')
+vim.cmd('colorscheme catppuccin')

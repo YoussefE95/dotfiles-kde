@@ -147,8 +147,11 @@ THEME
 
 printf '%s' "$output" > "${dest_dir}${dest_file}"
 
+# Icons
+/usr/lib/plasma-changeicons "${palette[11]}"
+
 # Cursors
-plasma-apply-cursortheme "${palette[11]}"
+plasma-apply-cursortheme "${palette[12]}"
 
 # Color Scheme
 plasma-apply-colorscheme "BreezeDark"

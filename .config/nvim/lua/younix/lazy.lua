@@ -19,10 +19,8 @@ require('lazy').setup({
 	'nvim-tree/nvim-tree.lua',
 	'nvim-tree/nvim-web-devicons',
     'numToStr/Comment.nvim',
-    'sainnhe/everforest',
-    'sainnhe/gruvbox-material',
-	{ 'rose-pine/neovim', name = 'rose-pine' },
-    { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
+    { 'sainnhe/gruvbox-material', name = 'gruvbox' },
+    { 'catppuccin/nvim', name = 'catppuccin' },
     {
         'giusgad/pets.nvim',
         dependencies = { 'MunifTanjim/nui.nvim', 'giusgad/hologram.nvim' },

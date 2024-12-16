@@ -4,13 +4,18 @@ themes="$HOME/.config/theme-setter/info/themes.json"
 
 set() {
     tmp=$(mktemp)
-    jq --arg a "$1" '.mode = $a' $current > "$tmp" && mv "$tmp" $current
-    jq --arg a "$2" '.tone = $a' $current > "$tmp" && mv "$tmp" $current
+    jq --arg a "$1" '.theme = $a' $current > "$tmp" && mv "$tmp" $current
+    jq --arg a "$2" '.mode = $a' $current > "$tmp" && mv "$tmp" $current
+    jq --arg a "$3" '.tone = $a' $current > "$tmp" && mv "$tmp" $current
 }
 
 set_bg() {
     tmp=$(mktemp)
     jq --arg a "$1" '.bg = $a' $current > "$tmp" && mv "$tmp" $current
+}
+
+get_theme() {
+    echo "$(jq ".theme" "$current" | sed 's/\"//g')"
 }
 
 get_mode() {
@@ -26,21 +31,23 @@ get_bg() {
 }
 
 get_icons() {
-    jq ".icons" "$themes" | sed 's/\"//g'
+    jq ".$(get_theme).icons" "$themes" | sed 's/\"//g'
 }
 
 get_cursors() {
-    jq ".cursors.$(get_mode)" "$themes" | sed 's/\"//g'
+    jq ".$(get_theme).cursors.$(get_mode)" "$themes" | sed 's/\"//g'
 }
 
 get_palette() {
-    jq ".palette.$(get_mode).$(get_tone).$1" "$themes" | sed 's/\"//g' 
+    jq ".$(get_theme).palette.$(get_mode).$(get_tone).$1" "$themes" | sed 's/\"//g' 
 }
 
 if [ "$1" == "--set" ]; then
-    set $2 $3
+    set $2 $3 $4
 elif [ "$1" == "--set-bg" ]; then
     set_bg $2
+elif [ "$1" == "--theme" ]; then
+    get_theme
 elif [ "$1" == "--mode" ]; then
     get_mode
 elif [ "$1" == "--tone" ]; then

@@ -2,20 +2,31 @@
 parser="$HOME/.config/theme-setter/scripts/parser.sh"
 setters="$HOME/.config/theme-setter/setters"
 
-if [ "$1" == "dark" ] || [ "$1" == "light" ]; then
-    mode="$1"
+if [ "$1" == "gruvbox" ] || [ "$1" == "catppuccin" ]; then
+    theme="$1"
 else
     exit 1
 fi
 
-if [ "$2" == "soft" ] || [ "$2" == "hard" ]; then
-    tone="$2"
+if [ "$2" == "light" ] || [ "$2" == "dark" ]; then
+    mode="$2"
+else
+    mode="dark"
+fi
+
+if [ "$3" == "soft" ] || [ "$3" == "hard" ]; then
+    tone="$3"
 else
     tone="medium"
 fi
 
-$parser --set $mode $tone
+# if [ "$theme" == "catppuccin" ] && [ "$mode" == "light" ]; then
+#     tone="medium"
+# fi
 
+$parser --set $theme $mode $tone
+
+icons=$($parser --icons)
 cursors=$($parser --cursors)
 palette=(
     "$($parser --palette background)"
@@ -33,14 +44,12 @@ palette=(
 
 {
     $setters/wallpaper.sh &
-    $setters/plasma.sh ${palette[@]} $cursors &
-    $setters/code.sh $mode $tone &
+    $setters/plasma.sh ${palette[@]} $icons $cursors &
     $setters/discord.sh ${palette[@]} &
     $setters/kitty.sh ${palette[@]} &
     $setters/konsole.sh ${palette[@]} &
-    $setters/nvim.sh $mode $tone &
+    $setters/nvim.sh $theme $mode $tone &
     $setters/obsidian.sh ${palette[@]} &
     $setters/okular.sh ${palette[@]} &
     $setters/spicetify.sh ${palette[@]} &
-    $setters/zathura.sh ${palette[@]} &
 } &> /dev/null

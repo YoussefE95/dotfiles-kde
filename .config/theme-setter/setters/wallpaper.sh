@@ -2,36 +2,35 @@
 parser="$HOME/.config/theme-setter/scripts/parser.sh"
 wallpapers="$HOME/Dropbox/Pictures/Wallpapers"
 
+theme=$($parser --theme)
 mode=$($parser --mode)
 tone=$($parser --tone)
-
 current_wallpaper=$($parser --bg)
 
+wallpaper_ls="ls $wallpapers/$theme"
+
 if [ "$current_wallpaper" != "" ]; then
-    available="ls $wallpapers -I $current_wallpaper -I '$wallpapers/current'"
-    rm "$wallpapers/current/$current_wallpaper"
-else
-    available="ls $wallpapers -I '$wallpapers/current'"
+    wallpaper_ls="$wallpaper_ls -I $current_wallpaper"
 fi
 
-new_wallpaper=$($available | sort -R | tail -1)
+new_wallpaper=$($wallpaper_ls | sort -R | tail -1)
 $parser --set-bg $new_wallpaper
 
 if [ $mode == "dark" ]; then
-    if [ $tone == "hard" ]; then
-        fill="45%"
-    else
-        fill="25%"
-    fi
+    fill="25%" 
 else
     fill="10%"
 fi
 
-magick "$wallpapers/$new_wallpaper" \
+magick "$wallpapers/$theme/$new_wallpaper" \
     -fill "#$($parser --palette backgroundAlt)" \
     -colorize $fill \
     -fill "#$($parser --palette orange)" \
     -colorize 10% \
-    "$wallpapers/current/$new_wallpaper"
+    "$wallpapers/$new_wallpaper"
 
-plasma-apply-wallpaperimage "$wallpapers/current/$new_wallpaper"
+plasma-apply-wallpaperimage "$wallpapers/$new_wallpaper"
+cp "$wallpapers/$new_wallpaper" "$wallpapers/current_desktop.jpg"
+sleep 1
+plasma-apply-wallpaperimage "$wallpapers/current_desktop.jpg"
+rm "$wallpapers/$new_wallpaper"

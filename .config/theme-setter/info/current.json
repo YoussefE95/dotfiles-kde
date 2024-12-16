@@ -1,5 +1,6 @@
 {
-  "mode": "light",
-  "tone": "soft",
-  "bg": "christopher-ott-_BW-l29lkd4-unsplash.jpg"
+  "theme": "catppuccin",
+  "mode": "dark",
+  "tone": "hard",
+  "bg": "alex-shutin-XsC0GHXi-8k-unsplash.jpg"
 }
