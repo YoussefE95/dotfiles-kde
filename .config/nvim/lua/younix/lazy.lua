@@ -12,18 +12,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
-    'nvim-lua/plenary.nvim',
     { 'nvim-telescope/telescope.nvim', name = 'telescope' },
-	'nvim-treesitter/nvim-treesitter',
-	'nvim-treesitter/playground',
-	'nvim-tree/nvim-tree.lua',
-	'nvim-tree/nvim-web-devicons',
+    'nvim-treesitter/nvim-treesitter',
+    'nvim-tree/nvim-tree.lua',
+    'nvim-tree/nvim-web-devicons',
     'numToStr/Comment.nvim',
-    { 'sainnhe/gruvbox-material', name = 'gruvbox' },
+    'sainnhe/gruvbox-material',
     { 'catppuccin/nvim', name = 'catppuccin' },
-    {
-        'giusgad/pets.nvim',
-        dependencies = { 'MunifTanjim/nui.nvim', 'giusgad/hologram.nvim' },
-    },
     'eandrju/cellular-automaton.nvim'
 })
