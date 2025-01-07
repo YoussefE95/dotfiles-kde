@@ -1,6 +1,6 @@
 {
     "clangd.path": "/home/younix/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/18.1.3/clangd_18.1.3/bin/clangd",
-"workbench.colorTheme": "Gruvbox Material Light",
+"workbench.colorTheme": "Gruvbox Material Dark",
     "vscode-pets.position": "explorer",
     "editor.fontFamily": "'Jetbrains Mono'",
     "window.zoomLevel": 1,
@@ -9,7 +9,11 @@
     "workbench.preferredLightColorTheme": "Gruvbox Material Light",
     "vscode-pets.petSize": "medium",
 "gruvboxMaterial.darkContrast": "soft",
-"gruvboxMaterial.lightContrast": "soft",
+"gruvboxMaterial.lightContrast": "hard",
 "liveServer.settings.donotShowInfoMsg": true,
 "telemetry.telemetryLevel": "off",
+"editor.scrollbar.vertical": "hidden",
+"editor.fontLigatures": true,
+"explorer.confirmDelete": false,
+"explorer.confirmDragAndDrop": false,
 }
