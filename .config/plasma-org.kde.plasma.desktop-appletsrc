@@ -33,7 +33,7 @@ ToolBoxButtonState=top
 ToolBoxButtonX=479
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/younix/Dropbox/Pictures/Wallpapers/current/christopher-ott-_BW-l29lkd4-unsplash.jpg
+Image=/home/younix/Dropbox/Pictures/Wallpapers/godspeed.png
 PreviewImage=/usr/share/wallpapers/EndeavourOS/
 SlidePaths=/usr/share/wallpapers/
 
@@ -52,7 +52,7 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][104][Applets][132][Configuration]
 PreloadWeight=100
-popupHeight=450
+popupHeight=492
 popupWidth=810
 
 [Containments][104][Applets][132][Configuration][Appearance]
@@ -125,8 +125,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=528
-popupWidth=528
+popupHeight=492
+popupWidth=492
 wallpaperplugin=org.kde.image
 
 [Containments][76][Applets][77][Configuration]
@@ -181,26 +181,29 @@ migrated=true
 immutability=1
 plugin=org.kde.plasma.printmanager
 
+[Containments][76][Applets][87][Configuration]
+PreloadWeight=55
+
 [Containments][76][Applets][88]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][76][Applets][88][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][76][Applets][89]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][76][Applets][89][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][76][Applets][90]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][76][Applets][90][Configuration]
-PreloadWeight=36
+PreloadWeight=0
 
 [Containments][76][Applets][91]
 immutability=1
@@ -249,117 +252,6 @@ hiddenItems=firewall-applet
 knownItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
 shownItems=dropbox-client-PID,org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery
 
-[Containments][8]
-activityId=
-formfactor=2
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.private.systemtray
-popupHeight=576
-popupWidth=576
-wallpaperplugin=org.kde.image
-
-[Containments][8][Applets][10]
-immutability=1
-plugin=org.kde.plasma.cameraindicator
-
-[Containments][8][Applets][10][Configuration]
-PreloadWeight=42
-
-[Containments][8][Applets][11][Configuration]
-PreloadWeight=42
-
-[Containments][8][Applets][12]
-immutability=1
-plugin=org.kde.plasma.devicenotifier
-
-[Containments][8][Applets][12][Configuration]
-PreloadWeight=42
-
-[Containments][8][Applets][13][Configuration]
-PreloadWeight=42
-
-[Containments][8][Applets][14]
-immutability=1
-plugin=org.kde.plasma.notifications
-
-[Containments][8][Applets][14][Configuration]
-PreloadWeight=92
-
-[Containments][8][Applets][15][Configuration]
-PreloadWeight=42
-
-[Containments][8][Applets][16][Configuration]
-PreloadWeight=42
-
-[Containments][8][Applets][17][Configuration]
-PreloadWeight=42
-
-[Containments][8][Applets][18]
-immutability=1
-plugin=org.kde.plasma.volume
-
-[Containments][8][Applets][18][Configuration]
-PreloadWeight=92
-
-[Containments][8][Applets][18][Configuration][General]
-migrated=true
-
-[Containments][8][Applets][19][Configuration]
-PreloadWeight=42
-
-[Containments][8][Applets][22]
-immutability=1
-plugin=org.kde.plasma.battery
-
-[Containments][8][Applets][22][Configuration]
-PreloadWeight=0
-
-[Containments][8][Applets][23]
-immutability=1
-plugin=org.kde.plasma.brightness
-
-[Containments][8][Applets][23][Configuration]
-PreloadWeight=0
-
-[Containments][8][Applets][24]
-immutability=1
-plugin=org.kde.plasma.networkmanagement
-
-[Containments][8][Applets][24][Configuration]
-PreloadWeight=92
-
-[Containments][8][Applets][35]
-immutability=1
-plugin=org.kde.plasma.bluetooth
-
-[Containments][8][Applets][35][Configuration]
-PreloadWeight=0
-
-[Containments][8][Applets][45]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-
-[Containments][8][Applets][45][Configuration]
-PreloadWeight=0
-
-[Containments][8][Applets][9][Configuration]
-PreloadWeight=42
-
-[Containments][8][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][8][Configuration]
-PreloadWeight=42
-
-[Containments][8][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.networkmanagement
-hiddenItems=firewall-applet,org.kde.plasma.bluetooth
-knownItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
-shownItems=org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery
-
 [Containments][97]
 activityId=d5bddb4b-068d-4702-bdf7-46a67d4c2329
 formfactor=0
@@ -370,7 +262,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][97][Wallpaper][org.kde.image][General]
-Image=file:///home/younix/Dropbox/Pictures/Wallpapers/current/christopher-ott-_BW-l29lkd4-unsplash.jpg
+Image=/home/younix/Dropbox/Pictures/Wallpapers/godspeed.png
 
 [Containments131Appletsts][95][Configuration][General]
 launchers=applications:firefox.desktop,applications:spotify-launcher.desktop,applications:discord.desktop,applications:org.kde.dolphin.desktop,applications:kitty.desktop,applications:code-oss.desktop,applications:obsidian.desktop

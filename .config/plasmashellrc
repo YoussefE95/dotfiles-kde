@@ -47,6 +47,15 @@ panelVisibility=3
 [PlasmaViews][Panel 131][Defaults]
 thickness=42
 
+[PlasmaViews][Panel 133]
+alignment=132
+floating=1
+panelLengthMode=1
+panelVisibility=2
+
+[PlasmaViews][Panel 133][Defaults]
+thickness=40
+
 [PlasmaViews][Panel 2]
 alignment=2
 floating=1

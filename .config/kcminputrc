@@ -1,5 +1,5 @@
 [Libinput][2][14][ETPS/2 Elantech Touchpad]
-DisableWhileTyping=true
+DisableWhileTyping=false
 Enabled=true
 NaturalScroll=false
 ScrollFactor=1
@@ -10,4 +10,4 @@ PointerAccelerationProfile=1
 
 [Mouse]
 cursorSize=40
-cursorTheme=Capitaine-Cursors-Gruvbox
+cursorTheme=Capitaine-Cursors-Gruvbox-White
