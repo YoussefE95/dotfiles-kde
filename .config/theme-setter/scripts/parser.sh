@@ -33,6 +33,8 @@ if [ "$1" == "--set" ]; then
     set "tone" $4
 elif [ "$1" == "--set-bg" ]; then
     set "bg" $2
+elif [ "$1" == "--set-epoch" ]; then
+    set "epoch" $2
 elif [ "$1" == "--theme" ]; then
     get "theme"
 elif [ "$1" == "--mode" ]; then
@@ -41,6 +43,8 @@ elif [ "$1" == "--tone" ]; then
     get "tone"
 elif [ "$1" == "--bg" ]; then
     get "bg"
+elif [ "$1" == "--epoch" ]; then
+    get "epoch"
 elif [ "$1" == "--icons" ]; then
     get_icons
 elif [ "$1" == "--cursors" ]; then

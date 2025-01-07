@@ -1,6 +1,7 @@
 {
-  "theme": "gruvbox",
+  "theme": "catppuccin",
   "mode": "dark",
   "tone": "soft",
-  "bg": "irina-iriser-mg9gBeWR5_4-unsplash.jpg"
+  "bg": "irina-iriser-hAw0XnvMgns-unsplash.jpg",
+  "epoch": "1736291011"
 }

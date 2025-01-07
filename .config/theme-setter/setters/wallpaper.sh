@@ -6,6 +6,7 @@ theme=$($parser --theme)
 mode=$($parser --mode)
 tone=$($parser --tone)
 current_wallpaper=$($parser --bg)
+current_epoch=$($parser --epoch)
 
 wallpaper_ls="ls $wallpapers/$theme"
 
@@ -14,7 +15,12 @@ if [ "$current_wallpaper" != "" ]; then
 fi
 
 new_wallpaper=$($wallpaper_ls | sort -R | tail -1)
-$parser --set-bg $new_wallpaper
+new_epoch=$(date +%s)
+
+$parser --set-bg "$new_wallpaper"
+$parser --set-epoch "$new_epoch"
+
+rm "$wallpapers/$current_epoch.jpg"
 
 if [ $mode == "dark" ]; then
     fill="25%" 
@@ -27,10 +33,6 @@ magick "$wallpapers/$theme/$new_wallpaper" \
     -colorize $fill \
     -fill "#$($parser --palette orange)" \
     -colorize 10% \
-    "$wallpapers/$new_wallpaper"
+    "$wallpapers/$new_epoch.jpg"
 
-plasma-apply-wallpaperimage "$wallpapers/$new_wallpaper"
-cp "$wallpapers/$new_wallpaper" "$wallpapers/current_desktop.jpg"
-sleep 1
-plasma-apply-wallpaperimage "$wallpapers/current_desktop.jpg"
-rm "$wallpapers/$new_wallpaper"
+plasma-apply-wallpaperimage "$wallpapers/$new_epoch.jpg"
