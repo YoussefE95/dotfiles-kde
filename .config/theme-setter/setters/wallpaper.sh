@@ -1,6 +1,7 @@
 #!/bin/bash
 parser="$HOME/.config/theme-setter/scripts/parser.sh"
 wallpapers="$HOME/Dropbox/Pictures/Wallpapers"
+local_path="$HOME/.local/share"
 
 theme=$($parser --theme)
 mode=$($parser --mode)
@@ -20,12 +21,12 @@ new_epoch=$(date +%s)
 $parser --set-bg "$new_wallpaper"
 $parser --set-epoch "$new_epoch"
 
-rm "$wallpapers/$current_epoch.jpg"
+rm "$local_path/$current_epoch.jpg"
 
 if [ $mode == "dark" ]; then
-    fill="25%" 
+    fill="50%" 
 else
-    fill="10%"
+    fill="25%"
 fi
 
 magick "$wallpapers/$theme/$new_wallpaper" \
@@ -33,6 +34,6 @@ magick "$wallpapers/$theme/$new_wallpaper" \
     -colorize $fill \
     -fill "#$($parser --palette orange)" \
     -colorize 10% \
-    "$wallpapers/$new_epoch.jpg"
+    "$local_path/$new_epoch.jpg"
 
-plasma-apply-wallpaperimage "$wallpapers/$new_epoch.jpg"
+plasma-apply-wallpaperimage "$local_path/$new_epoch.jpg"

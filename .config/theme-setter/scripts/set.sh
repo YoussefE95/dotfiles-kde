@@ -42,7 +42,6 @@ palette=(
     $setters/wallpaper.sh &
     $setters/plasma.sh ${palette[@]} $icons $cursors &
     $setters/code.sh $theme $mode $tone &
-    $setters/discord.sh ${palette[@]} &
     $setters/kitty.sh ${palette[@]} &
     $setters/konsole.sh ${palette[@]} &
     $setters/nvim.sh $theme $mode $tone &
