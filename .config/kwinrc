@@ -1,3 +1,6 @@
+[Activities][LastVirtualDesktop]
+d5bddb4b-068d-4702-bdf7-46a67d4c2329=45f01092-6f6d-4fd4-a0d4-05c94fe1e0ad
+
 [Desktops]
 Id_1=45f01092-6f6d-4fd4-a0d4-05c94fe1e0ad
 Id_2=392ae971-aee8-4856-9d8f-61e53c0b1c7b
@@ -26,10 +29,19 @@ DesktopMode=0
 [Tiling]
 padding=4
 
+[Tiling][09eea569-46b4-54e6-a833-46cead9d257e]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][18d05852-165c-5e9f-827b-8b035a8ef61f]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][2bc0a078-685d-5bf9-b3f0-296289a3396d]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][392ae971-aee8-4856-9d8f-61e53c0b1c7b][fff970c2-f505-45ca-912c-cae62a776591]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][45f01092-6f6d-4fd4-a0d4-05c94fe1e0ad][fff970c2-f505-45ca-912c-cae62a776591]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][54a163c3-5681-52b8-99cb-e446ee91dbc5]
@@ -38,7 +50,19 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][608ef5a0-ca70-5958-a7ce-7c34806f460d]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][87702c28-4981-46d1-a457-16e9ef4be49e][fff970c2-f505-45ca-912c-cae62a776591]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][8c2009ce-0e73-5937-b1da-ad99003399ed]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a74ad1a8-ef74-54d0-8416-b8a3397894b2]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][aaa03718-cb73-5302-8eab-d17ccb4397a3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][c67c933a-d9a7-4b17-84d7-1a72d33a704b][fff970c2-f505-45ca-912c-cae62a776591]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][e037cd5c-ea8f-56b9-9ae8-0658e7259bb0]

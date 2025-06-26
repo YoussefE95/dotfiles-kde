@@ -11,7 +11,7 @@ IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=112,111,110
+Color=#7c6f64
 ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
@@ -21,12 +21,12 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=#d8a657
-BackgroundNormal=#7c6f64
-DecorationFocus=#d8a657
-DecorationHover=#7c6f64
+BackgroundAlternate=#252423
+BackgroundNormal=#252423
+DecorationFocus=#d3869b
+DecorationHover=#d3869b
 ForegroundActive=#ddc7a1
-ForegroundInactive=#141617
+ForegroundInactive=#ddc7a1
 ForegroundLink=#7daea3
 ForegroundNegative=#ea6962
 ForegroundNeutral=#d8a657
@@ -35,8 +35,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Complementary]
-BackgroundAlternate=#1d2021
-BackgroundNormal=#1d2021
+BackgroundAlternate=#32302f
+BackgroundNormal=#32302f
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -49,8 +49,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Header]
-BackgroundAlternate=#1d2021
-BackgroundNormal=#1d2021
+BackgroundAlternate=#252423
+BackgroundNormal=#252423
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -68,18 +68,18 @@ BackgroundNormal=#e78a4e
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundLink=#7daea3
-ForegroundInactive=#1d2021
+ForegroundInactive=#32302f
 ForegroundActive=#ddc7a1
 ForegroundLink=#7daea3
 ForegroundNegative=#ea6962
 ForegroundNeutral=#d8a657
-ForegroundNormal=#1d2021
+ForegroundNormal=#32302f
 ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Tooltip]
-BackgroundAlternate=#1d2021
-BackgroundNormal=#1d2021
+BackgroundAlternate=#32302f
+BackgroundNormal=#32302f
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -92,8 +92,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:View]
-BackgroundAlternate=#1d2021
-BackgroundNormal=#1d2021
+BackgroundAlternate=#32302f
+BackgroundNormal=#32302f
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -106,8 +106,8 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [Colors:Window]
-BackgroundAlternate=#1d2021
-BackgroundNormal=#1d2021
+BackgroundAlternate=#252423
+BackgroundNormal=#252423
 DecorationFocus=#d8a657
 DecorationHover=#7c6f64
 ForegroundActive=#ddc7a1
@@ -129,9 +129,9 @@ shadeSortColumn=true
 contrast=4
 
 [WM]
-activeBackground=#1d2021
+activeBackground=#32302f
 activeBlend=#ddc7a1
 activeForeground=#ddc7a1
-inactiveBackground=#1d2021
+inactiveBackground=#32302f
 inactiveBlend=#7c6f64
 inactiveForeground=#7c6f64

@@ -6,8 +6,8 @@ DefaultProfile=younix.profile
 [General]
 ConfigVersion=1
 
-[MainWindow]
-ToolBarsMovable=Disabled
+[Notification Messages]
+CloseAllEmptyTabs=false
 
 [UiSettings]
 ColorScheme=

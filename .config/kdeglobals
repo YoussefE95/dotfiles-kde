@@ -119,13 +119,14 @@ ForegroundPositive=#a9b665
 ForegroundVisited=#d3869b
 
 [DirSelect Dialog]
-DirSelectDialog Size=797,588
-History Items[$e]=file:$HOME,file:$HOME/Dropbox/Documents/Vault/,file:$HOME/Dropbox/Documents/,file:$HOME/Dropbox/Documents/Vault,file:$HOME/Dropbox/Documents/Obsidian Vault
+DirSelectDialog Size=960,600
+History Items[$e]=file:$HOME/Dropbox/Documents/Vault,file:$HOME,file:$HOME/Dropbox/Documents/Vault/,file:$HOME/Dropbox/Documents/,file:$HOME/Dropbox/Documents/Vault,file:$HOME/Dropbox/Documents/Obsidian Vault
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00u\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
 BrowserApplication=vivaldi-stable.desktop
 ColorScheme=DynamicTheme
-ColorSchemeHash=1d74b7b22a9faa4afac54f7d5bed7c1c96589422
+ColorSchemeHash=bbae64e81bf7abc69c55698587fbae82937f1018
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 UseSystemBell=true
@@ -136,6 +137,9 @@ font=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 menuFont=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=JetBrains Mono,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=JetBrains Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=Papirus-Brown
 
 [KDE]
 LookAndFeelPackage=org.kde.breeze.desktop

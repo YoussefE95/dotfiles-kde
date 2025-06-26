@@ -1,5 +1,5 @@
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=true
 
@@ -8,26 +8,26 @@ LockSidebar=true
 ShowSidebar=false
 
 [MainWindow]
-ToolBarsMovable=Disabled
+MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Dropbox/Work/AI/Homework/CS5660_A3_youssefelzein/A3 - KNN Classifier.pdf
-File10[$e]=$HOME/Dropbox/Documents/Youssef_Elzein_Resume.pdf
-File2[$e]=$HOME/Downloads/Robotic Dog Research Project (RDRP) OrgChart 2024-2025.pdf
-File3[$e]=$HOME/Downloads/Homework 3-3.pdf
-File4[$e]=$HOME/Downloads/IIWoT_2024.pdf
-File5[$e]=$HOME/Downloads/ICC_2025.pdf
-File6[$e]=$HOME/Dropbox/Documents/eDiploma.pdf
-File7[$e]=$HOME/Dropbox/Documents/ICC_2025.pdf
-File8[$e]=$HOME/Dropbox/Work/portfolio-site/server/static/Youssef_Elzein_Resume.pdf
-File9[$e]=$HOME/Dropbox/Documents/Resume_Youssef_Elzein.pdf
-Name1[$e]=A3 - KNN Classifier.pdf
-Name10[$e]=Youssef_Elzein_Resume.pdf
-Name2[$e]=Robotic Dog Research Project (RDRP) OrgChart 2024-2025.pdf
-Name3[$e]=Homework 3-3.pdf
-Name4[$e]=IIWoT_2024.pdf
-Name5[$e]=ICC_2025.pdf
-Name6[$e]=eDiploma.pdf
-Name7[$e]=ICC_2025.pdf
-Name8[$e]=Youssef_Elzein_Resume.pdf
-Name9[$e]=Resume_Youssef_Elzein.pdf
+File1[$e]=$HOME/Downloads/ICC_2025.pdf
+File10[$e]=$HOME/Dropbox/Electricity.pdf
+File2[$e]=$HOME/Dropbox/Documents/eDiploma.pdf
+File3[$e]=$HOME/Dropbox/Documents/ICC_2025.pdf
+File4[$e]=$HOME/Dropbox/Work/portfolio-site/server/static/Youssef_Elzein_Resume.pdf
+File5[$e]=$HOME/Dropbox/Documents/Resume_Youssef_Elzein.pdf
+File6[$e]=$HOME/Dropbox/Documents/Youssef_Elzein_Resume.pdf
+File7[$e]=$HOME/Electricity.pdf
+File8[$e]=$HOME/Electricity_Diff_TWo.pdf
+File9[$e]=$HOME/Electricity_Diff.pdf
+Name1[$e]=ICC_2025.pdf
+Name10[$e]=Electricity.pdf
+Name2[$e]=eDiploma.pdf
+Name3[$e]=ICC_2025.pdf
+Name4[$e]=Youssef_Elzein_Resume.pdf
+Name5[$e]=Resume_Youssef_Elzein.pdf
+Name6[$e]=Youssef_Elzein_Resume.pdf
+Name7[$e]=Electricity.pdf
+Name8[$e]=Electricity_Diff_TWo.pdf
+Name9[$e]=Electricity_Diff.pdf
