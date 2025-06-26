@@ -24,10 +24,6 @@ yay -Syu && yay -S \
 # spicetify config color_scheme dynamic
 # spicetify backup apply
 
-# Install Beautiful Discord
-# pipx install https://github.com/leovoel/BeautifulDiscord/archive/master.zip
-# ~/.local/bin/beautifuldiscord --css ~/.config/beautifuldiscord.css
-
 # Enable Bluetooth, Docker, and ExpressVPN
 sudo systemctl enable bluetooth
 sudo systemctl enable docker
