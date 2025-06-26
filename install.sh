@@ -34,3 +34,7 @@ sudo gpasswd -a $USER docker
 
 # Make zsh default shell
 chsh -s $(which zsh)
+
+# Set wallpaper
+plasma-apply-wallpaperimage \
+    "$HOME/.local/share/$(ls ~/.local/share/ | grep jpg)"
