@@ -24,9 +24,13 @@ $parser --set-epoch "$new_epoch"
 rm "$local_path/$current_epoch.jpg"
 
 if [ $mode == "dark" ]; then
-    fill="50%" 
+    if [ $tone == "hard" ]; then
+        fill="50%" 
+    else
+        fill="25%"
+    fi
 else
-    fill="25%"
+    fill="15%"
 fi
 
 magick "$wallpapers/$theme/$new_wallpaper" \
