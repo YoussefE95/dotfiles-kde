@@ -31,8 +31,8 @@ if [ "$1" == "--set" ]; then
     set "theme" $2
     set "mode" $3
     set "tone" $4
-elif [ "$1" == "--set-bg" ]; then
-    set "bg" $2
+elif [ "$1" == "--set-wallpaper" ]; then
+    set "wallpaper" $2
 elif [ "$1" == "--set-epoch" ]; then
     set "epoch" $2
 elif [ "$1" == "--theme" ]; then
@@ -41,8 +41,8 @@ elif [ "$1" == "--mode" ]; then
     get "mode" 
 elif [ "$1" == "--tone" ]; then
     get "tone"
-elif [ "$1" == "--bg" ]; then
-    get "bg"
+elif [ "$1" == "--wallpaper" ]; then
+    get "wallpaper"
 elif [ "$1" == "--epoch" ]; then
     get "epoch"
 elif [ "$1" == "--icons" ]; then

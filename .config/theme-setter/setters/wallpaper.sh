@@ -6,7 +6,7 @@ local_path="$HOME/.local/share"
 theme=$($parser --theme)
 mode=$($parser --mode)
 tone=$($parser --tone)
-current_wallpaper=$($parser --bg)
+current_wallpaper=$($parser --wallpaper)
 current_epoch=$($parser --epoch)
 
 wallpaper_ls="ls $wallpapers/$theme"
@@ -18,7 +18,7 @@ fi
 new_wallpaper=$($wallpaper_ls | sort -R | tail -1)
 new_epoch=$(date +%s)
 
-$parser --set-bg "$new_wallpaper"
+$parser --set-wallpaper "$new_wallpaper"
 $parser --set-epoch "$new_epoch"
 
 rm "$local_path/$current_epoch.jpg"
